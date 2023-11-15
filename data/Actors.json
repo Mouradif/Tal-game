@@ -1,0 +1,26 @@
+[
+  null,
+  {
+    "id": 1,
+    "battlerName": "",
+    "characterIndex": 7,
+    "characterName": "e_npcA_shadow_3x",
+    "classId": 1,
+    "equips": [
+      1,
+      0,
+      0,
+      10,
+      0
+    ],
+    "faceIndex": 6,
+    "faceName": "People3",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Logan",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  }
+]
