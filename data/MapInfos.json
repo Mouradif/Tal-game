@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1326.8571428571427,
-    "scrollY": 1331.142857142857
+    "scrollX": 1184.5714285714284,
+    "scrollY": 2364.8571428571427
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "test",
     "order": 6,
     "parentId": 0,
-    "scrollX": 1198.2857142857142,
-    "scrollY": 777.4285714285713,
+    "scrollX": 1184.5714285714284,
+    "scrollY": 720.8571428571428,
     "quick": false
   },
   {

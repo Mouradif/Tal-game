@@ -22,6 +22,7 @@
     "removeByRestriction": false,
     "removeByWalking": false,
     "restriction": 0,
-    "stepsToRemove": 100
+    "stepsToRemove": 100,
+    "messageType": 1
   }
 ]
