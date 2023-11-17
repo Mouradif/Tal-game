@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1965.6,
-    "scrollY": 1508.3999999999999
+    "scrollX": 1622,
+    "scrollY": 1965
   },
   {
     "id": 2,
@@ -25,8 +25,8 @@
     "name": "Armor shop",
     "order": 2,
     "parentId": 1,
-    "scrollX": 1946.3999999999999,
-    "scrollY": 1107.6,
+    "scrollX": 1622,
+    "scrollY": 923,
     "quick": false
   },
   {
@@ -35,8 +35,8 @@
     "name": "Weapon shop",
     "order": 3,
     "parentId": 1,
-    "scrollX": 884.7272727272727,
-    "scrollY": 494.72727272727275,
+    "scrollX": 1622,
+    "scrollY": 923,
     "quick": false
   },
   {
