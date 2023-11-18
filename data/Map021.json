@@ -3045,24 +3045,6 @@
     0,
     0,
     0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     1,
     1,
     1,
@@ -3073,123 +3055,6 @@
     0,
     0,
     1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    0,
-    0,
-    2,
-    2,
-    2,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    2,
-    0,
-    2,
-    2,
-    2,
-    0,
-    2,
-    2,
-    2,
-    2,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    0,
-    0,
-    2,
-    2,
-    2,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    2,
-    0,
-    2,
-    2,
-    2,
-    0,
-    2,
-    2,
-    2,
-    2,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2,
-    2,
-    2,
-    0,
-    2,
-    2,
-    2,
-    0,
-    2,
-    0,
-    2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -3219,6 +3084,139 @@
     0,
     0,
     0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2,
+    2,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2,
+    2,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
     0,
     0,
     0,
@@ -3226,6 +3224,8 @@
     0,
     0,
     0,
+    0,
+    1,
     1,
     1,
     1,
@@ -3286,7 +3286,7 @@
     0,
     2,
     2,
-    0,
+    2,
     0,
     1,
     1,
@@ -3499,14 +3499,71 @@
           "through": false,
           "trigger": 1,
           "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 2,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": {
+            "tileId": 0,
+            "characterName": "!doors1a",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                3
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 1,
+          "walkAnime": false
         }
       ],
       "x": 13,
       "y": 19
     },
-    null,
     {
-      "id": 3,
+      "id": 2,
       "name": "Treasure (1G)",
       "note": "",
       "pages": [
@@ -3536,138 +3593,10 @@
           },
           "list": [
             {
-              "code": 205,
+              "code": 117,
               "indent": 0,
               "parameters": [
-                0,
-                {
-                  "repeat": false,
-                  "skippable": false,
-                  "wait": true,
-                  "list": [
-                    {
-                      "code": 36
-                    },
-                    {
-                      "code": 17
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [
-                        3
-                      ]
-                    },
-                    {
-                      "code": 18
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [
-                        3
-                      ]
-                    },
-                    {
-                      "code": 0
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 0,
-              "parameters": [
-                {
-                  "code": 36
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 0,
-              "parameters": [
-                {
-                  "code": 17
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 0,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [
-                    3
-                  ]
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 0,
-              "parameters": [
-                {
-                  "code": 18
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 0,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [
-                    3
-                  ]
-                }
-              ]
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
-            },
-            {
-              "code": 125,
-              "indent": 0,
-              "parameters": [
-                0,
-                0,
-                1
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": [
-                "",
-                0,
-                0,
-                2
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "1\\G were found!"
-              ]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [
-                0,
-                1,
-                29,
-                32,
-                0,
-                0
+                5
               ]
             },
             {
@@ -3751,6 +3680,7 @@
       "x": 13,
       "y": 9
     },
+    null,
     null,
     null,
     null,

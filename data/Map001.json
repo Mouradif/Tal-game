@@ -24613,7 +24613,7 @@
     null,
     {
       "id": 1,
-      "name": "Transfer (Armor shop)",
+      "name": "Door (Town of Talvera)",
       "note": "",
       "pages": [
         {
@@ -24634,13 +24634,167 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 0,
+            "characterIndex": 2,
             "characterName": "!doors1a",
             "direction": 2,
             "pattern": 1,
-            "characterIndex": 0
+            "tileId": 0
           },
           "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "repeat": false,
+                  "skippable": false,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 17
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 18
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 19
+                    },
+                    {
+                      "code": 37
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 17
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 18
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 19
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 37
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                -1,
+                {
+                  "repeat": false,
+                  "skippable": true,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 12
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 12
+                }
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "footsteps-stones",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
             {
               "code": 201,
               "indent": 0,
@@ -24677,7 +24831,7 @@
           "stepAnime": false,
           "through": false,
           "trigger": 1,
-          "walkAnime": true
+          "walkAnime": false
         }
       ],
       "x": 21,
@@ -24685,7 +24839,7 @@
     },
     {
       "id": 2,
-      "name": "Transfer (Item Shop)",
+      "name": "Door (Item Shop)",
       "note": "",
       "pages": [
         {
@@ -24706,13 +24860,167 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 0,
+            "characterIndex": 2,
             "characterName": "!doors1a",
             "direction": 2,
             "pattern": 1,
-            "characterIndex": 3
+            "tileId": 0
           },
           "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "repeat": false,
+                  "skippable": false,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 17
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 18
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 19
+                    },
+                    {
+                      "code": 37
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 17
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 18
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 19
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 37
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                -1,
+                {
+                  "repeat": false,
+                  "skippable": true,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 12
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 12
+                }
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "footsteps-stones",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
             {
               "code": 201,
               "indent": 0,
@@ -24749,7 +25057,7 @@
           "stepAnime": false,
           "through": false,
           "trigger": 1,
-          "walkAnime": true
+          "walkAnime": false
         }
       ],
       "x": 46,
@@ -24757,7 +25065,7 @@
     },
     {
       "id": 3,
-      "name": "Transfer (INN)",
+      "name": "Door (INN)",
       "note": "",
       "pages": [
         {
@@ -24778,13 +25086,167 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 0,
+            "characterIndex": 2,
             "characterName": "!doors1a",
             "direction": 2,
             "pattern": 1,
-            "characterIndex": 2
+            "tileId": 0
           },
           "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "repeat": false,
+                  "skippable": false,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 17
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 18
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 19
+                    },
+                    {
+                      "code": 37
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 17
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 18
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 19
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 37
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                -1,
+                {
+                  "repeat": false,
+                  "skippable": true,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 12
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 12
+                }
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "footsteps-stones",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
             {
               "code": 201,
               "indent": 0,
@@ -24821,7 +25283,7 @@
           "stepAnime": false,
           "through": false,
           "trigger": 1,
-          "walkAnime": true
+          "walkAnime": false
         }
       ],
       "x": 42,
@@ -24970,8 +25432,8 @@
           },
           "directionFix": false,
           "image": {
-            "characterIndex": 0,
-            "characterName": "!doors1b",
+            "characterIndex": 2,
+            "characterName": "!doors1a",
             "direction": 2,
             "pattern": 1,
             "tileId": 0
@@ -24982,7 +25444,7 @@
               "indent": 0,
               "parameters": [
                 {
-                  "name": "Open1",
+                  "name": "door-front-opening",
                   "volume": 90,
                   "pitch": 100,
                   "pan": 0
@@ -25124,7 +25586,7 @@
               "indent": 0,
               "parameters": [
                 {
-                  "name": "Move1",
+                  "name": "footsteps-stones",
                   "volume": 90,
                   "pitch": 100,
                   "pan": 0
@@ -25204,6 +25666,25 @@
           },
           "list": [
             {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                30
+              ]
+            },
+            {
               "code": 205,
               "indent": 0,
               "parameters": [
@@ -25331,6 +25812,25 @@
                 {
                   "code": 12
                 }
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "footsteps-stones",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                30
               ]
             },
             {

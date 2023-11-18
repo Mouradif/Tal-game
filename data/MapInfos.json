@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2079.6,
-    "scrollY": 1534.2
+    "scrollX": 1965.6,
+    "scrollY": 1518
   },
   {
     "id": 2,
@@ -25,8 +25,8 @@
     "name": "Armor shop",
     "order": 2,
     "parentId": 1,
-    "scrollX": 1622,
-    "scrollY": 923,
+    "scrollX": 816,
+    "scrollY": 624,
     "quick": false
   },
   {
@@ -65,8 +65,8 @@
     "name": "Crypt",
     "order": 7,
     "parentId": 2,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 1946.3999999999999,
+    "scrollY": 1107.6,
     "quick": false
   },
   {
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "expanded": false,
-    "name": "Room1A0101",
+    "name": "RoomA0101",
     "order": 14,
     "parentId": 8,
     "scrollX": 973.1999999999999,

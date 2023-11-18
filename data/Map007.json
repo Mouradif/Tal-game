@@ -3576,11 +3576,18 @@
               "indent": 0,
               "parameters": [
                 {
-                  "name": "Move1",
+                  "name": "footsteps-stones",
                   "volume": 90,
                   "pitch": 100,
                   "pan": 0
                 }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
               ]
             },
             {
@@ -4728,6 +4735,25 @@
           },
           "list": [
             {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "footsteps-stones",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                30
+              ]
+            },
+            {
               "code": 201,
               "indent": 0,
               "parameters": [
@@ -4759,10 +4785,10 @@
           },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 1,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 1,
+          "trigger": 0,
           "walkAnime": true
         }
       ],
