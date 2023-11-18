@@ -3,8 +3,8 @@
   {
     "id": 1,
     "battlerName": "",
-    "characterIndex": 0,
-    "characterName": ")old warrior bill",
+    "characterIndex": 7,
+    "characterName": "e_npcA_shadow_3x",
     "classId": 1,
     "equips": [
       1,
@@ -19,6 +19,29 @@
     "initialLevel": 1,
     "maxLevel": 99,
     "name": "Logan",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 2,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": ")Sam_Archer_Rogue",
+    "classId": 4,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Sam",
     "nickname": "",
     "note": "",
     "profile": ""
