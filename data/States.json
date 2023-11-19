@@ -844,7 +844,8 @@
     "removeByRestriction": false,
     "removeByWalking": false,
     "restriction": 0,
-    "stepsToRemove": 100
+    "stepsToRemove": 100,
+    "messageType": 1
   },
   {
     "id": 27,
@@ -868,7 +869,8 @@
     "removeByRestriction": false,
     "removeByWalking": false,
     "restriction": 0,
-    "stepsToRemove": 100
+    "stepsToRemove": 100,
+    "messageType": 1
   },
   {
     "id": 28,
@@ -892,6 +894,7 @@
     "removeByRestriction": false,
     "removeByWalking": false,
     "restriction": 0,
-    "stepsToRemove": 100
+    "stepsToRemove": 100,
+    "messageType": 1
   }
 ]
