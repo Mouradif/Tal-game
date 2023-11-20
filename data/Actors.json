@@ -5,7 +5,7 @@
     "battlerName": "",
     "characterIndex": 7,
     "characterName": "e_npcA_shadow_3x",
-    "classId": 1,
+    "classId": 2,
     "equips": [
       1,
       0,
@@ -28,7 +28,7 @@
     "battlerName": "",
     "characterIndex": 0,
     "characterName": ")Sam_Archer_Rogue",
-    "classId": 4,
+    "classId": 3,
     "equips": [
       0,
       0,
@@ -51,7 +51,7 @@
     "battlerName": "",
     "characterIndex": 0,
     "characterName": ")Foxie",
-    "classId": 4,
+    "classId": 1,
     "equips": [
       0,
       0,

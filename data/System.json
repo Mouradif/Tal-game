@@ -49,15 +49,15 @@
     },
     {
       "type": 1,
-      "weaponImageId": 3
+      "weaponImageId": 2
     },
     {
       "type": 1,
-      "weaponImageId": 4
+      "weaponImageId": 2
     },
     {
-      "type": 1,
-      "weaponImageId": 5
+      "type": 2,
+      "weaponImageId": 7
     },
     {
       "type": 1,
@@ -119,16 +119,14 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 33,
+  "editMapId": 1,
   "elements": [
     "",
     "Physical",
-    "Fire",
-    "Ice",
-    "Thunder",
-    "Water",
     "Earth",
-    "Wind",
+    "Air",
+    "Fire",
+    "Water",
     "Light",
     "Darkness"
   ],
@@ -138,7 +136,8 @@
     "Shield",
     "Head",
     "Body",
-    "Accessory"
+    "Boots",
+    "Accessories"
   ],
   "gameTitle": "TAL",
   "gameoverMe": {
@@ -560,7 +559,7 @@
     "",
     ""
   ],
-  "versionId": 34006611,
+  "versionId": 76095552,
   "victoryMe": {
     "name": "",
     "pan": 0,
@@ -570,17 +569,11 @@
   "weaponTypes": [
     "",
     "Dagger",
+    "Short Sword",
     "Sword",
-    "Flail",
-    "Axe",
-    "Whip",
-    "Staff",
+    "Battle Axe",
     "Bow",
-    "Crossbow",
-    "Gun",
-    "Claw",
-    "Glove",
-    "Spear"
+    "Staff"
   ],
   "windowTone": [
     0,

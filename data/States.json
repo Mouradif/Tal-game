@@ -4,7 +4,7 @@
     "id": 1,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
-    "iconIndex": 0,
+    "iconIndex": 191,
     "maxTurns": 1,
     "message1": "",
     "message2": "",
@@ -35,7 +35,7 @@
     "id": 2,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
-    "iconIndex": 2,
+    "iconIndex": 181,
     "maxTurns": 1,
     "message1": "%1 is poisoned!",
     "message2": "%1 is poisoned!",
@@ -58,7 +58,7 @@
       {
         "code": 22,
         "dataId": 7,
-        "value": -0.1
+        "value": -0.05
       }
     ],
     "messageType": 1
@@ -67,7 +67,7 @@
     "id": 3,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
-    "iconIndex": 3,
+    "iconIndex": 228,
     "maxTurns": 5,
     "message1": "%1 is blinded!",
     "message2": "%1 is blinded!",
@@ -99,7 +99,7 @@
     "id": 4,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
-    "iconIndex": 4,
+    "iconIndex": 76,
     "maxTurns": 5,
     "message1": "%1 is silenced!",
     "message2": "%1 is silenced!",
@@ -131,7 +131,7 @@
     "id": 5,
     "autoRemovalTiming": 1,
     "chanceByDamage": 50,
-    "iconIndex": 5,
+    "iconIndex": 235,
     "maxTurns": 4,
     "message1": "%1 is enraged!",
     "message2": "%1 is enraged!",
@@ -157,7 +157,7 @@
     "id": 6,
     "autoRemovalTiming": 1,
     "chanceByDamage": 50,
-    "iconIndex": 6,
+    "iconIndex": 238,
     "maxTurns": 4,
     "message1": "%1 is confused!",
     "message2": "%1 is confused!",
@@ -183,7 +183,7 @@
     "id": 7,
     "autoRemovalTiming": 1,
     "chanceByDamage": 50,
-    "iconIndex": 7,
+    "iconIndex": 29,
     "maxTurns": 4,
     "message1": "%1 is charmed!",
     "message2": "%1 is charmed!",
@@ -209,7 +209,7 @@
     "id": 8,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
-    "iconIndex": 8,
+    "iconIndex": 234,
     "maxTurns": 5,
     "message1": "%1 falls asleep!",
     "message2": "%1 falls asleep!",
@@ -241,25 +241,32 @@
     "id": 9,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
-    "traits": [],
-    "iconIndex": 0,
+    "iconIndex": 233,
     "maxTurns": 1,
-    "message1": "",
-    "message2": "",
+    "message1": "%1 is Bleeding!",
+    "message2": "%1 is Bleed!",
     "message3": "",
-    "message4": "",
+    "message4": "%1 is no longer Bleeding!",
     "minTurns": 1,
-    "motion": 0,
-    "name": "",
+    "motion": 1,
+    "overlay": 1,
+    "name": "Bleed",
     "note": "",
-    "overlay": 0,
     "priority": 50,
-    "removeAtBattleEnd": false,
+    "releaseByDamage": false,
+    "removeAtBattleEnd": true,
     "removeByDamage": false,
     "removeByRestriction": false,
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": -0.01
+      }
+    ],
     "messageType": 1
   },
   {
@@ -273,7 +280,7 @@
         "value": -1
       }
     ],
-    "iconIndex": 9,
+    "iconIndex": 256,
     "maxTurns": 3,
     "message1": "%1 is paralyzed and can’t move!",
     "message2": "%1 is paralyzed!",
@@ -304,7 +311,7 @@
         "value": -1
       }
     ],
-    "iconIndex": 9,
+    "iconIndex": 267,
     "maxTurns": 2,
     "message1": "%1 lost balance!",
     "message2": "%1 lost balance!",
@@ -360,7 +367,7 @@
         "value": 0.1
       }
     ],
-    "iconIndex": 72,
+    "iconIndex": 40,
     "maxTurns": 4,
     "message1": "",
     "message2": "",
@@ -391,7 +398,7 @@
         "value": 0.1
       }
     ],
-    "iconIndex": 72,
+    "iconIndex": 41,
     "maxTurns": 4,
     "message1": "",
     "message2": "",
@@ -422,7 +429,7 @@
         "value": 0.1
       }
     ],
-    "iconIndex": 72,
+    "iconIndex": 42,
     "maxTurns": 4,
     "message1": "",
     "message2": "",
@@ -453,7 +460,7 @@
         "value": 1
       }
     ],
-    "iconIndex": 70,
+    "iconIndex": 220,
     "maxTurns": 5,
     "message1": "",
     "message2": "",
@@ -484,7 +491,7 @@
         "value": 1
       }
     ],
-    "iconIndex": 81,
+    "iconIndex": 217,
     "maxTurns": 1,
     "message1": "",
     "message2": "",
@@ -515,7 +522,7 @@
         "value": 9
       }
     ],
-    "iconIndex": 76,
+    "iconIndex": 265,
     "maxTurns": 5,
     "message1": "%1 became easier to hit!",
     "message2": "",
@@ -546,7 +553,7 @@
         "value": 0
       }
     ],
-    "iconIndex": 81,
+    "iconIndex": 245,
     "maxTurns": 5,
     "message1": "%1 became harder to hit!",
     "message2": "",
@@ -577,7 +584,7 @@
         "value": 1
       }
     ],
-    "iconIndex": 77,
+    "iconIndex": 207,
     "maxTurns": 3,
     "message1": "",
     "message2": "",
@@ -648,7 +655,7 @@
         "value": 1
       }
     ],
-    "iconIndex": 70,
+    "iconIndex": 218,
     "maxTurns": 5,
     "message1": "",
     "message2": "",
@@ -679,7 +686,7 @@
         "value": 0.25
       }
     ],
-    "iconIndex": 70,
+    "iconIndex": 148,
     "maxTurns": 5,
     "message1": "",
     "message2": "",
@@ -706,12 +713,12 @@
     "traits": [
       {
         "code": 31,
-        "dataId": 2,
+        "dataId": 4,
         "value": 1
       },
       {
         "code": 11,
-        "dataId": 2,
+        "dataId": 4,
         "value": 0.5
       },
       {
@@ -720,7 +727,7 @@
         "value": 1.1
       }
     ],
-    "iconIndex": 64,
+    "iconIndex": 213,
     "maxTurns": 5,
     "message1": "%1 is now enveloped in an aura of fire.",
     "message2": "%1 is now enveloped in an aura of fire.",
@@ -747,12 +754,12 @@
     "traits": [
       {
         "code": 31,
-        "dataId": 3,
+        "dataId": 5,
         "value": 1
       },
       {
         "code": 11,
-        "dataId": 3,
+        "dataId": 5,
         "value": 0.5
       },
       {
@@ -761,15 +768,15 @@
         "value": 1.1
       }
     ],
-    "iconIndex": 65,
+    "iconIndex": 214,
     "maxTurns": 5,
-    "message1": "%1 is now enveloped in an icy aura.",
-    "message2": "%1 is now enveloped in an icy aura.",
+    "message1": "%1 is now enveloped in an Water aura.",
+    "message2": "%1 is now enveloped in an Water aura.",
     "message3": "",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "Ice Force",
+    "name": "Water Force",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -788,12 +795,12 @@
     "traits": [
       {
         "code": 31,
-        "dataId": 4,
+        "dataId": 7,
         "value": 1
       },
       {
         "code": 11,
-        "dataId": 4,
+        "dataId": 7,
         "value": 0.5
       },
       {
@@ -802,15 +809,15 @@
         "value": 1.1
       }
     ],
-    "iconIndex": 66,
+    "iconIndex": 215,
     "maxTurns": 5,
-    "message1": "%1 is now enveloped in a thunderous aura.",
-    "message2": "%1 is now enveloped in a thunderous aura.",
+    "message1": "%1 is now enveloped in a Darkness aura.",
+    "message2": "%1 is now enveloped in a Darkness aura.",
     "message3": "",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "Thunder Force",
+    "name": "Dark Force",
     "note": "",
     "overlay": 0,
     "priority": 50,
