@@ -2,7 +2,7 @@
   null,
   {
     "id": 1,
-    "animationId": 0,
+    "animationId": 33,
     "description": "A worn and chipped Dagger",
     "etypeId": 1,
     "traits": [
@@ -15,6 +15,16 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 55,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 55,
+        "dataId": 1,
+        "value": 1
       }
     ],
     "iconIndex": 480,
@@ -35,7 +45,7 @@
   },
   {
     "id": 2,
-    "animationId": 0,
+    "animationId": 33,
     "description": "A sturdy dagger good for many jobs",
     "etypeId": 1,
     "traits": [
@@ -48,6 +58,16 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 55,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 55,
+        "dataId": 1,
+        "value": 1
       }
     ],
     "iconIndex": 481,
@@ -68,7 +88,7 @@
   },
   {
     "id": 3,
-    "animationId": 0,
+    "animationId": 33,
     "description": "A dagger with a sculpted hilt and sharp blade.\nThis dagger can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -86,6 +106,16 @@
         "code": 32,
         "dataId": 9,
         "value": 0.1
+      },
+      {
+        "code": 55,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 55,
+        "dataId": 1,
+        "value": 1
       }
     ],
     "iconIndex": 482,
@@ -106,7 +136,7 @@
   },
   {
     "id": 4,
-    "animationId": 0,
+    "animationId": 33,
     "description": "A Beautiful dagger with a sculpted hilt and sharp blade.\nThis dagger can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -124,6 +154,16 @@
         "code": 32,
         "dataId": 9,
         "value": 0.15
+      },
+      {
+        "code": 55,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 55,
+        "dataId": 1,
+        "value": 1
       }
     ],
     "iconIndex": 483,
@@ -738,6 +778,11 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
     "iconIndex": 576,
@@ -771,6 +816,11 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
     "iconIndex": 579,
@@ -787,7 +837,7 @@
       0
     ],
     "price": 400,
-    "wtypeId": 3
+    "wtypeId": 5
   },
   {
     "id": 24,
@@ -804,6 +854,11 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
     "iconIndex": 580,
@@ -837,6 +892,11 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
     "iconIndex": 581,
@@ -853,7 +913,7 @@
       0
     ],
     "price": 6400,
-    "wtypeId": 3
+    "wtypeId": 5
   },
   {
     "id": 26,
@@ -957,7 +1017,7 @@
   {
     "id": 29,
     "animationId": 0,
-    "description": "",
+    "description": "A worn and chipped Battle Axe.",
     "etypeId": 1,
     "traits": [
       {
@@ -969,28 +1029,38 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 486,
+    "name": "Worn Battle Axe",
     "note": "",
     "params": [
       0,
       0,
+      12,
       0,
       0,
       0,
-      0,
-      0,
+      -8,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 100,
+    "wtypeId": 4
   },
   {
     "id": 30,
     "animationId": 0,
-    "description": "",
+    "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
       {
@@ -1002,28 +1072,38 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 487,
+    "name": "Battle Axe",
     "note": "",
     "params": [
       0,
       0,
+      18,
       0,
       0,
       0,
-      0,
-      0,
+      -6,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 400,
+    "wtypeId": 4
   },
   {
     "id": 31,
     "animationId": 0,
-    "description": "",
+    "description": "A fine crafted Battle Axe.",
     "etypeId": 1,
     "traits": [
       {
@@ -1035,28 +1115,38 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 489,
+    "name": "Fine Battle Axe",
     "note": "",
     "params": [
       0,
       0,
+      24,
       0,
       0,
       0,
-      0,
-      0,
+      -4,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 1600,
+    "wtypeId": 4
   },
   {
     "id": 32,
     "animationId": 0,
-    "description": "",
+    "description": "A Beautifully crafted battle axe with inlayed gold.",
     "etypeId": 1,
     "traits": [
       {
@@ -1068,23 +1158,33 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 488,
+    "name": "Mastercraft Battle Axe",
     "note": "",
     "params": [
       0,
       0,
+      30,
       0,
       0,
       0,
-      0,
-      0,
+      -2,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 6400,
+    "wtypeId": 4
   },
   {
     "id": 33,
@@ -1188,7 +1288,7 @@
   {
     "id": 36,
     "animationId": 0,
-    "description": "",
+    "description": "A worn staff.",
     "etypeId": 1,
     "traits": [
       {
@@ -1200,28 +1300,38 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.01
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 516,
+    "name": "Worn Staff",
     "note": "",
     "params": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      50,
+      5,
+      5,
+      5,
+      5,
       0,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 100,
+    "wtypeId": 6
   },
   {
     "id": 37,
     "animationId": 0,
-    "description": "",
+    "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
       {
@@ -1233,28 +1343,38 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.02
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 517,
+    "name": "Short Sword",
     "note": "",
     "params": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      100,
+      8,
+      5,
+      10,
+      10,
       0,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 400,
+    "wtypeId": 6
   },
   {
     "id": 38,
     "animationId": 0,
-    "description": "",
+    "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
       {
@@ -1266,28 +1386,38 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.03
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 518,
+    "name": "Fine Staff",
     "note": "",
     "params": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      200,
+      11,
+      5,
+      20,
+      15,
       0,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 1600,
+    "wtypeId": 6
   },
   {
     "id": 39,
     "animationId": 0,
-    "description": "",
+    "description": "A Beautiful Staff topped with a gemstone.",
     "etypeId": 1,
     "traits": [
       {
@@ -1299,23 +1429,33 @@
         "code": 22,
         "dataId": 0,
         "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 519,
+    "name": "Mastercraft Staff",
     "note": "",
     "params": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      300,
+      15,
+      5,
+      30,
+      25,
       0,
       0
     ],
-    "price": 0,
-    "wtypeId": 0
+    "price": 6400,
+    "wtypeId": 6
   },
   {
     "id": 40,

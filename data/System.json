@@ -94,10 +94,10 @@
     "pitch": 100,
     "volume": 90
   },
-  "battleback1Name": "GrassMaze",
-  "battleback2Name": "GrassMaze",
+  "battleback1Name": "",
+  "battleback2Name": "",
   "battlerHue": 0,
-  "battlerName": "Hi_monster",
+  "battlerName": "bandit",
   "battleSystem": 2,
   "boat": {
     "bgm": {
@@ -559,7 +559,7 @@
     "",
     ""
   ],
-  "versionId": 76095552,
+  "versionId": 28709221,
   "victoryMe": {
     "name": "",
     "pan": 0,
