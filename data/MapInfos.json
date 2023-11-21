@@ -7,7 +7,7 @@
     "order": 1,
     "parentId": 0,
     "scrollX": 1622,
-    "scrollY": 923
+    "scrollY": 1189
   },
   {
     "id": 2,
@@ -225,8 +225,8 @@
     "name": "Wilderness Adventure",
     "order": 26,
     "parentId": 38,
-    "scrollX": 1769.4545454545455,
-    "scrollY": 1006.909090909091,
+    "scrollX": 1622,
+    "scrollY": 923,
     "quick": false
   },
   {
