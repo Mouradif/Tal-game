@@ -5,8 +5,8 @@
     "members": [
       {
         "enemyId": 1,
-        "x": 172,
-        "y": 301,
+        "x": 419,
+        "y": 306,
         "hidden": false
       }
     ],
@@ -43,8 +43,8 @@
     "members": [
       {
         "enemyId": 3,
-        "x": 369,
-        "y": 369,
+        "x": 389,
+        "y": 306,
         "hidden": false
       }
     ],
@@ -81,8 +81,8 @@
     "members": [
       {
         "enemyId": 2,
-        "x": 119,
-        "y": 299,
+        "x": 401,
+        "y": 316,
         "hidden": false
       }
     ],
@@ -119,8 +119,8 @@
     "members": [
       {
         "enemyId": 4,
-        "x": 139,
-        "y": 307,
+        "x": 404,
+        "y": 301,
         "hidden": false
       }
     ],
@@ -157,8 +157,8 @@
     "members": [
       {
         "enemyId": 6,
-        "x": 145,
-        "y": 373,
+        "x": 404,
+        "y": 370,
         "hidden": false
       }
     ],
@@ -195,7 +195,7 @@
     "members": [
       {
         "enemyId": 7,
-        "x": 145,
+        "x": 410,
         "y": 376,
         "hidden": false
       }
@@ -233,8 +233,8 @@
     "members": [
       {
         "enemyId": 8,
-        "x": 172,
-        "y": 364,
+        "x": 398,
+        "y": 369,
         "hidden": false
       }
     ],
@@ -271,7 +271,7 @@
     "members": [
       {
         "enemyId": 9,
-        "x": 157,
+        "x": 407,
         "y": 370,
         "hidden": false
       }
@@ -309,8 +309,8 @@
     "members": [
       {
         "enemyId": 10,
-        "x": 125,
-        "y": 284,
+        "x": 398,
+        "y": 218,
         "hidden": false
       }
     ],
@@ -347,8 +347,8 @@
     "members": [
       {
         "enemyId": 11,
-        "x": 116,
-        "y": 284,
+        "x": 404,
+        "y": 233,
         "hidden": false
       }
     ],

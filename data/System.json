@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 39,
+  "editMapId": 1,
   "elements": [
     "",
     "Physical",
@@ -139,7 +139,7 @@
     "Boots",
     "Accessories"
   ],
-  "gameTitle": "TAL",
+  "gameTitle": "",
   "gameoverMe": {
     "name": "",
     "pan": 0,
@@ -175,7 +175,7 @@
   "optSlipDeath": false,
   "optTransparent": false,
   "partyMembers": [
-    3
+    1
   ],
   "ship": {
     "bgm": {
@@ -197,10 +197,82 @@
   ],
   "sounds": [
     {
-      "name": "",
+      "name": "UI_Select_DRY_01",
+      "pan": 0,
+      "pitch": 70,
+      "volume": 20
+    },
+    {
+      "name": "UI_Select_DRY_04",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 25
+    },
+    {
+      "name": "UI_Select_DRY_03",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 20
+    },
+    {
+      "name": "Negative_Jingle_DRY_01",
       "pan": 0,
       "pitch": 100,
       "volume": 90
+    },
+    {
+      "name": "Get_Item_DRY_04",
+      "pan": 0,
+      "pitch": 60,
+      "volume": 40
+    },
+    {
+      "name": "Positive_Jingle_DRY_06",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Positive_Jingle_DRY_03",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Teleport_DRY_01",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "Power_Up_Buff_DRY_08",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Hit_Impact_DRY_03",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Damage_DRY_10",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "General_Attack_DRY_10",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Enemy_Defeat_DRY_01",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
     },
     {
       "name": "",
@@ -209,141 +281,69 @@
       "volume": 90
     },
     {
-      "name": "",
+      "name": "Damage_DRY_10",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "General_Attack_DRY_10",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Arcane_Magic_Spell_DRY_05",
+      "pan": 0,
+      "pitch": 150,
+      "volume": 40
+    },
+    {
+      "name": "General_Attack_DRY_02",
+      "pan": 0,
+      "pitch": 150,
+      "volume": 40
+    },
+    {
+      "name": "HP_Mana_Down_DRY_03",
       "pan": 0,
       "pitch": 100,
       "volume": 90
     },
     {
-      "name": "",
+      "name": "General_Attack_DRY_09",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Power_Up_Buff_DRY_14",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 40
+    },
+    {
+      "name": "Get_Item_DRY_20",
       "pan": 0,
       "pitch": 100,
       "volume": 90
     },
     {
-      "name": "",
+      "name": "Power_Up_Buff_DRY_05",
       "pan": 0,
       "pitch": 100,
-      "volume": 90
+      "volume": 40
     },
     {
-      "name": "",
+      "name": "Power_Up_Buff_DRY_09",
       "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
-    },
-    {
-      "name": "",
-      "pan": 0,
-      "pitch": 100,
-      "volume": 90
+      "pitch": 60,
+      "volume": 40
     }
   ],
-  "startMapId": 39,
-  "startX": 13,
-  "startY": 12,
+  "startMapId": 1,
+  "startX": 29,
+  "startY": 32,
   "switches": [
     "",
     "dungeon entrance",
@@ -351,6 +351,12 @@
     "lock east door",
     "lock west door",
     "lock north door",
+    "blue slime",
+    "green slime",
+    "Fire Slime",
+    "king slime",
+    "slime pack",
+    "Bandit0_0",
     "",
     "",
     "",
@@ -358,14 +364,8 @@
     "",
     "",
     "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "isNight",
+    "Time System"
   ],
   "terms": {
     "basic": [
@@ -523,7 +523,7 @@
     }
   ],
   "testTroopId": 1,
-  "title1Name": "",
+  "title1Name": "TAL Title",
   "title2Name": "",
   "titleBgm": {
     "name": "",
@@ -539,6 +539,9 @@
   "variables": [
     "",
     "random number",
+    "Hours",
+    "Minutes",
+    "Seconds",
     "",
     "",
     "",
@@ -553,13 +556,10 @@
     "",
     "",
     "",
-    "",
-    "",
-    "",
-    "",
+    "Time",
     ""
   ],
-  "versionId": 12812670,
+  "versionId": 98753938,
   "victoryMe": {
     "name": "",
     "pan": 0,

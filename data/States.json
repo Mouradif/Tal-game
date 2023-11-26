@@ -4,6 +4,69 @@
     "id": 1,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
+    "iconIndex": 0,
+    "maxTurns": 1,
+    "message1": "%1 has fallen!",
+    "message2": "%1 is slain!",
+    "message3": "",
+    "message4": "%1 revives!",
+    "minTurns": 1,
+    "motion": 3,
+    "name": "Dead",
+    "note": "State #1 will be added when HP hits 0.",
+    "overlay": 0,
+    "priority": 100,
+    "releaseByDamage": false,
+    "removeAtBattleEnd": false,
+    "removeByDamage": false,
+    "removeByRestriction": false,
+    "removeByWalking": false,
+    "restriction": 4,
+    "stepsToRemove": 100,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 9,
+        "value": 0
+      }
+    ],
+    "messageType": 1
+  },
+  {
+    "id": 2,
+    "autoRemovalTiming": 2,
+    "chanceByDamage": 100,
+    "iconIndex": 8,
+    "maxTurns": 1,
+    "message1": "",
+    "message2": "",
+    "message3": "",
+    "message4": "",
+    "minTurns": 1,
+    "motion": 0,
+    "name": "Guard",
+    "note": "",
+    "overlay": 0,
+    "priority": 0,
+    "removeAtBattleEnd": true,
+    "removeByDamage": false,
+    "removeByRestriction": true,
+    "removeByWalking": false,
+    "restriction": 0,
+    "stepsToRemove": 100,
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "messageType": 1
+  },
+  {
+    "id": 3,
+    "autoRemovalTiming": 0,
+    "chanceByDamage": 100,
     "iconIndex": 191,
     "maxTurns": 1,
     "message1": "",
@@ -32,7 +95,7 @@
     "messageType": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "iconIndex": 181,
@@ -64,7 +127,7 @@
     "messageType": 1
   },
   {
-    "id": 3,
+    "id": 5,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
     "iconIndex": 228,
@@ -96,7 +159,7 @@
     "messageType": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
     "iconIndex": 76,
@@ -128,7 +191,7 @@
     "messageType": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "autoRemovalTiming": 1,
     "chanceByDamage": 50,
     "iconIndex": 235,
@@ -154,7 +217,7 @@
     "messageType": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "autoRemovalTiming": 1,
     "chanceByDamage": 50,
     "iconIndex": 238,
@@ -180,7 +243,7 @@
     "messageType": 1
   },
   {
-    "id": 7,
+    "id": 9,
     "autoRemovalTiming": 1,
     "chanceByDamage": 50,
     "iconIndex": 29,
@@ -206,7 +269,7 @@
     "messageType": 1
   },
   {
-    "id": 8,
+    "id": 10,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
     "iconIndex": 234,
@@ -238,7 +301,7 @@
     "messageType": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "iconIndex": 233,
@@ -270,7 +333,7 @@
     "messageType": 1
   },
   {
-    "id": 10,
+    "id": 12,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -301,7 +364,7 @@
     "messageType": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -332,7 +395,7 @@
     "messageType": 1
   },
   {
-    "id": 12,
+    "id": 14,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [],
@@ -357,7 +420,7 @@
     "messageType": 1
   },
   {
-    "id": 13,
+    "id": 15,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -388,7 +451,7 @@
     "messageType": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -419,7 +482,7 @@
     "messageType": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -450,7 +513,7 @@
     "messageType": 1
   },
   {
-    "id": 16,
+    "id": 18,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -481,7 +544,7 @@
     "messageType": 1
   },
   {
-    "id": 17,
+    "id": 19,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -512,7 +575,7 @@
     "messageType": 1
   },
   {
-    "id": 18,
+    "id": 20,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -543,7 +606,7 @@
     "messageType": 1
   },
   {
-    "id": 19,
+    "id": 21,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -574,7 +637,7 @@
     "messageType": 1
   },
   {
-    "id": 20,
+    "id": 22,
     "autoRemovalTiming": 1,
     "chanceByDamage": 100,
     "traits": [
@@ -605,7 +668,7 @@
     "messageType": 1
   },
   {
-    "id": 21,
+    "id": 23,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -676,7 +739,7 @@
     "messageType": 1
   },
   {
-    "id": 22,
+    "id": 24,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -707,7 +770,7 @@
     "messageType": 1
   },
   {
-    "id": 23,
+    "id": 25,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -748,7 +811,7 @@
     "messageType": 1
   },
   {
-    "id": 24,
+    "id": 26,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -789,7 +852,7 @@
     "messageType": 1
   },
   {
-    "id": 25,
+    "id": 27,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
@@ -830,76 +893,32 @@
     "messageType": 1
   },
   {
-    "id": 26,
-    "autoRemovalTiming": 0,
-    "chanceByDamage": 100,
-    "traits": [],
-    "iconIndex": 0,
-    "maxTurns": 1,
-    "message1": "",
-    "message2": "",
-    "message3": "",
-    "message4": "",
-    "minTurns": 1,
-    "motion": 0,
-    "name": "",
-    "note": "",
-    "overlay": 0,
-    "priority": 50,
-    "removeAtBattleEnd": false,
-    "removeByDamage": false,
-    "removeByRestriction": false,
-    "removeByWalking": false,
-    "restriction": 0,
-    "stepsToRemove": 100,
-    "messageType": 1
-  },
-  {
-    "id": 27,
-    "autoRemovalTiming": 0,
-    "chanceByDamage": 100,
-    "traits": [],
-    "iconIndex": 0,
-    "maxTurns": 1,
-    "message1": "",
-    "message2": "",
-    "message3": "",
-    "message4": "",
-    "minTurns": 1,
-    "motion": 0,
-    "name": "",
-    "note": "",
-    "overlay": 0,
-    "priority": 50,
-    "removeAtBattleEnd": false,
-    "removeByDamage": false,
-    "removeByRestriction": false,
-    "removeByWalking": false,
-    "restriction": 0,
-    "stepsToRemove": 100,
-    "messageType": 1
-  },
-  {
     "id": 28,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
-    "traits": [],
-    "iconIndex": 0,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 1
+      }
+    ],
+    "iconIndex": 428,
     "maxTurns": 1,
-    "message1": "",
+    "message1": "You lit a torch",
     "message2": "",
     "message3": "",
-    "message4": "",
+    "message4": "Your torch has burned out!",
     "minTurns": 1,
     "motion": 0,
-    "name": "",
-    "note": "",
+    "name": "Torch",
+    "note": "[light fire]",
     "overlay": 0,
     "priority": 50,
     "removeAtBattleEnd": false,
     "removeByDamage": false,
     "removeByRestriction": false,
-    "removeByWalking": false,
+    "removeByWalking": true,
     "restriction": 0,
     "stepsToRemove": 100,
     "messageType": 1

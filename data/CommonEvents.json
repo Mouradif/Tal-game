@@ -2218,12 +2218,57 @@
     "id": 7,
     "list": [
       {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          6,
+          6,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          7,
+          7,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          8,
+          8,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          9,
+          9,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          10,
+          10,
+          1
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Reset training Grounds",
     "switchId": 1,
     "trigger": 0
   },
@@ -2255,6 +2300,245 @@
   },
   {
     "id": 10,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 11,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 12,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 13,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 14,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 15,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 16,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 17,
+    "list": [
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "$gameLighting.setStatus(0, 0);"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "gamelighting.set.stat 0, 0 ",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 18,
+    "list": [
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          19,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          0,
+          19,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 2,
+        "parameters": [
+          19,
+          19,
+          0
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "$gameLighting.setMapAmbient(\"#FFFFFF\", 120)"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Time",
+    "switchId": 20,
+    "trigger": 2
+  },
+  {
+    "id": 19,
+    "list": [
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          19,
+          1
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 1,
+        "parameters": [
+          "-ShoraLighting-",
+          "Set Map Ambient",
+          "Set Map Ambient",
+          {
+            "color": "#ffffff",
+            "time": "60"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 1,
+        "parameters": [
+          "Color = #ffffff"
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 1,
+        "parameters": [
+          "Time = 60"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "set map Ambient",
+    "switchId": 19,
+    "trigger": 0
+  },
+  {
+    "id": 20,
     "list": [
       {
         "code": 0,

@@ -1770,14 +1770,6 @@
     0,
     0,
     0,
-    168,
-    0,
-    0,
-    0,
-    0,
-    0,
-    168,
-    0,
     0,
     0,
     0,
@@ -1789,21 +1781,13 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    176,
-    0,
-    0,
-    0,
-    0,
-    176,
+    168,
     0,
     0,
     0,
     0,
     0,
-    176,
+    0,
     0,
     0,
     0,
@@ -1816,6 +1800,7 @@
     0,
     0,
     0,
+    176,
     0,
     0,
     0,
@@ -1823,6 +1808,7 @@
     0,
     0,
     0,
+    176,
     0,
     0,
     0,
@@ -1914,6 +1900,7 @@
     0,
     0,
     0,
+    168,
     0,
     0,
     0,
@@ -1929,6 +1916,7 @@
     0,
     0,
     0,
+    168,
     0,
     0,
     0,
@@ -1939,11 +1927,23 @@
     0,
     0,
     0,
+    176,
     0,
     0,
     0,
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    176,
     0,
     0,
     0,
@@ -2859,138 +2859,6 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    2,
-    2,
-    2,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    3,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    3,
-    2,
-    1,
     0,
     0,
     0,
@@ -3000,307 +2868,32 @@
     0,
     0,
     3,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    2,
-    2,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    1,
-    4,
-    4,
-    4,
-    4,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    2,
-    2,
-    0,
-    0,
-    2,
-    1,
-    4,
-    4,
-    4,
-    4,
-    2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2,
-    1,
-    1,
-    1,
-    1,
-    2,
-    0,
-    0,
-    0,
-    2,
-    1,
-    4,
-    4,
-    4,
-    4,
-    2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    0,
     3,
-    2,
-    1,
-    1,
-    1,
-    1,
-    2,
-    2,
-    0,
-    0,
-    2,
-    1,
-    4,
-    4,
-    4,
-    4,
-    2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    0,
-    2,
-    2,
-    1,
-    1,
-    1,
-    1,
-    2,
-    2,
-    0,
-    0,
-    2,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    2,
-    2,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    2,
-    2,
-    2,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    0,
-    1,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
     3,
     0,
     0,
@@ -3310,11 +2903,42 @@
     0,
     0,
     0,
-    1,
-    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     3,
-    2,
-    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     0,
     0,
     0,
@@ -3324,39 +2948,332 @@
     0,
     0,
     3,
-    1,
+    3,
+    11,
+    11,
+    11,
+    11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    11,
+    12,
+    12,
+    12,
+    11,
+    11,
     0,
     0,
-    1,
-    1,
-    1,
-    1,
     0,
     0,
     0,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    11,
+    13,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    11,
+    12,
+    13,
+    12,
+    11,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    13,
+    11,
+    3,
+    3,
+    11,
     0,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    11,
+    12,
+    12,
+    12,
+    11,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    0,
+    11,
+    3,
+    3,
+    11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    0,
+    0,
     0,
-    1,
-    1,
-    2,
-    2,
-    2,
-    1,
-    1,
     0,
     0,
     0,
     0,
+    11,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    12,
+    11,
+    14,
+    14,
+    14,
+    14,
+    11,
+    11,
+    3,
+    3,
+    3,
+    3,
+    12,
+    3,
+    3,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    0,
+    3,
+    12,
+    11,
+    14,
+    14,
+    14,
+    14,
+    12,
+    12,
+    3,
+    3,
+    3,
+    3,
+    12,
+    3,
+    3,
+    3,
+    3,
+    12,
+    12,
+    11,
+    11,
+    11,
+    11,
+    12,
+    0,
+    0,
+    3,
+    12,
+    11,
+    14,
+    14,
+    14,
+    14,
+    12,
+    12,
+    3,
+    3,
+    3,
+    3,
+    12,
+    3,
+    3,
+    3,
+    3,
+    13,
+    12,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    3,
+    3,
+    12,
+    11,
+    14,
+    14,
+    14,
+    14,
+    12,
+    12,
+    3,
+    3,
+    0,
+    0,
+    12,
+    0,
+    0,
+    3,
+    3,
+    12,
+    12,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    3,
+    3,
+    12,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    0,
+    0,
+    12,
+    0,
+    0,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    3,
+    3,
     0,
-    1,
-    1,
-    1,
-    1,
     0,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
     0,
     0,
+    3,
+    3,
+    11,
     0,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
     0,
+    11,
+    3,
+    3,
+    11,
     0,
     0,
     0,
@@ -3366,47 +3283,130 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    12,
+    12,
+    12,
+    11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    3,
+    3,
+    11,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    12,
+    13,
+    12,
+    11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    11,
+    3,
+    3,
+    11,
+    11,
+    11,
+    11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    11,
+    12,
+    12,
+    12,
+    11,
+    11,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    11,
+    11,
+    11,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
     0,
     0,
     0,
@@ -3711,6 +3711,13 @@
           },
           "list": [
             {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
               "code": 0,
               "indent": 0,
               "parameters": []
@@ -3815,109 +3822,12 @@
           },
           "list": [
             {
-              "code": 0,
+              "code": 108,
               "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 5,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 16,
-                "indent": null
-              },
-              {
-                "code": 15,
-                "parameters": [
-                  6
-                ],
-                "indent": null
-              },
-              {
-                "code": 17,
-                "indent": null
-              },
-              {
-                "code": 15,
-                "parameters": [
-                  6
-                ],
-                "indent": null
-              },
-              {
-                "code": 18,
-                "indent": null
-              },
-              {
-                "code": 15,
-                "parameters": [
-                  6
-                ],
-                "indent": null
-              },
-              {
-                "code": 19,
-                "indent": null
-              },
-              {
-                "code": 15,
-                "parameters": [
-                  6
-                ],
-                "indent": null
-              },
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 4,
-          "moveType": 3,
-          "priorityType": 2,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 10,
-      "y": 1
-    },
-    {
-      "id": 5,
-      "name": "fire",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "!fires",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 0
-          },
-          "list": [
+              "parameters": [
+                "[light fire]"
+              ]
+            },
             {
               "code": 0,
               "indent": 0,
@@ -3989,11 +3899,11 @@
           "walkAnime": true
         }
       ],
-      "x": 16,
+      "x": 13,
       "y": 1
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "fire",
       "note": "",
       "pages": [
@@ -4022,6 +3932,13 @@
             "characterIndex": 0
           },
           "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
             {
               "code": 0,
               "indent": 0,
@@ -4096,12 +4013,869 @@
       "x": 21,
       "y": 1
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "id": 6,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!fires",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 2,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 21,
+      "y": 6
+    },
+    {
+      "id": 7,
+      "name": "EV007",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "-ShoraLighting-",
+                "Set Map Ambient",
+                "Set Map Ambient",
+                {
+                  "color": "#222222",
+                  "time": "1"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Color = #222222"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Time = 1"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 8,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!fires",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 2,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 5,
+      "y": 6
+    },
+    {
+      "id": 9,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 5,
+      "y": 13
+    },
+    {
+      "id": 10,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 21,
+      "y": 13
+    },
+    {
+      "id": 11,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 21,
+      "y": 18
+    },
+    {
+      "id": 12,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 13,
+      "y": 18
+    },
+    {
+      "id": 13,
+      "name": "fire",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 16,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 17,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 18,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 19,
+                "indent": null
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  6
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 5,
+      "y": 18
+    }
   ]
 }

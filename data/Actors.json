@@ -5,13 +5,14 @@
     "battlerName": "",
     "characterIndex": 7,
     "characterName": "e_npcA_shadow_3x",
-    "classId": 2,
+    "classId": 3,
     "equips": [
-      1,
-      0,
-      0,
-      10,
-      0
+      9,
+      34,
+      54,
+      11,
+      75,
+      88
     ],
     "faceIndex": 6,
     "faceName": "",
@@ -28,13 +29,14 @@
     "battlerName": "",
     "characterIndex": 0,
     "characterName": ")Sam_Archer_Rogue",
-    "classId": 3,
+    "classId": 4,
     "equips": [
+      23,
       0,
-      0,
-      0,
-      0,
-      0
+      53,
+      9,
+      74,
+      87
     ],
     "faceIndex": 0,
     "faceName": "",
@@ -55,7 +57,7 @@
     "equips": [
       1,
       0,
-      46,
+      0,
       2,
       73,
       0

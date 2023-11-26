@@ -15,16 +15,6 @@
         "code": 22,
         "dataId": 0,
         "value": 0
-      },
-      {
-        "code": 55,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 55,
-        "dataId": 1,
-        "value": 1
       }
     ],
     "iconIndex": 480,
@@ -58,16 +48,6 @@
         "code": 22,
         "dataId": 0,
         "value": 0
-      },
-      {
-        "code": 55,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 55,
-        "dataId": 1,
-        "value": 1
       }
     ],
     "iconIndex": 481,
@@ -106,16 +86,6 @@
         "code": 32,
         "dataId": 9,
         "value": 0.1
-      },
-      {
-        "code": 55,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 55,
-        "dataId": 1,
-        "value": 1
       }
     ],
     "iconIndex": 482,
@@ -154,16 +124,6 @@
         "code": 32,
         "dataId": 9,
         "value": 0.15
-      },
-      {
-        "code": 55,
-        "dataId": 0,
-        "value": 1
-      },
-      {
-        "code": 55,
-        "dataId": 1,
-        "value": 1
       }
     ],
     "iconIndex": 483,
@@ -283,7 +243,7 @@
   },
   {
     "id": 8,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A worn and chipped Sword.",
     "etypeId": 1,
     "traits": [
@@ -316,7 +276,7 @@
   },
   {
     "id": 9,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
@@ -349,7 +309,7 @@
   },
   {
     "id": 10,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -387,7 +347,7 @@
   },
   {
     "id": 11,
-    "animationId": 0,
+    "animationId": 117,
     "description": "A Beautiful Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -524,7 +484,7 @@
   },
   {
     "id": 15,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A worn and chipped Sword.",
     "etypeId": 1,
     "traits": [
@@ -557,7 +517,7 @@
   },
   {
     "id": 16,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
@@ -590,7 +550,7 @@
   },
   {
     "id": 17,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -628,7 +588,7 @@
   },
   {
     "id": 18,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A Beautiful Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -765,7 +725,7 @@
   },
   {
     "id": 22,
-    "animationId": 0,
+    "animationId": 112,
     "description": "A worn and chipped Bow.",
     "etypeId": 1,
     "traits": [
@@ -803,7 +763,7 @@
   },
   {
     "id": 23,
-    "animationId": 0,
+    "animationId": 112,
     "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
@@ -841,7 +801,7 @@
   },
   {
     "id": 24,
-    "animationId": 0,
+    "animationId": 112,
     "description": "A fine crafted bow.",
     "etypeId": 1,
     "traits": [
@@ -879,7 +839,7 @@
   },
   {
     "id": 25,
-    "animationId": 0,
+    "animationId": 112,
     "description": "A Beautifully crafted bow with inlayed gold.",
     "etypeId": 1,
     "traits": [
@@ -1016,7 +976,7 @@
   },
   {
     "id": 29,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A worn and chipped Battle Axe.",
     "etypeId": 1,
     "traits": [
@@ -1059,7 +1019,7 @@
   },
   {
     "id": 30,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
@@ -1102,7 +1062,7 @@
   },
   {
     "id": 31,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A fine crafted Battle Axe.",
     "etypeId": 1,
     "traits": [
@@ -1145,7 +1105,7 @@
   },
   {
     "id": 32,
-    "animationId": 0,
+    "animationId": 111,
     "description": "A Beautifully crafted battle axe with inlayed gold.",
     "etypeId": 1,
     "traits": [
@@ -1287,7 +1247,7 @@
   },
   {
     "id": 36,
-    "animationId": 0,
+    "animationId": 110,
     "description": "A worn staff.",
     "etypeId": 1,
     "traits": [
@@ -1330,7 +1290,7 @@
   },
   {
     "id": 37,
-    "animationId": 0,
+    "animationId": 110,
     "description": "A sturdy battle ready weapon.",
     "etypeId": 1,
     "traits": [
@@ -1356,7 +1316,7 @@
       }
     ],
     "iconIndex": 517,
-    "name": "Short Sword",
+    "name": "Staff",
     "note": "",
     "params": [
       0,
@@ -1373,7 +1333,7 @@
   },
   {
     "id": 38,
-    "animationId": 0,
+    "animationId": 110,
     "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -1416,7 +1376,7 @@
   },
   {
     "id": 39,
-    "animationId": 0,
+    "animationId": 110,
     "description": "A Beautiful Staff topped with a gemstone.",
     "etypeId": 1,
     "traits": [

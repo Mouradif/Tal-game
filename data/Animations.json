@@ -5164,14 +5164,26 @@
     },
     "scale": 100,
     "soundTimings": [],
-    "speed": 100
+    "speed": 100,
+    "timings": []
   },
   {
     "id": 110,
     "displayType": 0,
-    "effectName": "",
-    "flashTimings": [],
-    "name": "",
+    "effectName": "HitPhysical",
+    "flashTimings": [
+      {
+        "frame": 0,
+        "duration": 30,
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    ],
+    "name": "Hit Physical",
     "offsetX": 0,
     "offsetY": 0,
     "rotation": {
@@ -5179,16 +5191,38 @@
       "y": 0,
       "z": 0
     },
-    "scale": 100,
-    "soundTimings": [],
-    "speed": 100
+    "scale": 50,
+    "soundTimings": [
+      {
+        "frame": 0,
+        "se": {
+          "name": "Damage_DRY_04",
+          "pan": 0,
+          "pitch": 100,
+          "volume": 90
+        }
+      }
+    ],
+    "speed": 100,
+    "timings": []
   },
   {
     "id": 111,
     "displayType": 0,
-    "effectName": "",
-    "flashTimings": [],
-    "name": "",
+    "effectName": "SlashPhysical",
+    "flashTimings": [
+      {
+        "frame": 0,
+        "duration": 30,
+        "color": [
+          255,
+          255,
+          255,
+          187
+        ]
+      }
+    ],
+    "name": "Slash Physical",
     "offsetX": 0,
     "offsetY": 0,
     "rotation": {
@@ -5197,15 +5231,37 @@
       "z": 0
     },
     "scale": 100,
-    "soundTimings": [],
-    "speed": 100
+    "soundTimings": [
+      {
+        "frame": 0,
+        "se": {
+          "name": "EVFX02_11_QuickBlade",
+          "pan": 0,
+          "pitch": 130,
+          "volume": 80
+        }
+      }
+    ],
+    "speed": 100,
+    "timings": []
   },
   {
     "id": 112,
     "displayType": 0,
-    "effectName": "",
-    "flashTimings": [],
-    "name": "",
+    "effectName": "PiercePhysical",
+    "flashTimings": [
+      {
+        "frame": 0,
+        "duration": 30,
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    ],
+    "name": "Pierce Physical",
     "offsetX": 0,
     "offsetY": 0,
     "rotation": {
@@ -5213,9 +5269,20 @@
       "y": 0,
       "z": 0
     },
-    "scale": 100,
-    "soundTimings": [],
-    "speed": 100
+    "scale": 60,
+    "soundTimings": [
+      {
+        "frame": 0,
+        "se": {
+          "name": "EVFX02_06_RazorClaw",
+          "pan": 0,
+          "pitch": 120,
+          "volume": 90
+        }
+      }
+    ],
+    "speed": 100,
+    "timings": []
   },
   {
     "id": 113,
