@@ -2380,12 +2380,31 @@
     "id": 16,
     "list": [
       {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "newbie loot"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = newbie loot"
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "newbie drops",
     "switchId": 1,
     "trigger": 0
   },
@@ -2541,12 +2560,24 @@
     "id": 20,
     "list": [
       {
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          false
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Raise Rank",
     "switchId": 1,
     "trigger": 0
   }

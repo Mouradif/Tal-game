@@ -2665,6 +2665,18 @@
           },
           "list": [
             {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
               "code": 201,
               "indent": 0,
               "parameters": [

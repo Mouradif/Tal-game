@@ -46,11 +46,16 @@
         "code": 31,
         "dataId": 1,
         "value": 0
+      },
+      {
+        "code": 11,
+        "dataId": 1,
+        "value": 1
       }
     ],
-    "gold": 0,
+    "gold": 5,
     "name": "Blue Slime",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       50,
       0,
@@ -110,9 +115,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 5,
     "name": "Green Slime",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       70,
       0,
@@ -172,9 +177,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 10,
     "name": "Fire Slime",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       100,
       0,
@@ -234,9 +239,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 25,
     "name": "King Slime",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       200,
       0,
@@ -358,9 +363,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 10,
     "name": "Cultist",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       100,
       0,
@@ -420,9 +425,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 15,
     "name": "Bandit",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       100,
       0,
@@ -482,9 +487,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 30,
     "name": "Troll",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       250,
       0,
@@ -544,9 +549,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 100,
     "name": "Troll Boss",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       300,
       0,
@@ -606,9 +611,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 50,
     "name": "Skull",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       100,
       0,
@@ -668,9 +673,9 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 75,
     "name": "Flame Skull",
-    "note": "",
+    "note": "<cgmzdroptable:newbie drops>",
     "params": [
       150,
       500,

@@ -1986,6 +1986,18 @@
           },
           "list": [
             {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
               "code": 201,
               "indent": 0,
               "parameters": [
@@ -2096,6 +2108,176 @@
                 5,
                 1,
                 0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                7,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                8,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                9,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                10,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                11,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                12,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                13,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                14,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                15,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                23,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                24,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                25,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                26,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                27,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                28,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                29,
+                1,
+                10000
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                0,
+                30,
+                1,
+                10000
               ]
             },
             {
