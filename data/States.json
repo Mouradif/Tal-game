@@ -920,7 +920,7 @@
     "removeByRestriction": false,
     "removeByWalking": true,
     "restriction": 0,
-    "stepsToRemove": 100,
+    "stepsToRemove": 20,
     "messageType": 1
   }
 ]

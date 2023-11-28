@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 43,
+  "editMapId": 45,
   "elements": [
     "",
     "Physical",
@@ -175,7 +175,7 @@
   "optSlipDeath": false,
   "optTransparent": false,
   "partyMembers": [
-    1
+    3
   ],
   "ship": {
     "bgm": {
@@ -539,9 +539,9 @@
   "variables": [
     "",
     "random number",
-    "Hours",
-    "Minutes",
-    "Seconds",
+    "player rank",
+    "",
+    "",
     "",
     "",
     "",
@@ -559,7 +559,7 @@
     "Time",
     ""
   ],
-  "versionId": 37967610,
+  "versionId": 25308109,
   "victoryMe": {
     "name": "",
     "pan": 0,

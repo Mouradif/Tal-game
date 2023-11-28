@@ -1728,6 +1728,38 @@
           },
           "list": [
             {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The path North leads to the training grounds."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The path West will take you to the Adventurers Guild"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The path East takes you to the wilderness"
+              ]
+            },
+            {
               "code": 0,
               "indent": 0,
               "parameters": []

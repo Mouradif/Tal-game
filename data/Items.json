@@ -68,7 +68,7 @@
     "hitType": 0,
     "iconIndex": 128,
     "itypeId": 1,
-    "name": " Light Stone",
+    "name": "Light Stone",
     "note": "[light]",
     "occasion": 0,
     "price": 0,
@@ -120,6 +120,12 @@
       {
         "code": 21,
         "dataId": 28,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 44,
+        "dataId": 8,
         "value1": 1,
         "value2": 0
       }

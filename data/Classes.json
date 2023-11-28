@@ -40,7 +40,23 @@
         "value": 0
       }
     ],
-    "learnings": [],
+    "learnings": [
+      {
+        "level": 1,
+        "skillId": 4,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 5,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 6,
+        "note": ""
+      }
+    ],
     "name": "Adventurer",
     "note": "",
     "params": [

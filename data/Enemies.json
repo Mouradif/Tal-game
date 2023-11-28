@@ -368,9 +368,9 @@
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
       100,
-      0,
+      100,
       15,
-      10,
+      15,
       20,
       20,
       15,
@@ -554,10 +554,10 @@
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
       300,
-      0,
+      100,
       40,
       25,
-      10,
+      25,
       30,
       20,
       20
@@ -615,12 +615,12 @@
     "name": "Skull",
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
+      150,
       100,
-      0,
-      10,
-      10,
-      20,
-      20,
+      27,
+      25,
+      25,
+      25,
       10,
       10
     ]
@@ -677,14 +677,14 @@
     "name": "Flame Skull",
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
-      150,
+      250,
       500,
       25,
-      10,
-      30,
       25,
-      20,
-      10
+      35,
+      35,
+      25,
+      25
     ]
   },
   {
