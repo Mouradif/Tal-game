@@ -2281,7 +2281,7 @@
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "---------",
     "switchId": 12,
     "trigger": 0
   },
@@ -2289,14 +2289,64 @@
     "id": 9,
     "list": [
       {
+        "code": 230,
+        "indent": 0,
+        "parameters": [
+          20
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          19,
+          19,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          19,
+          0,
+          1440,
+          0
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          19,
+          19,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
-    "switchId": 1,
-    "trigger": 0
+    "name": "init time",
+    "switchId": 20,
+    "trigger": 2
   },
   {
     "id": 10,
@@ -2372,7 +2422,7 @@
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "---------",
     "switchId": 1,
     "trigger": 0
   },

@@ -1029,6 +1029,7 @@ Graphics._createPixiApp = function() {
             view: this._canvas,
             autoStart: false
         });
+        window.__PIXI_APP__ = this._app;
         this._app.ticker.remove(this._app.render, this._app);
         this._app.ticker.add(this._onTick, this);
     } catch (e) {
