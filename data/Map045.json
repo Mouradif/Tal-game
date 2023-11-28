@@ -3468,6 +3468,25 @@
           },
           "list": [
             {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\",\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\",\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\",\"{\\\"skil…"
+              ]
+            },
+            {
               "code": 0,
               "indent": 0,
               "parameters": []
@@ -4676,12 +4695,34 @@
               ]
             },
             {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "You will need the following things. Be a rank 4 adventurer,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "have learend the skill Magic Bolt, own a worn staff. With"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "all this I can train you to be an Apprentice Mage."
+              ]
+            },
+            {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
                   "Yes",
-                  "No"
+                  "No",
+                  "learn a skill"
                 ],
                 1,
                 0,
@@ -4728,8 +4769,18 @@
               ]
             },
             {
-              "code": 101,
+              "code": 111,
               "indent": 4,
+              "parameters": [
+                4,
+                3,
+                3,
+                6
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 5,
               "parameters": [
                 "",
                 0,
@@ -4740,28 +4791,28 @@
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "Looks like you meet all the requairments. Would you like "
               ]
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "to train now? this action is not reversable you will be set"
               ]
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "on the mages career path. "
               ]
             },
             {
               "code": 102,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 [
                   "Yes",
@@ -4775,7 +4826,7 @@
             },
             {
               "code": 402,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 0,
                 "Yes"
@@ -4783,7 +4834,7 @@
             },
             {
               "code": 101,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "",
                 0,
@@ -4794,21 +4845,21 @@
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "Ok thats great News. We have a new apprentice in the guild."
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "hip hip haza!!!"
               ]
             },
             {
               "code": 321,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 3,
                 5,
@@ -4817,7 +4868,7 @@
             },
             {
               "code": 123,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "A",
                 0
@@ -4825,16 +4876,54 @@
             },
             {
               "code": 0,
-              "indent": 5,
+              "indent": 6,
               "parameters": []
             },
             {
               "code": 402,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 1,
                 "No"
               ]
+            },
+            {
+              "code": 101,
+              "indent": 6,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "Ok no problem I understand its a big choice to make."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 4,
+              "parameters": []
             },
             {
               "code": 101,
@@ -4851,7 +4940,33 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "Ok no problem I understand its a big choice to make."
+                "It seems you havent learned the skill Magic Bolt. you will"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 5,
+              "parameters": [
+                "need to start your training. come back when you have."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 5,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 5,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
@@ -4860,7 +4975,7 @@
               "parameters": []
             },
             {
-              "code": 404,
+              "code": 412,
               "indent": 4,
               "parameters": []
             },
@@ -5043,6 +5158,63 @@
               "parameters": []
             },
             {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "learn a skill"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Yes you do have some magic potential. Let's see if i "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "have something to teach you."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
               "code": 404,
               "indent": 0,
               "parameters": []
@@ -5177,12 +5349,34 @@
               ]
             },
             {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "You will need the following things. Be a rank 4 adventurer,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "have learend the skill Double Slash, own a worn sword. With"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "all this I can train you to be a Fighter."
+              ]
+            },
+            {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
                   "Yes",
-                  "No"
+                  "No",
+                  "Learn a skill"
                 ],
                 1,
                 0,
@@ -5229,8 +5423,18 @@
               ]
             },
             {
-              "code": 101,
+              "code": 111,
               "indent": 4,
+              "parameters": [
+                4,
+                3,
+                3,
+                5
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 5,
               "parameters": [
                 "",
                 0,
@@ -5241,28 +5445,28 @@
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "Looks like you meet all the requairments. Would you like "
               ]
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "to train now? this action is not reversable you will be set"
               ]
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "on the Fighters career path. "
               ]
             },
             {
               "code": 102,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 [
                   "Yes",
@@ -5276,7 +5480,7 @@
             },
             {
               "code": 402,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 0,
                 "Yes"
@@ -5284,7 +5488,7 @@
             },
             {
               "code": 101,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "",
                 0,
@@ -5295,21 +5499,21 @@
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "Ok thats great News. We have a new Fighter in the guild."
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "hip hip haza!!!"
               ]
             },
             {
               "code": 321,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 3,
                 3,
@@ -5318,7 +5522,7 @@
             },
             {
               "code": 123,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "A",
                 0
@@ -5326,16 +5530,54 @@
             },
             {
               "code": 0,
-              "indent": 5,
+              "indent": 6,
               "parameters": []
             },
             {
               "code": 402,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 1,
                 "No"
               ]
+            },
+            {
+              "code": 101,
+              "indent": 6,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "Ok no problem I understand its a big choice to make."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 4,
+              "parameters": []
             },
             {
               "code": 101,
@@ -5352,7 +5594,33 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "Ok no problem I understand its a big choice to make."
+                "It seems you havent learned the skill Double Slash. you will"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 5,
+              "parameters": [
+                "need to start your training. come back when you have."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 5,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 5,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
@@ -5361,7 +5629,7 @@
               "parameters": []
             },
             {
-              "code": 404,
+              "code": 412,
               "indent": 4,
               "parameters": []
             },
@@ -5544,6 +5812,63 @@
               "parameters": []
             },
             {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Learn a skill"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Yes with some effort i can make you a great fighter. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Let's see if you are ready to learn."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
               "code": 404,
               "indent": 0,
               "parameters": []
@@ -5678,12 +6003,34 @@
               ]
             },
             {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "You will need the following things. Be a rank 4 adventurer,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "have learend the skill Quick strike, own a worn sword. With"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "all this I can train you to be a Hunter."
+              ]
+            },
+            {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
                   "Yes",
-                  "No"
+                  "No",
+                  "Learn a skill"
                 ],
                 1,
                 0,
@@ -5730,8 +6077,18 @@
               ]
             },
             {
-              "code": 101,
+              "code": 111,
               "indent": 4,
+              "parameters": [
+                4,
+                3,
+                3,
+                4
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 5,
               "parameters": [
                 "",
                 0,
@@ -5742,28 +6099,28 @@
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "Looks like you meet all the requairments. Would you like "
               ]
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "to train now? this action is not reversable you will be set"
               ]
             },
             {
               "code": 401,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 "on the hunters career path. "
               ]
             },
             {
               "code": 102,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 [
                   "Yes",
@@ -5777,7 +6134,7 @@
             },
             {
               "code": 402,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 0,
                 "Yes"
@@ -5785,7 +6142,7 @@
             },
             {
               "code": 101,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "",
                 0,
@@ -5796,21 +6153,21 @@
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "Ok thats great News. We have a new hunter in the guild."
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "hip hip haza!!!"
               ]
             },
             {
               "code": 321,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 3,
                 4,
@@ -5819,7 +6176,7 @@
             },
             {
               "code": 123,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "A",
                 0
@@ -5827,16 +6184,54 @@
             },
             {
               "code": 0,
-              "indent": 5,
+              "indent": 6,
               "parameters": []
             },
             {
               "code": 402,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 1,
                 "No"
               ]
+            },
+            {
+              "code": 101,
+              "indent": 6,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "Ok no problem I understand its a big choice to make."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 4,
+              "parameters": []
             },
             {
               "code": 101,
@@ -5853,7 +6248,40 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "Ok no problem I understand its a big choice to make."
+                "It seems you havent learned the skill Quick Strike. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 5,
+              "parameters": [
+                "you will need to start your training. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 5,
+              "parameters": [
+                "Come back when you have."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 5,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 5,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
@@ -5862,7 +6290,7 @@
               "parameters": []
             },
             {
-              "code": 404,
+              "code": 412,
               "indent": 4,
               "parameters": []
             },
@@ -6037,6 +6465,56 @@
               "indent": 1,
               "parameters": [
                 "better option for you. Maybe a fighter or apprentice mage?"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Learn a skill"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Ok let's see what your ready to learn."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
