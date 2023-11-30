@@ -2289,18 +2289,67 @@
     "id": 9,
     "list": [
       {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "6 real hours = 24 game hours"
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "1440 minutes = 24 hours "
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "midnight = 0 minutes"
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "dawn at 360"
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "noon at 720"
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "dusk at 1080"
+        ]
+      },
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "900 frames = 1 in game minute"
+        ]
+      },
+      {
         "code": 230,
         "indent": 0,
         "parameters": [
-          20
+          900
         ]
       },
       {
         "code": 122,
         "indent": 0,
         "parameters": [
-          19,
-          19,
+          20,
+          20,
           1,
           0,
           1
@@ -2311,7 +2360,7 @@
         "indent": 0,
         "parameters": [
           1,
-          19,
+          20,
           0,
           1440,
           0
@@ -2321,8 +2370,8 @@
         "code": 122,
         "indent": 1,
         "parameters": [
-          19,
-          19,
+          20,
+          20,
           0,
           0,
           0
@@ -2352,14 +2401,135 @@
     "id": 10,
     "list": [
       {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          20,
+          0,
+          360,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          19,
+          19,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          17,
+          17,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          20,
+          0,
+          1080,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          17,
+          17,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          19,
+          19,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          17,
+          0
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$gameLighting.setMapAmbient('day', 120);"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$gameLighting.setMapAmbient('night', 120);"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
-    "switchId": 1,
-    "trigger": 0
+    "name": "time of day",
+    "switchId": 20,
+    "trigger": 2
   },
   {
     "id": 11,
@@ -2462,100 +2632,11 @@
     "id": 17,
     "list": [
       {
-        "code": 355,
-        "indent": 0,
-        "parameters": [
-          "$gameLighting.setStatus(0, 0);"
-        ]
-      },
-      {
-        "code": 0,
-        "indent": 0,
-        "parameters": []
-      }
-    ],
-    "name": "gamelighting.set.stat 0, 0 ",
-    "switchId": 1,
-    "trigger": 0
-  },
-  {
-    "id": 18,
-    "list": [
-      {
         "code": 111,
         "indent": 0,
         "parameters": [
-          1,
-          19,
-          0,
-          3,
-          0
-        ]
-      },
-      {
-        "code": 111,
-        "indent": 1,
-        "parameters": [
-          0,
-          19,
-          1
-        ]
-      },
-      {
-        "code": 121,
-        "indent": 2,
-        "parameters": [
-          19,
-          19,
-          0
-        ]
-      },
-      {
-        "code": 355,
-        "indent": 2,
-        "parameters": [
-          "$gameLighting.setMapAmbient(\"#FFFFFF\", 120)"
-        ]
-      },
-      {
-        "code": 0,
-        "indent": 2,
-        "parameters": []
-      },
-      {
-        "code": 412,
-        "indent": 1,
-        "parameters": []
-      },
-      {
-        "code": 0,
-        "indent": 1,
-        "parameters": []
-      },
-      {
-        "code": 412,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 0,
-        "indent": 0,
-        "parameters": []
-      }
-    ],
-    "name": "Time",
-    "switchId": 20,
-    "trigger": 2
-  },
-  {
-    "id": 19,
-    "list": [
-      {
-        "code": 111,
-        "indent": 0,
-        "parameters": [
-          0,
-          19,
+          11,
+          "shift",
           1
         ]
       },
@@ -2563,27 +2644,10 @@
         "code": 357,
         "indent": 1,
         "parameters": [
-          "-ShoraLighting-",
-          "Set Map Ambient",
-          "Set Map Ambient",
-          {
-            "color": "#ffffff",
-            "time": "60"
-          }
-        ]
-      },
-      {
-        "code": 657,
-        "indent": 1,
-        "parameters": [
-          "Color = #ffffff"
-        ]
-      },
-      {
-        "code": 657,
-        "indent": 1,
-        "parameters": [
-          "Time = 60"
+          "CGMZ_QuestSystem",
+          "Call Scene",
+          "Call Scene",
+          {}
         ]
       },
       {
@@ -2602,8 +2666,34 @@
         "parameters": []
       }
     ],
-    "name": "set map Ambient",
-    "switchId": 19,
+    "name": "call quest scene",
+    "switchId": 16,
+    "trigger": 2
+  },
+  {
+    "id": 18,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 19,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switchId": 1,
     "trigger": 0
   },
   {

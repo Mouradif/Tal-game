@@ -20738,17 +20738,17 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -20802,17 +20802,17 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -20866,17 +20866,17 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -20930,17 +20930,17 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -20994,17 +20994,17 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -26129,7 +26129,7 @@
     },
     {
       "id": 11,
-      "name": "time",
+      "name": "daily quest reset",
       "note": "",
       "pages": [
         {
@@ -26158,88 +26158,23 @@
           },
           "list": [
             {
-              "code": 357,
+              "code": 111,
               "indent": 0,
               "parameters": [
-                "Community_Lighting_MZ",
-                "masterSwitch",
-                "Plugin On/Off",
-                {
-                  "enabled": "true"
-                }
+                1,
+                20,
+                0,
+                1439,
+                0
               ]
             },
             {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Enabled = true"
-              ]
+              "code": 0,
+              "indent": 1,
+              "parameters": []
             },
             {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "Community_Lighting_MZ",
-                "setTime",
-                "Time Set (HH:MM)",
-                {
-                  "hours": "7",
-                  "minutes": "0",
-                  "mode": "set",
-                  "fade": "true"
-                }
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Hours = 7"
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Minutes = 0"
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Mode = set"
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Fade tint over hour = true"
-              ]
-            },
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "Community_Lighting_MZ",
-                "setTimeSpeed",
-                "Time Speed",
-                {
-                  "speed": "10"
-                }
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Speed = 10"
-              ]
-            },
-            {
-              "code": 214,
+              "code": 412,
               "indent": 0,
               "parameters": []
             },
@@ -26695,7 +26630,7 @@
     },
     {
       "id": 15,
-      "name": "ambient light",
+      "name": "blue slime quest spawner",
       "note": "",
       "pages": [
         {
@@ -26724,31 +26659,357 @@
           },
           "list": [
             {
-              "code": 357,
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 21,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 21,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 111,
               "indent": 0,
               "parameters": [
-                "-ShoraLighting-",
-                "Set Map Ambient",
-                "Set Map Ambient",
+                1,
+                21,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "GALV_EventSpawnerMZ",
+                "spawnEvent",
+                "Spawn Event",
                 {
-                  "color": "#c2c2c2",
-                  "time": "1"
+                  "eventId": "1",
+                  "locationType": "regions",
+                  "locationData": "11",
+                  "overlapType": "none",
+                  "saveEvent": "true"
                 }
               ]
             },
             {
               "code": 657,
-              "indent": 0,
+              "indent": 1,
               "parameters": [
-                "Color = #c2c2c2"
+                "Event ID = 1"
               ]
             },
             {
               "code": 657,
-              "indent": 0,
+              "indent": 1,
               "parameters": [
-                "Time = 1"
+                "Spawn Location Type = regions"
               ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Location Data = 11"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Overlap Type = none"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Save Event = true"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "GALV_EventSpawnerMZ",
+                "spawnEvent",
+                "Spawn Event",
+                {
+                  "eventId": "1",
+                  "locationType": "regions",
+                  "locationData": "11",
+                  "overlapType": "none",
+                  "saveEvent": "true"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Event ID = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Location Type = regions"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Location Data = 11"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Overlap Type = none"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Save Event = true"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "GALV_EventSpawnerMZ",
+                "spawnEvent",
+                "Spawn Event",
+                {
+                  "eventId": "1",
+                  "locationType": "regions",
+                  "locationData": "11",
+                  "overlapType": "none",
+                  "saveEvent": "true"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Event ID = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Location Type = regions"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Location Data = 11"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Overlap Type = none"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Save Event = true"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "GALV_EventSpawnerMZ",
+                "spawnEvent",
+                "Spawn Event",
+                {
+                  "eventId": "1",
+                  "locationType": "regions",
+                  "locationData": "11",
+                  "overlapType": "none",
+                  "saveEvent": "true"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Event ID = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Location Type = regions"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Location Data = 11"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Overlap Type = none"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Save Event = true"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "GALV_EventSpawnerMZ",
+                "spawnEvent",
+                "Spawn Event",
+                {
+                  "eventId": "1",
+                  "locationType": "regions",
+                  "locationData": "11",
+                  "overlapType": "none",
+                  "saveEvent": "true"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Event ID = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Location Type = regions"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Location Data = 11"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Spawn Overlap Type = none"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Save Event = true"
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 0,
@@ -26774,11 +27035,62 @@
           "stepAnime": false,
           "through": false,
           "trigger": 4,
-          "walkAnime": false
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
         }
       ],
-      "x": 29,
-      "y": 29
+      "x": 38,
+      "y": 27
     },
     {
       "id": 16,
@@ -27096,7 +27408,7 @@
     },
     {
       "id": 21,
-      "name": "EV021",
+      "name": "Quest Board",
       "note": "",
       "pages": [
         {
@@ -27125,161 +27437,63 @@
           },
           "list": [
             {
-              "code": 122,
+              "code": 121,
               "indent": 0,
               "parameters": [
-                2,
-                2,
-                1,
-                0,
-                1
-              ]
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": [
-                "A",
+                16,
+                16,
                 0
               ]
             },
             {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        }
-      ],
-      "x": 29,
-      "y": 30
-    },
-    {
-      "id": 22,
-      "name": "EV022",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": ")old warrior bill",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 0
-          },
-          "list": [
-            {
-              "code": 355,
+              "code": 357,
               "indent": 0,
               "parameters": [
-                "const hours = Math.floor($gameVariables.value(19) / 60).toString().padStart(2, '0');"
+                "CGMZ_QuestSystem",
+                "Call Quest Board Scene",
+                "Call Quest Board Scene",
+                {
+                  "Window Name": "Quest Board",
+                  "Quest Names": "[\"Too many slimes!\",\"The Cave\"]",
+                  "Scene Image": "pictures/quest board816x624",
+                  "Category Icon Type": "Hunting",
+                  "Show Legend": "true"
+                }
               ]
             },
             {
-              "code": 655,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                "const minutes = Math.floor($gameVariables.value(19) % 60).toString().padStart(2, '0');"
+                "Window Name = Quest Board"
               ]
             },
             {
-              "code": 655,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                ""
+                "Quest Names = [\"Too many slimes!\",\"The Cave\"]"
               ]
             },
             {
-              "code": 655,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                "$gameMessage.add(`It's ${hours}:${minutes}`);"
+                "Scene Image = pictures/quest board816x624"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Category Icon Type = Hunting"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Show Legend = true"
               ]
             },
             {
@@ -27309,10 +27523,760 @@
           "walkAnime": true
         }
       ],
-      "x": 33,
+      "x": 35,
+      "y": 28
+    },
+    {
+      "id": 22,
+      "name": "EV022",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "e_npcA_shadow_3x",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "time ",
+                  "quests"
+                ],
+                1,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "time "
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "const hours = Math.floor($gameVariables.value(20) / 60).toString().padStart(2, '0');"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "const minutes = Math.floor($gameVariables.value(20) % 60).toString().padStart(2, '0');"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "$gameMessage.add(`It's ${hours}:${minutes}`);"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "quests"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 1,
+              "parameters": [
+                [
+                  "turn in quests",
+                  "current quests"
+                ],
+                1,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                0,
+                "turn in quests"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 2,
+              "parameters": [
+                [
+                  "Blue slimes",
+                  "Bandits"
+                ],
+                1,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 2,
+              "parameters": [
+                0,
+                "Blue slimes"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                21,
+                0,
+                5,
+                1
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 4,
+              "parameters": [
+                "CGMZ_QuestSystem",
+                "Complete Quest",
+                "Complete Quest",
+                {
+                  "Quest Name": "Too many slimes!"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 4,
+              "parameters": [
+                "Quest Name = Too many slimes!"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "You have completed the quest"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "Too Many Slimes!"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 4,
+              "parameters": [
+                21,
+                21,
+                1
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 4,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 411,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 355,
+              "indent": 4,
+              "parameters": [
+                "const blueslime = $gameVariables.value(21);"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 4,
+              "parameters": [
+                "$gameMessage.setBackground(1);"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 4,
+              "parameters": [
+                "$gameMessage.setPositionType(1);"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 4,
+              "parameters": [
+                "$gameMessage.add(`You have killed ${blueslime} blue slimes`);"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "you need to kill more slimes"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 2,
+              "parameters": [
+                1,
+                "Bandits"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                22,
+                0,
+                5,
+                1
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 4,
+              "parameters": [
+                "CGMZ_QuestSystem",
+                "Complete Quest",
+                "Complete Quest",
+                {
+                  "Quest Name": "The Cave"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 4,
+              "parameters": [
+                "Quest Name = The Cave"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "You have completed the quest"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 4,
+              "parameters": [
+                "The Cave"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 4,
+              "parameters": [
+                22,
+                22,
+                1
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 4,
+              "parameters": [
+                23,
+                23,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 355,
+              "indent": 3,
+              "parameters": [
+                "const bandit = $gameVariables.value(22);"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 3,
+              "parameters": [
+                "$gameMessage.setBackground(1);"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 3,
+              "parameters": [
+                "$gameMessage.setPositionType(1);"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 3,
+              "parameters": [
+                "$gameMessage.add(`You have only killed ${bandit} bandits. "
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 3,
+              "parameters": [
+                "Try that cave to the north`);"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                1,
+                "current quests"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 2,
+              "parameters": [
+                "CGMZ_QuestSystem",
+                "Call Scene",
+                "Call Scene",
+                {}
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 23,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "e_npcA_shadow_3x",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "time ",
+                  "quests"
+                ],
+                1,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "time "
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "const hours = Math.floor($gameVariables.value(20) / 60).toString().padStart(2, '0');"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "const minutes = Math.floor($gameVariables.value(20) % 60).toString().padStart(2, '0');"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "$gameMessage.add(`It's ${hours}:${minutes}`);"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "quests"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You have completed all my quests thank you very much."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 34,
       "y": 31
     },
-    null,
+    {
+      "id": 23,
+      "name": "Quest Board",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                16,
+                16,
+                0
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "CGMZ_QuestSystem",
+                "Call Quest Board Scene",
+                "Call Quest Board Scene",
+                {
+                  "Window Name": "Quest Board",
+                  "Quest Names": "[\"Too many slimes!\",\"The Cave\"]",
+                  "Scene Image": "pictures/quest board816x624",
+                  "Category Icon Type": "Hunting",
+                  "Show Legend": "true"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Window Name = Quest Board"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Quest Names = [\"Too many slimes!\",\"The Cave\"]"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Scene Image = pictures/quest board816x624"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Category Icon Type = Hunting"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Show Legend = true"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 34,
+      "y": 28
+    },
     null,
     null,
     null

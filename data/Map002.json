@@ -1900,12 +1900,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -1940,9 +1937,9 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
+            "selfSwitchValid": false,
+            "switch1Id": 21,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -1951,13 +1948,108 @@
           },
           "directionFix": false,
           "image": {
-            "characterIndex": 0,
-            "characterName": "",
+            "tileId": 0,
+            "characterName": "slimevariants_3",
             "direction": 2,
             "pattern": 0,
-            "tileId": 0
+            "characterIndex": 1
           },
           "list": [
+            {
+              "code": 301,
+              "indent": 0,
+              "parameters": [
+                0,
+                1,
+                false,
+                false
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "CGMZ_QuestSystem",
+                "Set Objective Progress",
+                "Set Objective Progress",
+                {
+                  "Quest Name": "Too many slimes!",
+                  "id": "blue slime",
+                  "mode": "+",
+                  "amount": "1",
+                  "variable": "21"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Quest Name = Too many slimes!"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "id = blue slime"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "mode = +"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "amount = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "variable = 21"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                21,
+                21,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "You have killed \\V[21] Blue slimes!"
+              ]
+            },
+            {
+              "code": 214,
+              "indent": 0,
+              "parameters": []
+            },
             {
               "code": 0,
               "indent": 0,
@@ -1977,11 +2069,11 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
+          "moveType": 1,
+          "priorityType": 1,
           "stepAnime": false,
           "through": false,
-          "trigger": 0,
+          "trigger": 1,
           "walkAnime": true
         }
       ],
@@ -2029,12 +2121,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2060,57 +2149,6 @@
           "stepAnime": false,
           "through": false,
           "trigger": 2,
-          "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
           "walkAnime": true
         }
       ],
@@ -2158,12 +2196,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2186,57 +2221,6 @@
           "moveSpeed": 3,
           "moveType": 1,
           "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
           "stepAnime": false,
           "through": false,
           "trigger": 0,
@@ -2287,12 +2271,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2315,57 +2296,6 @@
           "moveSpeed": 3,
           "moveType": 1,
           "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
           "stepAnime": false,
           "through": false,
           "trigger": 0,
@@ -2416,12 +2346,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2456,69 +2383,9 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        }
-      ],
-      "x": 9,
-      "y": 1
-    },
-    {
-      "id": 6,
-      "name": "cultist1",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
             "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
+            "switch1Id": 22,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -2528,7 +2395,7 @@
           "directionFix": false,
           "image": {
             "tileId": 0,
-            "characterName": "cultists_masks_3",
+            "characterName": "bandits_3",
             "direction": 2,
             "pattern": 1,
             "characterIndex": 0
@@ -2539,18 +2406,15 @@
               "indent": 0,
               "parameters": [
                 0,
-                5,
+                6,
                 false,
                 false
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2577,64 +2441,13 @@
           "through": false,
           "trigger": 2,
           "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
         }
       ],
-      "x": 11,
+      "x": 9,
       "y": 1
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "bandit2",
       "note": "",
       "pages": [
@@ -2674,12 +2487,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2706,64 +2516,13 @@
           "through": false,
           "trigger": 2,
           "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
         }
       ],
       "x": 9,
       "y": 2
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "bandit3",
       "note": "",
       "pages": [
@@ -2803,12 +2562,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2835,65 +2591,14 @@
           "through": false,
           "trigger": 2,
           "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
         }
       ],
       "x": 9,
       "y": 3
     },
     {
-      "id": 9,
-      "name": "bandit4",
+      "id": 8,
+      "name": "bandit leader",
       "note": "",
       "pages": [
         {
@@ -2917,7 +2622,7 @@
             "tileId": 0,
             "characterName": "bandits_3",
             "direction": 2,
-            "pattern": 0,
+            "pattern": 1,
             "characterIndex": 6
           },
           "list": [
@@ -2932,12 +2637,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -2964,7 +2666,16 @@
           "through": false,
           "trigger": 2,
           "walkAnime": true
-        },
+        }
+      ],
+      "x": 9,
+      "y": 4
+    },
+    {
+      "id": 9,
+      "name": "cultist1",
+      "note": "",
+      "pages": [
         {
           "conditions": {
             "actorId": 1,
@@ -2972,7 +2683,7 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
+            "selfSwitchValid": false,
             "switch1Id": 1,
             "switch1Valid": false,
             "switch2Id": 1,
@@ -2983,13 +2694,28 @@
           },
           "directionFix": false,
           "image": {
-            "characterIndex": 0,
-            "characterName": "",
+            "tileId": 0,
+            "characterName": "cultists_masks_3",
             "direction": 2,
-            "pattern": 0,
-            "tileId": 0
+            "pattern": 1,
+            "characterIndex": 0
           },
           "list": [
+            {
+              "code": 301,
+              "indent": 0,
+              "parameters": [
+                0,
+                5,
+                false,
+                false
+              ]
+            },
+            {
+              "code": 214,
+              "indent": 0,
+              "parameters": []
+            },
             {
               "code": 0,
               "indent": 0,
@@ -3009,16 +2735,16 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
+          "moveType": 1,
+          "priorityType": 1,
           "stepAnime": false,
           "through": false,
-          "trigger": 0,
+          "trigger": 2,
           "walkAnime": true
         }
       ],
-      "x": 9,
-      "y": 4
+      "x": 11,
+      "y": 1
     },
     {
       "id": 10,
@@ -3061,12 +2787,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -3092,57 +2815,6 @@
           "stepAnime": false,
           "through": false,
           "trigger": 2,
-          "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
           "walkAnime": true
         }
       ],
@@ -3190,12 +2862,9 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
               "indent": 0,
-              "parameters": [
-                "A",
-                0
-              ]
+              "parameters": []
             },
             {
               "code": 0,
@@ -3222,57 +2891,6 @@
           "through": false,
           "trigger": 2,
           "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "characterIndex": 0,
-            "characterName": "",
-            "direction": 2,
-            "pattern": 0,
-            "tileId": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
         }
       ],
       "x": 11,
@@ -3280,7 +2898,7 @@
     },
     {
       "id": 12,
-      "name": "cultist4",
+      "name": "cultist leader",
       "note": "",
       "pages": [
         {
@@ -3319,12 +2937,84 @@
               ]
             },
             {
-              "code": 123,
+              "code": 214,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 1,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 2,
+          "walkAnime": true
+        }
+      ],
+      "x": 11,
+      "y": 4
+    },
+    {
+      "id": 13,
+      "name": "Zombie1",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "mzombies_3",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 301,
               "indent": 0,
               "parameters": [
-                "A",
-                0
+                0,
+                11,
+                false,
+                false
               ]
+            },
+            {
+              "code": 214,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 0,
@@ -3359,7 +3049,7 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
+            "selfSwitchValid": false,
             "switch1Id": 1,
             "switch1Valid": false,
             "switch2Id": 1,
@@ -3404,8 +3094,8 @@
           "walkAnime": true
         }
       ],
-      "x": 11,
-      "y": 4
+      "x": 13,
+      "y": 1
     }
   ]
 }

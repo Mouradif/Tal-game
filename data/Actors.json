@@ -28,15 +28,15 @@
     "id": 2,
     "battlerName": "",
     "characterIndex": 0,
-    "characterName": ")Sam_Archer_Rogue",
-    "classId": 4,
+    "characterName": ")base_character",
+    "classId": 1,
     "equips": [
-      23,
+      5,
       0,
       53,
       9,
-      74,
-      87
+      0,
+      0
     ],
     "faceIndex": 0,
     "faceName": "",

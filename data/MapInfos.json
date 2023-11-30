@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1368,
-    "scrollY": 1647.818181818182
+    "scrollX": 1658,
+    "scrollY": 1385.5
   },
   {
     "id": 2,
@@ -25,8 +25,8 @@
     "name": "Armor shop",
     "order": 2,
     "parentId": 1,
-    "scrollX": 720.8888888888889,
-    "scrollY": 403.1111111111111,
+    "scrollX": 811,
+    "scrollY": 453.5,
     "quick": false
   },
   {
@@ -225,8 +225,8 @@
     "name": "Wilderness Adventure",
     "order": 27,
     "parentId": 38,
-    "scrollX": 973.1999999999999,
-    "scrollY": 553.8,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -375,8 +375,8 @@
     "name": "Wildernes Start",
     "order": 22,
     "parentId": 1,
-    "scrollX": 720.8888888888889,
-    "scrollY": 403.1111111111111,
+    "scrollX": 811,
+    "scrollY": 453.5,
     "quick": false
   },
   {
@@ -385,8 +385,8 @@
     "name": "Training Grounds",
     "order": 25,
     "parentId": 38,
-    "scrollX": 720.8888888888889,
-    "scrollY": 410.22222222222223,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -396,7 +396,7 @@
     "order": 28,
     "parentId": 23,
     "scrollX": 811,
-    "scrollY": 545.5,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -414,8 +414,8 @@
     "name": "Local Forest",
     "order": 26,
     "parentId": 38,
-    "scrollX": 720.8888888888889,
-    "scrollY": 1292
+    "scrollX": 811,
+    "scrollY": 2333.5
   },
   {
     "id": 43,
@@ -423,8 +423,8 @@
     "name": "test dungeon",
     "order": 45,
     "parentId": 2,
-    "scrollX": 720.8888888888889,
-    "scrollY": 403.1111111111111,
+    "scrollX": 811,
+    "scrollY": 453.5,
     "quick": false
   },
   {
@@ -433,8 +433,8 @@
     "name": "Character Creation",
     "order": 46,
     "parentId": 0,
-    "scrollX": 753.8181818181819,
-    "scrollY": 450,
+    "scrollX": 811,
+    "scrollY": 453.5,
     "quick": false
   },
   {
@@ -443,8 +443,8 @@
     "name": "Guild House Inside",
     "order": 24,
     "parentId": 41,
-    "scrollX": 753.8181818181819,
-    "scrollY": 549.2727272727273,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -453,8 +453,8 @@
     "name": "Character Creation",
     "order": 43,
     "parentId": 0,
-    "scrollX": 0,
-    "scrollY": 0,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   }
 ]
