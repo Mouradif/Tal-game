@@ -13,6 +13,7 @@ Game_Follower.prototype.refresh = function() {
   };
 };
 
+const RefreshPlayer = Game_Player.prototype.refresh;
 Game_Player.prototype.refresh = function() {
   const actorData = $gameParty.leader().actor();
   const { base, hair, top, bottom } = actorData.meta;
@@ -45,7 +46,6 @@ Sprite_Character.prototype.setCharacter = function(character) {
     this.addChild(this._characterHair);
     this.addChild(this._characterTop);
     this.addChild(this._characterBottom);
-    this._isElementsCharacter = true;
   }
 }
 
@@ -71,6 +71,10 @@ Sprite_Character.prototype.update = function() {
     this._characterHair.update();
     this._characterTop.update();
     this._characterBottom.update();
+    this.updateBitmap();
+    this.updateOther();
+    this.z = this._character.screenZ();
+    Sprite.prototype.updateVisibility.call(this);
     return;
   }
   updateSpriteCharacter.call(this);

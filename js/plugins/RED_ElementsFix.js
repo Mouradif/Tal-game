@@ -40,7 +40,7 @@
 
 	Sprite_Character.prototype.setCharacterBitmap = function() {
 		oldsetbitmap.call(this);
-		this._isElementsCharacter = ImageManager.isElementsCharacter(this._characterName);
+		this._isElementsCharacter = this.isMultipart() || ImageManager.isElementsCharacter(this._characterName);
 	};
 
 	const oldupdate = Sprite_Character.prototype.updatePosition;

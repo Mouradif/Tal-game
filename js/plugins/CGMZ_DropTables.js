@@ -77,7 +77,7 @@
  * -----------------------------Integrations-----------------------------------
  * This plugin has special functions when used with other CGMZ Plugins:
  *
- * • CGMZ Currency System 
+ * • CGMZ Currency System
  * A drop table can drop Currency System currencies. Use the currency ID param
  * to have the drop table drop currency with the ID from the currency system.
  * For now, drop tables cannot drop custom currencies in battle.
@@ -135,7 +135,7 @@
  * @min 0.00
  * @max 100.00
  * @desc The odds (0-100) of getting nothing from this table
- * 
+ *
  * @param Drops
  * @type struct<Drop>[]
  * @default []
@@ -149,45 +149,45 @@
  * @min 0.00
  * @max 100.00
  * @desc The odds (0-100) of getting this drop
- * 
+ *
  * @param Amount
  * @type number
  * @default 1
  * @min 1
  * @desc The amount of items to drop
- * 
+ *
  * @param Variance
  * @type number
  * @default 0
  * @min 0
  * @desc The random amount to add to the Amount parameter.
- * 
+ *
  * @param Item
  * @type item
  * @default 0
  * @desc Item ID.
- * 
+ *
  * @param Weapon
  * @type weapon
  * @default 0
  * @desc Weapon ID.
- * 
+ *
  * @param Armor
  * @type armor
  * @default 0
  * @desc Armor ID.
- * 
+ *
  * @param Gold
  * @type number
  * @default 0
  * @desc Set to non-zero if currency drop.
- * 
+ *
  * @param Currency ID
  * @desc Currency ID of gold type (if using CGMZ Currency System, leave blank otherwise).
- * 
+ *
  * @param Table
  * @desc Other Drop Table ID. If using this, do not use other drop types.
- * 
+ *
  * @param Txt
  * @default Received \c[1]%amtx\c[0] %name!
  * @desc String representation of this drop. See documentation.
@@ -359,10 +359,10 @@ CGMZ_Temp.prototype.pluginCommandDropTableGenerateDrop = function(args) {
 	if(drop.amount > 0) {
 		$gameMessage.add($cgmzTemp.makeDropTableItemText(drop.dropItem, drop.amount));
 		switch(drop.dropItem.type) {
-			case "item": 
-			case "weapon": 
+			case "item":
+			case "weapon":
 			case "armor": $gameParty.gainItem($cgmzTemp.lookupItem(drop.dropItem.type, drop.dropItem.id), drop.amount, false); break;
-			case "gold": 
+			case "gold":
 				if(Imported.CGMZ_CurrencySystem) {
 					const currency = $cgmz.getCurrency(drop.dropItem.id);
 					if(currency) {
@@ -387,7 +387,7 @@ CGMZ_Temp.prototype.makeDropTableItemText = function(item, amount) {
 		case "item": string = string.replace(/%name/g, $dataItems[item.id].name).replace(/%icon/g, '\\i[' + $dataItems[item.id].iconIndex + ']'); break;
 		case "weapon": string = string.replace(/%name/g, $dataWeapons[item.id].name).replace(/%icon/g, '\\i[' + $dataWeapons[item.id].iconIndex + ']'); break;
 		case "armor": string = string.replace(/%name/g, $dataArmors[item.id].name).replace(/%icon/g, '\\i[' + $dataArmors[item.id].iconIndex + ']'); break;
-		case "gold": 
+		case "gold":
 			if(Imported.CGMZ_CurrencySystem) {
 				const currency = $cgmzTemp.getCurrency(item.id);
 				if(currency) {
@@ -420,8 +420,8 @@ Game_Enemy.prototype.makeDropItems = function() {
 			const drop = $cgmzTemp.getDropTableDrop(dropTableId);
 			if(drop.amount > 0) {
 				switch(drop.dropItem.type) {
-					case "item": 
-					case "weapon": 
+					case "item":
+					case "weapon":
 					case "armor":
 						for(let i = 0; i < drop.amount; i++) {
 							oldReturn.push($cgmzTemp.lookupItem(drop.dropItem.type, drop.dropItem.id));

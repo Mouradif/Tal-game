@@ -510,40 +510,40 @@ class TacticsSystem {
     static pluginName = "ShatteredRealms_TacticsSystem";
     static parameters = PluginManager.parameters(TacticsSystem.pluginName);
 
-    static selectorFile =          "selector";
-    static selectorSpeed =         TacticsSystem.getParamNumber('selectorSpeed');
-    static mvp =                   TacticsSystem.getParamNumber('movePoints');
-    static actionRange =           TacticsSystem.getParamString('actionRange');
-    static waitSkillId =           TacticsSystem.getParamNumber('waitSkillId');
-    static autoTurnEnd =           TacticsSystem.getParamBoolean('autoTurnEnd');
-    static moveScopeColor =        TacticsSystem.getParamString('moveScopeColor');
-    static allyScopeColor =        TacticsSystem.getParamString('allyScopeColor');
-    static enemyScopeColor =       TacticsSystem.getParamString('enemyScopeColor');
-    static gridOpacity =           TacticsSystem.getParamNumber('gridOpacity');
-    static showHpGauge =           TacticsSystem.getParamBoolean('showHpGauge');
-    static durationStartSprite =   TacticsSystem.getParamNumber('durationStartSprite');
-    static fadeOutEnd =            TacticsSystem.getParamBoolean('fadeOutEnd');
-    static setTransparentUnit =    TacticsSystem.getParamBoolean('setTransparentUnit');
-    static showFaceUnit =          TacticsSystem.getParamBoolean('showFaceUnit');
-    static battleStartTerm =       TacticsSystem.getParamString('battleStartTerm');
-    static endTurnTerm =           TacticsSystem.getParamString('endTurnTerm');
-    static damageTerm =            TacticsSystem.getParamString('damageTerm');
-    static recoverTerm =           TacticsSystem.getParamString('recoverTerm');
-    static drainTerm =             TacticsSystem.getParamString('drainTerm');
-    static hitRateTerm =           TacticsSystem.getParamString('hitRateTerm');
-    static criticalRateTerm =      TacticsSystem.getParamString('criticalRateTerm');
-    static teleportTerm =          TacticsSystem.getParamString('teleportTerm');
-    static otherActionTerm =       TacticsSystem.getParamString('otherActionTerm');
-    static wait =                  TacticsSystem.getParamString('waitCommandName');
-    static battleStartId =         TacticsSystem.getParamNumber('battleStartId');
-    static playerPhaseId =         TacticsSystem.getParamNumber('playerPhaseId');
-    static enemyPhaseId =          TacticsSystem.getParamNumber('enemyPhaseId');
-    static phaseVarId =            TacticsSystem.getParamNumber('currentPhaseId');
-    static playerPhaseVarId =      TacticsSystem.getParamNumber('currentPlayerPhaseId');
-    static battlePhaseVarId =      TacticsSystem.getParamNumber('currentBattlePhaseId');
-    static turnCountVarId =        TacticsSystem.getParamNumber('turnCountId');
-    static showBattleStart =       TacticsSystem.getParamBoolean('showBattleStart');
-    static teleportFormula =       TacticsSystem.getParamString('teleportDistanceFormula');
+    static selectorFile = "selector";
+    static selectorSpeed = TacticsSystem.getParamNumber('selectorSpeed');
+    static mvp = TacticsSystem.getParamNumber('movePoints');
+    static actionRange = TacticsSystem.getParamString('actionRange');
+    static waitSkillId = TacticsSystem.getParamNumber('waitSkillId');
+    static autoTurnEnd = TacticsSystem.getParamBoolean('autoTurnEnd');
+    static moveScopeColor = TacticsSystem.getParamString('moveScopeColor');
+    static allyScopeColor = TacticsSystem.getParamString('allyScopeColor');
+    static enemyScopeColor = TacticsSystem.getParamString('enemyScopeColor');
+    static gridOpacity = TacticsSystem.getParamNumber('gridOpacity');
+    static showHpGauge = TacticsSystem.getParamBoolean('showHpGauge');
+    static durationStartSprite = TacticsSystem.getParamNumber('durationStartSprite');
+    static fadeOutEnd = TacticsSystem.getParamBoolean('fadeOutEnd');
+    static setTransparentUnit = TacticsSystem.getParamBoolean('setTransparentUnit');
+    static showFaceUnit = TacticsSystem.getParamBoolean('showFaceUnit');
+    static battleStartTerm = TacticsSystem.getParamString('battleStartTerm');
+    static endTurnTerm = TacticsSystem.getParamString('endTurnTerm');
+    static damageTerm = TacticsSystem.getParamString('damageTerm');
+    static recoverTerm = TacticsSystem.getParamString('recoverTerm');
+    static drainTerm = TacticsSystem.getParamString('drainTerm');
+    static hitRateTerm = TacticsSystem.getParamString('hitRateTerm');
+    static criticalRateTerm = TacticsSystem.getParamString('criticalRateTerm');
+    static teleportTerm = TacticsSystem.getParamString('teleportTerm');
+    static otherActionTerm = TacticsSystem.getParamString('otherActionTerm');
+    static wait = TacticsSystem.getParamString('waitCommandName');
+    static battleStartId = TacticsSystem.getParamNumber('battleStartId');
+    static playerPhaseId = TacticsSystem.getParamNumber('playerPhaseId');
+    static enemyPhaseId = TacticsSystem.getParamNumber('enemyPhaseId');
+    static phaseVarId = TacticsSystem.getParamNumber('currentPhaseId');
+    static playerPhaseVarId = TacticsSystem.getParamNumber('currentPlayerPhaseId');
+    static battlePhaseVarId = TacticsSystem.getParamNumber('currentBattlePhaseId');
+    static turnCountVarId = TacticsSystem.getParamNumber('turnCountId');
+    static showBattleStart = TacticsSystem.getParamBoolean('showBattleStart');
+    static teleportFormula = TacticsSystem.getParamString('teleportDistanceFormula');
     static showInformationWindow = TacticsSystem.getParamBoolean('showInformationWindow');
 
     // in game use as var
@@ -666,11 +666,10 @@ Bitmap.prototype.drawLine = function(x1, y1, x2, y2) {
 // The static class that manages the database and game objects.
 
 TacticsSystem.DataManager_createGameObjects = DataManager.createGameObjects;
-
 DataManager.createGameObjects = function() {
-    $gameSelector = new Game_Selector();
-    $gameTroopTs  = new Game_TroopTs();
-    $gamePartyTs  = new Game_PartyTs();
+    window.$gameSelector = new Game_Selector();
+    window.$gameTroopTs  = new Game_TroopTs();
+    window.$gamePartyTs  = new Game_PartyTs();
     TacticsSystem.DataManager_createGameObjects.call(this);
 };
 
@@ -678,7 +677,6 @@ DataManager.createGameObjects = function() {
 // SceneManager, new
 //
 // The static class that manages scene transitions.
-
 SceneManager.isCurrentScene = function(sceneClass) {
     return this._scene && this._scene.constructor === sceneClass;
 };
@@ -722,16 +720,18 @@ Scene_Battle.prototype.loadFaceset = function() {
 
 //new
 Scene_Battle.prototype.loadFacesetActor = function() {
-    $gamePartyTs.members().forEach(function(member) {
+    const members = $gamePartyTs.members();
+    for (const member of members) {
         ImageManager.loadFace(member.faceName());
-    });
+    }
 };
 
 //new
 Scene_Battle.prototype.loadFacesetEnemy = function() {
-    $gameTroopTs.members().forEach(function(member) {
+    const members = $gameTroopTs.members();
+    for (const member of members) {
         ImageManager.loadEnemy(member.battlerName());
-    });
+    }
 };
 
 Scene_Battle.prototype.update = function() {

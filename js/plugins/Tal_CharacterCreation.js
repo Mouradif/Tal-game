@@ -47,6 +47,7 @@
  * @type string[]
  * @default ["asset1", "asset2", "..."]
  */
+
 (() => {
   const $pluginName = 'Tal_CharacterCreation';
   const $pluginDependencies = [
@@ -59,10 +60,6 @@
     }
   }
   const $plugin = $plugins.find(p => p.name === $pluginName);
-
-  console.log($plugin.parameters);
-  const params = PluginManager.parameters($pluginName);
-  console.log(params);
 
   function Window_CharacterFeatureSelect() {
     this.initialize(...arguments);

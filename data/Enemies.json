@@ -55,7 +55,7 @@
     ],
     "gold": 5,
     "name": "Blue Slime",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:1>",
     "params": [
       50,
       0,
@@ -117,7 +117,7 @@
     ],
     "gold": 5,
     "name": "Green Slime",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:0>",
     "params": [
       70,
       0,
@@ -179,7 +179,7 @@
     ],
     "gold": 10,
     "name": "Fire Slime",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:2>",
     "params": [
       100,
       0,
@@ -241,7 +241,7 @@
     ],
     "gold": 100,
     "name": "King Slime (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:3>",
     "params": [
       200,
       0,
