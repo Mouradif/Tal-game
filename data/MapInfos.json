@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1658,
-    "scrollY": 1385.5
+    "scrollX": 2089.2,
+    "scrollY": 1584.6
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "enemy event map",
     "order": 44,
     "parentId": 0,
-    "scrollX": 811,
-    "scrollY": 453.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {

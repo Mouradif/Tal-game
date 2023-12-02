@@ -17,7 +17,7 @@
         "value": 0
       }
     ],
-    "iconIndex": 480,
+    "iconIndex": 481,
     "name": "Worn Dagger",
     "note": "",
     "params": [
@@ -50,7 +50,7 @@
         "value": 0
       }
     ],
-    "iconIndex": 481,
+    "iconIndex": 480,
     "name": "Dagger",
     "note": "",
     "params": [
@@ -367,7 +367,7 @@
         "value": 0.1
       }
     ],
-    "iconIndex": 476,
+    "iconIndex": 475,
     "name": "Mastercraft Sword",
     "note": "",
     "params": [

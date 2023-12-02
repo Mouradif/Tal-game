@@ -31,12 +31,12 @@
     "characterName": ")base_character",
     "classId": 1,
     "equips": [
+      4,
+      0,
+      50,
       5,
-      0,
-      53,
-      9,
-      0,
-      0
+      77,
+      92
     ],
     "faceIndex": 0,
     "faceName": "",
