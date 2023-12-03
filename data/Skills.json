@@ -117,7 +117,7 @@
       "type": 1,
       "variance": 20
     },
-    "description": "a simple thrust attack ",
+    "description": "a fast thrust attack ",
     "effects": [],
     "hitType": 0,
     "iconIndex": 202,
@@ -148,7 +148,7 @@
       "type": 1,
       "variance": 20
     },
-    "description": "a simple thrust attack ",
+    "description": "a simple slash attack that can hit 2 enemies.",
     "effects": [],
     "hitType": 0,
     "iconIndex": 204,

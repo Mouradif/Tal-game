@@ -16418,7 +16418,7 @@
       "tileA5_inside",
       "tileB_town",
       "tileB_inside",
-      "Inside_C",
+      "Inside_C_pixal",
       ""
     ]
   },
@@ -32841,7 +32841,7 @@
       "tileB_cave1",
       "tileB_cave2",
       "tileB_inside",
-      ""
+      "newtrees"
     ]
   }
 ]

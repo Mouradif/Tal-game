@@ -26983,57 +26983,6 @@
               ]
             },
             {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "CGMZ_QuestSystem",
-                "Call Quest Board Scene",
-                "Call Quest Board Scene",
-                {
-                  "Window Name": "Quest Board",
-                  "Quest Names": "",
-                  "Scene Image": "pictures/quest board816x624",
-                  "Category Icon Type": "Discovery",
-                  "Show Legend": "true"
-                }
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Window Name = Quest Board"
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Quest Names = "
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Scene Image = pictures/quest board816x624"
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Category Icon Type = Discovery"
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 0,
-              "parameters": [
-                "Show Legend = true"
-              ]
-            },
-            {
               "code": 0,
               "indent": 0,
               "parameters": []
