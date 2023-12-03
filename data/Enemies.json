@@ -326,7 +326,7 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
+    "battlerHue": 88,
     "battlerName": "cultist",
     "dropItems": [
       {
@@ -388,7 +388,7 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
+    "battlerHue": 266,
     "battlerName": "cultist",
     "dropItems": [
       {
@@ -512,7 +512,7 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
+    "battlerHue": 33,
     "battlerName": "bandit",
     "dropItems": [
       {
@@ -574,7 +574,7 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
+    "battlerHue": 285,
     "battlerName": "bandit",
     "dropItems": [
       {
@@ -637,7 +637,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "orc",
     "dropItems": [
       {
         "dataId": 1,
@@ -655,7 +655,7 @@
         "kind": 0
       }
     ],
-    "exp": 0,
+    "exp": 25,
     "traits": [
       {
         "code": 22,
@@ -699,7 +699,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "orc_archer",
     "dropItems": [
       {
         "dataId": 1,
@@ -735,7 +735,7 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 50,
     "name": "Orc Archer",
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
@@ -761,7 +761,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "orc_boss",
     "dropItems": [
       {
         "dataId": 1,
@@ -797,7 +797,7 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 250,
     "name": "Orc (Boss)",
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
@@ -1195,7 +1195,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "ratman",
     "dropItems": [
       {
         "dataId": 1,
@@ -1256,8 +1256,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "",
+    "battlerHue": 158,
+    "battlerName": "ratman",
     "dropItems": [
       {
         "dataId": 1,
@@ -1318,8 +1318,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "",
+    "battlerHue": 231,
+    "battlerName": "ratman",
     "dropItems": [
       {
         "dataId": 1,

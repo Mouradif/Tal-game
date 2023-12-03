@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2089.2,
-    "scrollY": 1584.6
+    "scrollX": 1621.7142857142856,
+    "scrollY": 1569.4285714285713
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "enemy/quest item event map",
     "order": 44,
     "parentId": 0,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   },
   {
@@ -225,8 +225,8 @@
     "name": "Wilderness Adventure",
     "order": 27,
     "parentId": 38,
-    "scrollX": 811,
-    "scrollY": 546.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -401,7 +401,7 @@
   },
   {
     "id": 41,
-    "expanded": true,
+    "expanded": false,
     "name": "Lake Guild House",
     "order": 23,
     "parentId": 38,
