@@ -4336,7 +4336,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 824,
+            "tileId": 856,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -4465,7 +4465,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 825,
+            "tileId": 857,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -4594,7 +4594,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 826,
+            "tileId": 858,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -4663,11 +4663,11 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 834,
+            "tileId": 0,
             "characterName": "",
-            "characterIndex": 0,
-            "direction": 2,
-            "pattern": 0
+            "direction": 6,
+            "pattern": 1,
+            "characterIndex": 3
           },
           "list": [
             {
@@ -4723,7 +4723,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 827,
+            "tileId": 859,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -4783,7 +4783,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 828,
+            "tileId": 860,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -4912,7 +4912,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 840,
+            "tileId": 864,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5041,7 +5041,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 841,
+            "tileId": 865,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5170,7 +5170,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 842,
+            "tileId": 866,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5299,7 +5299,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 843,
+            "tileId": 867,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5428,7 +5428,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 844,
+            "tileId": 868,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5497,11 +5497,11 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 852,
+            "tileId": 0,
             "characterName": "",
-            "characterIndex": 0,
-            "direction": 2,
-            "pattern": 0
+            "direction": 4,
+            "pattern": 2,
+            "characterIndex": 6
           },
           "list": [
             {
@@ -5557,7 +5557,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 856,
+            "tileId": 872,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5686,7 +5686,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 857,
+            "tileId": 873,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5815,7 +5815,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 858,
+            "tileId": 874,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -5944,7 +5944,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 859,
+            "tileId": 875,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -6073,7 +6073,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 860,
+            "tileId": 872,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -6202,7 +6202,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 864,
+            "tileId": 880,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -6331,7 +6331,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 865,
+            "tileId": 881,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -6460,7 +6460,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 844,
+            "tileId": 882,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -6520,7 +6520,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 867,
+            "tileId": 883,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,
@@ -6649,7 +6649,7 @@
           },
           "directionFix": false,
           "image": {
-            "tileId": 868,
+            "tileId": 884,
             "characterName": "",
             "characterIndex": 0,
             "direction": 2,

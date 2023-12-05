@@ -1,0 +1,1783 @@
+[
+  null,
+  {
+    "id": 1,
+    "animationId": 33,
+    "description": "A worn and chipped Dagger",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 481,
+    "name": "Worn Dagger",
+    "note": "",
+    "params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 1
+  },
+  {
+    "id": 2,
+    "animationId": 33,
+    "description": "A sturdy dagger good for many jobs",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 480,
+    "name": "Dagger",
+    "note": "",
+    "params": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "price": 400,
+    "wtypeId": 1
+  },
+  {
+    "id": 3,
+    "animationId": 33,
+    "description": "A dagger with a sculpted hilt and sharp blade.\nThis dagger can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 9,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 482,
+    "name": "Fine Dagger",
+    "note": "",
+    "params": [
+      0,
+      0,
+      11,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    "price": 1600,
+    "wtypeId": 1
+  },
+  {
+    "id": 4,
+    "animationId": 33,
+    "description": "A Beautiful dagger with a sculpted hilt and sharp blade.\nThis dagger can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 9,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 483,
+    "name": "Mastercraft Dagger",
+    "note": "",
+    "params": [
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    "price": 6400,
+    "wtypeId": 1
+  },
+  {
+    "id": 5,
+    "animationId": 112,
+    "description": "Just a pointy stick",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 544,
+    "name": "Sharp stick",
+    "note": "",
+    "params": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 1
+  },
+  {
+    "id": 6,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 7,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 8,
+    "animationId": 111,
+    "description": "A worn and chipped Sword.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 466,
+    "name": "Worn Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      9,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 3
+  },
+  {
+    "id": 9,
+    "animationId": 111,
+    "description": "A sturdy battle ready weapon.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 472,
+    "name": "Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      12,
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    "price": 400,
+    "wtypeId": 3
+  },
+  {
+    "id": 10,
+    "animationId": 111,
+    "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 9,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 470,
+    "name": "Fine Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      15,
+      3,
+      0,
+      0,
+      2,
+      0
+    ],
+    "price": 1600,
+    "wtypeId": 3
+  },
+  {
+    "id": 11,
+    "animationId": 117,
+    "description": "A Beautiful Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 9,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 475,
+    "name": "Mastercraft Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      20,
+      6,
+      0,
+      0,
+      3,
+      0
+    ],
+    "price": 6400,
+    "wtypeId": 3
+  },
+  {
+    "id": 12,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 13,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 14,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 15,
+    "animationId": 111,
+    "description": "A worn and chipped Sword.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 464,
+    "name": "Worn Short Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      7,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 3
+  },
+  {
+    "id": 16,
+    "animationId": 111,
+    "description": "A sturdy battle ready weapon.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 465,
+    "name": "Short Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      10,
+      3,
+      0,
+      0,
+      3,
+      0
+    ],
+    "price": 400,
+    "wtypeId": 3
+  },
+  {
+    "id": 17,
+    "animationId": 111,
+    "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 9,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 466,
+    "name": "Fine Short Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      13,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "price": 1600,
+    "wtypeId": 3
+  },
+  {
+    "id": 18,
+    "animationId": 111,
+    "description": "A Beautiful Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 9,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 468,
+    "name": "Mastercraft Short Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      18,
+      5,
+      0,
+      0,
+      5,
+      0
+    ],
+    "price": 6400,
+    "wtypeId": 3
+  },
+  {
+    "id": 19,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 20,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 21,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 22,
+    "animationId": 112,
+    "description": "A worn and chipped Bow.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 576,
+    "name": "Worn Bow",
+    "note": "",
+    "params": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      -6,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 5
+  },
+  {
+    "id": 23,
+    "animationId": 112,
+    "description": "A sturdy battle ready weapon.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 579,
+    "name": "Bow",
+    "note": "",
+    "params": [
+      0,
+      0,
+      18,
+      0,
+      0,
+      0,
+      -4,
+      0
+    ],
+    "price": 400,
+    "wtypeId": 5
+  },
+  {
+    "id": 24,
+    "animationId": 112,
+    "description": "A fine crafted bow.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 580,
+    "name": "Fine Bow",
+    "note": "",
+    "params": [
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      -2,
+      0
+    ],
+    "price": 1600,
+    "wtypeId": 5
+  },
+  {
+    "id": 25,
+    "animationId": 112,
+    "description": "A Beautifully crafted bow with inlayed gold.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 581,
+    "name": "Mastercraft Bow",
+    "note": "",
+    "params": [
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 6400,
+    "wtypeId": 5
+  },
+  {
+    "id": 26,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 27,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 28,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 29,
+    "animationId": 111,
+    "description": "A worn and chipped Battle Axe.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 486,
+    "name": "Worn Battle Axe",
+    "note": "",
+    "params": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      -8,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 4
+  },
+  {
+    "id": 30,
+    "animationId": 111,
+    "description": "A sturdy battle ready weapon.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 487,
+    "name": "Battle Axe",
+    "note": "",
+    "params": [
+      0,
+      0,
+      18,
+      0,
+      0,
+      0,
+      -6,
+      0
+    ],
+    "price": 400,
+    "wtypeId": 4
+  },
+  {
+    "id": 31,
+    "animationId": 111,
+    "description": "A fine crafted Battle Axe.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 489,
+    "name": "Fine Battle Axe",
+    "note": "",
+    "params": [
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      -4,
+      0
+    ],
+    "price": 1600,
+    "wtypeId": 4
+  },
+  {
+    "id": 32,
+    "animationId": 111,
+    "description": "A Beautifully crafted battle axe with inlayed gold.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 11,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 488,
+    "name": "Mastercraft Battle Axe",
+    "note": "",
+    "params": [
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      -2,
+      0
+    ],
+    "price": 6400,
+    "wtypeId": 4
+  },
+  {
+    "id": 33,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 34,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 35,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 36,
+    "animationId": 110,
+    "description": "A worn staff.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "iconIndex": 516,
+    "name": "Worn Staff",
+    "note": "",
+    "params": [
+      0,
+      50,
+      5,
+      5,
+      5,
+      5,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 6
+  },
+  {
+    "id": 37,
+    "animationId": 110,
+    "description": "A sturdy battle ready weapon.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.02
+      }
+    ],
+    "iconIndex": 517,
+    "name": "Staff",
+    "note": "",
+    "params": [
+      0,
+      100,
+      8,
+      5,
+      10,
+      10,
+      0,
+      0
+    ],
+    "price": 400,
+    "wtypeId": 6
+  },
+  {
+    "id": 38,
+    "animationId": 110,
+    "description": "A Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.03
+      }
+    ],
+    "iconIndex": 518,
+    "name": "Fine Staff",
+    "note": "",
+    "params": [
+      0,
+      200,
+      11,
+      5,
+      20,
+      15,
+      0,
+      0
+    ],
+    "price": 1600,
+    "wtypeId": 6
+  },
+  {
+    "id": 39,
+    "animationId": 110,
+    "description": "A Beautiful Staff topped with a gemstone.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 519,
+    "name": "Mastercraft Staff",
+    "note": "",
+    "params": [
+      0,
+      300,
+      15,
+      5,
+      30,
+      25,
+      0,
+      0
+    ],
+    "price": 6400,
+    "wtypeId": 6
+  },
+  {
+    "id": 40,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 41,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 42,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 43,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 44,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 45,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 46,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 47,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 48,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 49,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  },
+  {
+    "id": 50,
+    "animationId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0,
+    "wtypeId": 0
+  }
+]

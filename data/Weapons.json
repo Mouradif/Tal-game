@@ -19,7 +19,7 @@
     ],
     "iconIndex": 481,
     "name": "Worn Dagger",
-    "note": "",
+    "note": "<weapon:dagger>",
     "params": [
       0,
       0,
@@ -52,7 +52,7 @@
     ],
     "iconIndex": 480,
     "name": "Dagger",
-    "note": "",
+    "note": "<weapon:dagger_c1>",
     "params": [
       0,
       0,
@@ -90,7 +90,7 @@
     ],
     "iconIndex": 482,
     "name": "Fine Dagger",
-    "note": "",
+    "note": "<weapon:dagger_c2>",
     "params": [
       0,
       0,
@@ -128,7 +128,7 @@
     ],
     "iconIndex": 483,
     "name": "Mastercraft Dagger",
-    "note": "",
+    "note": "<weapon:dagger_c3>",
     "params": [
       0,
       0,
@@ -260,7 +260,7 @@
     ],
     "iconIndex": 466,
     "name": "Worn Sword",
-    "note": "",
+    "note": "<weapon:sword>",
     "params": [
       0,
       0,
@@ -293,7 +293,7 @@
     ],
     "iconIndex": 472,
     "name": "Sword",
-    "note": "",
+    "note": "<weapon:sword_c1>",
     "params": [
       0,
       0,
@@ -331,7 +331,7 @@
     ],
     "iconIndex": 470,
     "name": "Fine Sword",
-    "note": "",
+    "note": "<weapon:sword_c2>",
     "params": [
       0,
       0,
@@ -369,7 +369,7 @@
     ],
     "iconIndex": 475,
     "name": "Mastercraft Sword",
-    "note": "",
+    "note": "<weapon:sword_c3>",
     "params": [
       0,
       0,
@@ -501,7 +501,7 @@
     ],
     "iconIndex": 464,
     "name": "Worn Short Sword",
-    "note": "",
+    "note": "<weapon:short_sword>",
     "params": [
       0,
       0,
@@ -534,7 +534,7 @@
     ],
     "iconIndex": 465,
     "name": "Short Sword",
-    "note": "",
+    "note": "<weapon:short_sword_c1>",
     "params": [
       0,
       0,
@@ -572,7 +572,7 @@
     ],
     "iconIndex": 466,
     "name": "Fine Short Sword",
-    "note": "",
+    "note": "<weapon:short_sword_c2>",
     "params": [
       0,
       0,
@@ -610,7 +610,7 @@
     ],
     "iconIndex": 468,
     "name": "Mastercraft Short Sword",
-    "note": "",
+    "note": "<weapon:short_sword_c3>",
     "params": [
       0,
       0,
@@ -747,7 +747,7 @@
     ],
     "iconIndex": 576,
     "name": "Worn Bow",
-    "note": "",
+    "note": "<weapon:bow>",
     "params": [
       0,
       0,
@@ -785,7 +785,7 @@
     ],
     "iconIndex": 579,
     "name": "Bow",
-    "note": "",
+    "note": "<weapon:bow_c1>",
     "params": [
       0,
       0,
@@ -823,7 +823,7 @@
     ],
     "iconIndex": 580,
     "name": "Fine Bow",
-    "note": "",
+    "note": "<weapon:bow_c2>",
     "params": [
       0,
       0,
@@ -861,7 +861,7 @@
     ],
     "iconIndex": 581,
     "name": "Mastercraft Bow",
-    "note": "",
+    "note": "<weapon:bow_c3>",
     "params": [
       0,
       0,
@@ -1003,7 +1003,7 @@
     ],
     "iconIndex": 486,
     "name": "Worn Battle Axe",
-    "note": "",
+    "note": "<weapon:battleaxe>",
     "params": [
       0,
       0,
@@ -1046,7 +1046,7 @@
     ],
     "iconIndex": 487,
     "name": "Battle Axe",
-    "note": "",
+    "note": "<weapon:battleaxe_c1>",
     "params": [
       0,
       0,
@@ -1089,7 +1089,7 @@
     ],
     "iconIndex": 489,
     "name": "Fine Battle Axe",
-    "note": "",
+    "note": "<weapon:battleaxe_c2>",
     "params": [
       0,
       0,
@@ -1132,7 +1132,7 @@
     ],
     "iconIndex": 488,
     "name": "Mastercraft Battle Axe",
-    "note": "",
+    "note": "<weapon:battleaxe_c3>",
     "params": [
       0,
       0,
@@ -1274,7 +1274,7 @@
     ],
     "iconIndex": 516,
     "name": "Worn Staff",
-    "note": "",
+    "note": "<weapon:staff>",
     "params": [
       0,
       50,
@@ -1317,7 +1317,7 @@
     ],
     "iconIndex": 517,
     "name": "Staff",
-    "note": "",
+    "note": "<weapon:staff_c1>",
     "params": [
       0,
       100,
@@ -1360,7 +1360,7 @@
     ],
     "iconIndex": 518,
     "name": "Fine Staff",
-    "note": "",
+    "note": "<weapon:staff_c2>",
     "params": [
       0,
       200,
@@ -1403,7 +1403,7 @@
     ],
     "iconIndex": 519,
     "name": "Mastercraft Staff",
-    "note": "",
+    "note": "<weapon:staff_c3>",
     "params": [
       0,
       300,

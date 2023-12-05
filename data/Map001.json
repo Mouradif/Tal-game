@@ -1067,8 +1067,8 @@
     1542,
     1542,
     1542,
+    1564,
     1542,
-    1538,
     1549,
     1546,
     1542,
@@ -1131,8 +1131,8 @@
     1538,
     1542,
     1542,
-    1542,
-    1542,
+    1569,
+    1571,
     1542,
     1542,
     1542,
@@ -1195,8 +1195,8 @@
     1542,
     1542,
     1542,
-    1542,
-    1542,
+    1569,
+    1571,
     1542,
     1542,
     1542,
@@ -5163,8 +5163,8 @@
     3528,
     3516,
     3516,
-    3516,
-    3526,
+    3488,
+    3512,
     0,
     0,
     0,
@@ -5355,8 +5355,8 @@
     0,
     0,
     0,
-    3522,
-    3524,
+    3504,
+    3512,
     0,
     0,
     0,
@@ -9386,7 +9386,7 @@
     0,
     0,
     0,
-    0,
+    586,
     0,
     0,
     587,
@@ -12397,7 +12397,7 @@
     997,
     998,
     999,
-    0,
+    11,
     939,
     0,
     0,
@@ -12461,7 +12461,7 @@
     1005,
     1006,
     1007,
-    0,
+    19,
     0,
     0,
     0,
@@ -13419,8 +13419,8 @@
     578,
     578,
     578,
-    608,
-    608,
+    0,
+    0,
     792,
     793,
     794,
@@ -13482,9 +13482,9 @@
     586,
     586,
     586,
-    586,
-    608,
-    608,
+    11,
+    0,
+    0,
     800,
     801,
     802,
@@ -13546,7 +13546,7 @@
     0,
     0,
     0,
-    0,
+    19,
     0,
     0,
     808,
@@ -21684,6 +21684,14 @@
     0,
     0,
     0,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
     0,
     0,
     0,
@@ -21691,26 +21699,19 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
     0,
     0,
     0,
@@ -21725,16 +21726,9 @@
     0,
     0,
     0,
-    0,
     99,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -21754,35 +21748,41 @@
     0,
     0,
     0,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
+    3,
     0,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
     99,
     99,
     99,
-    0,
-    0,
-    0,
     0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
     99,
@@ -21793,13 +21793,6 @@
     99,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -21819,33 +21812,40 @@
     0,
     0,
     0,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
     0,
     0,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
     99,
     99,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
     0,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
     0,
@@ -21857,7 +21857,6 @@
     0,
     0,
     99,
-    0,
     0,
     0,
     0,
@@ -21877,6 +21876,9 @@
     0,
     0,
     0,
+    3,
+    4,
+    3,
     0,
     0,
     0,
@@ -21892,8 +21894,6 @@
     0,
     0,
     0,
-    0,
-    0,
     99,
     99,
     0,
@@ -21921,7 +21921,6 @@
     0,
     0,
     99,
-    0,
     0,
     0,
     0,
@@ -21941,7 +21940,9 @@
     0,
     0,
     0,
+    3,
     0,
+    3,
     0,
     0,
     0,
@@ -21957,7 +21958,6 @@
     0,
     0,
     0,
-    0,
     99,
     99,
     0,
@@ -21975,12 +21975,12 @@
     0,
     0,
     99,
-    0,
-    0,
-    0,
     0,
     0,
     0,
+    3,
+    3,
+    3,
     0,
     0,
     0,
@@ -22042,12 +22042,12 @@
     0,
     0,
     0,
+    3,
+    3,
+    3,
     0,
     0,
     0,
-    0,
-    0,
-    0,
     99,
     0,
     0,
@@ -22241,10 +22241,6 @@
     0,
     0,
     99,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -22256,6 +22252,17 @@
     0,
     0,
     0,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
     0,
     0,
     0,
@@ -22271,13 +22278,6 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
     0,
@@ -22305,13 +22305,6 @@
     0,
     0,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -22323,6 +22316,17 @@
     0,
     0,
     0,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
     0,
     0,
     0,
@@ -22338,26 +22342,22 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
     0,
     0,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
     0,
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
     0,
@@ -22369,8 +22369,6 @@
     0,
     0,
     99,
-    0,
-    0,
     0,
     0,
     0,
@@ -22382,6 +22380,17 @@
     0,
     0,
     0,
+    3,
+    5,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    5,
+    3,
     0,
     0,
     0,
@@ -22397,31 +22406,22 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
+    3,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
     0,
     0,
     0,
     0,
-    0,
-    0,
     99,
     99,
     0,
@@ -22433,11 +22433,6 @@
     0,
     0,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -22449,11 +22444,17 @@
     0,
     0,
     0,
+    3,
+    5,
+    3,
     0,
     0,
     0,
     0,
     0,
+    3,
+    5,
+    3,
     0,
     0,
     0,
@@ -22469,23 +22470,22 @@
     0,
     0,
     0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
+    3,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
     0,
     0,
     0,
     0,
-    0,
-    0,
     99,
     99,
     99,
@@ -22497,11 +22497,6 @@
     99,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -22513,11 +22508,17 @@
     0,
     0,
     0,
+    3,
+    3,
+    3,
     0,
     0,
     0,
     0,
     0,
+    3,
+    3,
+    3,
     0,
     0,
     0,
@@ -22533,24 +22534,23 @@
     0,
     0,
     0,
-    0,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
+    3,
+    5,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
     0,
     0,
     0,
     0,
     0,
-    0,
-    0,
     99,
     99,
     99,
@@ -22599,11 +22599,12 @@
     0,
     0,
     99,
-    0,
     0,
     0,
     0,
+    3,
     0,
+    3,
     0,
     0,
     0,
@@ -22615,7 +22616,6 @@
     0,
     0,
     0,
-    0,
     99,
     99,
     0,
@@ -22945,9 +22945,6 @@
     0,
     99,
     99,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -22969,6 +22966,14 @@
     0,
     0,
     0,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
     0,
     0,
     0,
@@ -22977,17 +22982,19 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
-    0,
-    0,
     0,
     0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
     0,
     0,
     0,
@@ -23000,22 +23007,8 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -23037,6 +23030,14 @@
     0,
     0,
     0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    3,
     0,
     0,
     0,
@@ -23045,17 +23046,19 @@
     0,
     0,
     0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
     0,
     0,
     0,
@@ -23068,15 +23071,8 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -23098,6 +23094,14 @@
     0,
     0,
     0,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    3,
     0,
     0,
     0,
@@ -23106,17 +23110,16 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
     99,
-    0,
-    0,
-    0,
     0,
     0,
     0,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
     0,
     0,
     0,
@@ -23132,19 +23135,18 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
     99,
     99,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
     0,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
     0,
     0,
     0,
@@ -23161,6 +23163,9 @@
     0,
     0,
     0,
+    3,
+    4,
+    3,
     0,
     0,
     0,
@@ -23169,11 +23174,6 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     0,
     0,
@@ -23201,12 +23201,16 @@
     0,
     99,
     99,
-    0,
-    0,
     0,
     0,
     0,
     0,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
     0,
     0,
     0,
@@ -23223,7 +23227,9 @@
     0,
     0,
     0,
+    3,
     0,
+    3,
     0,
     0,
     0,
@@ -23232,12 +23238,6 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
     99,
     0,
     0,
@@ -23496,15 +23496,15 @@
     99,
     99,
     99,
-    0,
     0,
     0,
     0,
     0,
     0,
     0,
-    0,
-    0,
+    99,
+    99,
+    99,
     0,
     0,
     0,
@@ -23561,14 +23561,14 @@
     99,
     99,
     99,
-    0,
-    0,
     0,
     0,
     0,
     0,
     0,
-    0,
+    99,
+    99,
+    99,
     0,
     0,
     0,
@@ -23630,8 +23630,8 @@
     0,
     0,
     0,
-    0,
-    0,
+    99,
+    99,
     0,
     0,
     0,
@@ -23778,11 +23778,11 @@
     99,
     99,
     0,
-    20,
-    20,
-    20,
-    20,
-    20,
+    4,
+    4,
+    4,
+    4,
+    4,
     0,
     0,
     0,
@@ -23842,11 +23842,11 @@
     99,
     99,
     0,
-    20,
-    20,
-    20,
-    20,
-    20,
+    3,
+    3,
+    3,
+    3,
+    3,
     0,
     0,
     0,
@@ -26628,10 +26628,9 @@
       "x": 26,
       "y": 30
     },
-    null,
     {
-      "id": 16,
-      "name": "EV016",
+      "id": 15,
+      "name": "outdoor lamp",
       "note": "",
       "pages": [
         {
@@ -26642,8 +26641,126 @@
             "itemValid": false,
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
             "switch1Id": 1,
             "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 15,
+      "y": 31
+    },
+    {
+      "id": 16,
+      "name": "street lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -26691,16 +26808,7 @@
           "through": false,
           "trigger": 0,
           "walkAnime": true
-        }
-      ],
-      "x": 57,
-      "y": 30
-    },
-    {
-      "id": 17,
-      "name": "EV017",
-      "note": "",
-      "pages": [
+        },
         {
           "conditions": {
             "actorId": 1,
@@ -26724,6 +26832,66 @@
             "direction": 2,
             "pattern": 0,
             "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 57,
+      "y": 30
+    },
+    {
+      "id": 17,
+      "name": "post lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 5
           },
           "list": [
             {
@@ -26753,8 +26921,8 @@
           },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
+          "priorityType": 1,
+          "stepAnime": true,
           "through": false,
           "trigger": 0,
           "walkAnime": true
@@ -27145,9 +27313,1611 @@
       "x": 34,
       "y": 31
     },
+    {
+      "id": 23,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 20,
+      "y": 23
+    },
+    {
+      "id": 24,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 45,
+      "y": 32
+    },
+    {
+      "id": 25,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 41,
+      "y": 22
+    },
+    {
+      "id": 26,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 45,
+      "y": 41
+    },
+    {
+      "id": 27,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 27,
+      "y": 43
+    },
+    {
+      "id": 28,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 7,
+      "y": 43
+    },
+    {
+      "id": 29,
+      "name": "outdoor lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 3
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 4,
+      "y": 53
+    },
+    {
+      "id": 30,
+      "name": "EV030",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 222,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 214,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        }
+      ],
+      "x": 29,
+      "y": 29
+    },
+    {
+      "id": 31,
+      "name": "post lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 10,
+      "y": 18
+    },
+    {
+      "id": 32,
+      "name": "post lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 13,
+      "y": 1
+    },
     null,
     null,
-    null,
-    null
+    {
+      "id": 35,
+      "name": "street lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 37,
+      "y": 28
+    },
+    {
+      "id": 36,
+      "name": "street lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 37,
+      "y": 35
+    },
+    {
+      "id": 37,
+      "name": "street lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 24,
+      "y": 35
+    },
+    {
+      "id": 38,
+      "name": "street lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 24,
+      "y": 28
+    }
   ]
 }

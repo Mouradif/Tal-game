@@ -362,7 +362,7 @@
     "EnemyPhase",
     "",
     "Active quest board",
-    "isDay",
+    "",
     "",
     "isNight",
     "Time System",
@@ -599,7 +599,7 @@
     "",
     ""
   ],
-  "versionId": 60584196,
+  "versionId": 59913108,
   "victoryMe": {
     "name": "",
     "pan": 0,
