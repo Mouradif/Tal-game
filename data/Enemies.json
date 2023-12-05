@@ -12,7 +12,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "blue_slime",
+    "battlerName": "blue_slime_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -79,7 +79,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "green_slime",
+    "battlerName": "green_slime_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -141,7 +141,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "fire_slime",
+    "battlerName": "fire_slime_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -203,7 +203,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "king_slime",
+    "battlerName": "king_slime_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -265,7 +265,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "cultist",
+    "battlerName": "cultist_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -326,8 +326,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "cultist",
+    "battlerHue": 88,
+    "battlerName": "cultist_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -388,8 +388,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "cultist",
+    "battlerHue": 266,
+    "battlerName": "cultist_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -451,7 +451,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "bandit",
+    "battlerName": "bandit_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -512,8 +512,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "bandit",
+    "battlerHue": 228,
+    "battlerName": "bandit_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -574,8 +574,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "bandit",
+    "battlerHue": 62,
+    "battlerName": "bandit_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -637,7 +637,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "orc_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -655,7 +655,7 @@
         "kind": 0
       }
     ],
-    "exp": 0,
+    "exp": 25,
     "traits": [
       {
         "code": 22,
@@ -699,7 +699,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "orc_archer_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -735,7 +735,7 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 50,
     "name": "Orc Archer",
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
@@ -761,7 +761,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "orc_boss_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -797,7 +797,7 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 250,
     "name": "Orc (Boss)",
     "note": "<cgmzdroptable:newbie drops>",
     "params": [
@@ -823,7 +823,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "green_troll",
+    "battlerName": "green_troll_pixel2",
     "dropItems": [
       {
         "dataId": 1,
@@ -885,7 +885,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "green_troll_boss",
+    "battlerName": "green_troll_boss_pixel2",
     "dropItems": [
       {
         "dataId": 1,
@@ -947,7 +947,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "floating_skull",
+    "battlerName": "floating_skull_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -1009,7 +1009,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "flame_skull",
+    "battlerName": "flame_skull_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -1195,7 +1195,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "ratman_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -1257,7 +1257,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "",
+    "battlerName": "ratman_stonethrower_pixel",
     "dropItems": [
       {
         "dataId": 1,
@@ -1318,8 +1318,8 @@
         "skillId": 1
       }
     ],
-    "battlerHue": 0,
-    "battlerName": "",
+    "battlerHue": 238,
+    "battlerName": "ratman_pixel",
     "dropItems": [
       {
         "dataId": 1,

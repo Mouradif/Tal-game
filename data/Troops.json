@@ -5,8 +5,8 @@
     "members": [
       {
         "enemyId": 1,
-        "x": 419,
-        "y": 306,
+        "x": 407,
+        "y": 300,
         "hidden": false
       }
     ],
@@ -43,8 +43,8 @@
     "members": [
       {
         "enemyId": 3,
-        "x": 389,
-        "y": 306,
+        "x": 409,
+        "y": 294,
         "hidden": false
       }
     ],
@@ -81,7 +81,7 @@
     "members": [
       {
         "enemyId": 2,
-        "x": 401,
+        "x": 406,
         "y": 316,
         "hidden": false
       }
@@ -119,8 +119,8 @@
     "members": [
       {
         "enemyId": 4,
-        "x": 404,
-        "y": 301,
+        "x": 406,
+        "y": 315,
         "hidden": false
       }
     ],
@@ -157,8 +157,8 @@
     "members": [
       {
         "enemyId": 6,
-        "x": 404,
-        "y": 370,
+        "x": 398,
+        "y": 355,
         "hidden": false
       }
     ],
@@ -194,9 +194,85 @@
     "id": 6,
     "members": [
       {
+        "enemyId": 6,
+        "x": 392,
+        "y": 358,
+        "hidden": false
+      }
+    ],
+    "name": "Cultist Leader",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "members": [
+      {
         "enemyId": 7,
-        "x": 410,
-        "y": 376,
+        "x": 398,
+        "y": 358,
+        "hidden": false
+      }
+    ],
+    "name": "Cultist (Boss)",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "members": [
+      {
+        "enemyId": 8,
+        "x": 413,
+        "y": 358,
         "hidden": false
       }
     ],
@@ -229,11 +305,201 @@
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "members": [
       {
-        "enemyId": 8,
-        "x": 398,
+        "enemyId": 9,
+        "x": 415,
+        "y": 370,
+        "hidden": false
+      }
+    ],
+    "name": "Bandit Leader",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "members": [
+      {
+        "enemyId": 10,
+        "x": 413,
+        "y": 376,
+        "hidden": false
+      }
+    ],
+    "name": "Bandit (Boss)",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "members": [
+      {
+        "enemyId": 11,
+        "x": 381,
+        "y": 334,
+        "hidden": false
+      }
+    ],
+    "name": "Orc",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "members": [
+      {
+        "enemyId": 12,
+        "x": 384,
+        "y": 346,
+        "hidden": false
+      }
+    ],
+    "name": "Orc Archer",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "members": [
+      {
+        "enemyId": 13,
+        "x": 384,
+        "y": 370,
+        "hidden": false
+      }
+    ],
+    "name": "Orc (Boss)",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "members": [
+      {
+        "enemyId": 14,
+        "x": 386,
         "y": 369,
         "hidden": false
       }
@@ -267,247 +533,16 @@
     ]
   },
   {
-    "id": 8,
-    "members": [
-      {
-        "enemyId": 9,
-        "x": 407,
-        "y": 370,
-        "hidden": false
-      }
-    ],
-    "name": "Troll Boss",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "members": [
-      {
-        "enemyId": 10,
-        "x": 398,
-        "y": 218,
-        "hidden": false
-      }
-    ],
-    "name": "Skull",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "members": [
-      {
-        "enemyId": 11,
-        "x": 404,
-        "y": 233,
-        "hidden": false
-      }
-    ],
-    "name": "Flame Skull",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "members": [],
-    "name": "",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "members": [],
-    "name": "",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "members": [],
-    "name": "",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "members": [],
-    "name": "",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
     "id": 15,
-    "members": [],
-    "name": "",
+    "members": [
+      {
+        "enemyId": 15,
+        "x": 394,
+        "y": 426,
+        "hidden": false
+      }
+    ],
+    "name": "Troll (Boss)",
     "pages": [
       {
         "conditions": {
@@ -537,8 +572,15 @@
   },
   {
     "id": 16,
-    "members": [],
-    "name": "",
+    "members": [
+      {
+        "enemyId": 18,
+        "x": 408,
+        "y": 436,
+        "hidden": false
+      }
+    ],
+    "name": "Zombie",
     "pages": [
       {
         "conditions": {
@@ -568,8 +610,15 @@
   },
   {
     "id": 17,
-    "members": [],
-    "name": "",
+    "members": [
+      {
+        "enemyId": 19,
+        "x": 408,
+        "y": 436,
+        "hidden": false
+      }
+    ],
+    "name": "Zombie Lord (Boss)",
     "pages": [
       {
         "conditions": {
@@ -599,8 +648,15 @@
   },
   {
     "id": 18,
-    "members": [],
-    "name": "",
+    "members": [
+      {
+        "enemyId": 16,
+        "x": 401,
+        "y": 292,
+        "hidden": false
+      }
+    ],
+    "name": "Floating Skull",
     "pages": [
       {
         "conditions": {
@@ -630,6 +686,158 @@
   },
   {
     "id": 19,
+    "members": [
+      {
+        "enemyId": 17,
+        "x": 398,
+        "y": 304,
+        "hidden": false
+      }
+    ],
+    "name": "Flame Skull (Boss)",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "members": [
+      {
+        "enemyId": 20,
+        "x": 408,
+        "y": 436,
+        "hidden": false
+      }
+    ],
+    "name": "Ratman",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "members": [
+      {
+        "enemyId": 21,
+        "x": 408,
+        "y": 436,
+        "hidden": false
+      }
+    ],
+    "name": "Ratman Stone Thrower",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "members": [
+      {
+        "enemyId": 22,
+        "x": 381,
+        "y": 400,
+        "hidden": false
+      }
+    ],
+    "name": "Ratman (Boss)",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 23,
     "members": [],
     "name": "",
     "pages": [
@@ -660,7 +868,193 @@
     ]
   },
   {
-    "id": 20,
+    "id": 24,
+    "members": [],
+    "name": "",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "members": [],
+    "name": "",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "members": [],
+    "name": "",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "members": [],
+    "name": "",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "members": [],
+    "name": "",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "members": [],
+    "name": "",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
+  },
+  {
+    "id": 30,
     "members": [],
     "name": "",
     "pages": [

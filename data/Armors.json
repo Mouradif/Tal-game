@@ -30,7 +30,7 @@
   {
     "id": 2,
     "atypeId": 1,
-    "description": "[General Equipment] Linen clothing with high\nbreathability.",
+    "description": "[General Equipment] Durable clothing that can\nwithstand rough travels.",
     "etypeId": 4,
     "traits": [
       {
@@ -39,9 +39,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 661,
-    "name": "Linen Clothing",
-    "note": "",
+    "iconIndex": 657,
+    "name": "Worn Adventurer’s Clothing",
+    "note": "<top:top6_c3>\n<bottom:bottom1_c3>",
     "params": [
       0,
       0,
@@ -52,7 +52,7 @@
       0,
       0
     ],
-    "price": 100
+    "price": 550
   },
   {
     "id": 3,
@@ -67,7 +67,7 @@
       }
     ],
     "iconIndex": 656,
-    "name": "Leather Vest",
+    "name": "Adventurer’s Clothing",
     "note": "",
     "params": [
       0,
@@ -94,7 +94,7 @@
       }
     ],
     "iconIndex": 663,
-    "name": "Adventurer’s Clothing",
+    "name": "Fine Adventurer’s Clothing",
     "note": "",
     "params": [
       0,
@@ -121,7 +121,7 @@
       }
     ],
     "iconIndex": 674,
-    "name": "Hard Leather",
+    "name": "Master Adventurer’s Clothing",
     "note": "",
     "params": [
       0,
@@ -148,7 +148,7 @@
       }
     ],
     "iconIndex": 677,
-    "name": "Brigandine",
+    "name": "Enchanted Adventurer’s Clothing",
     "note": "",
     "params": [
       0,
@@ -202,7 +202,7 @@
       }
     ],
     "iconIndex": 666,
-    "name": "Cloth Armor",
+    "name": "Worn Leather Armor",
     "note": "",
     "params": [
       0,
@@ -256,7 +256,7 @@
       }
     ],
     "iconIndex": 676,
-    "name": "Bronze Breastplate",
+    "name": "Fine Leather Armor",
     "note": "",
     "params": [
       0,
@@ -283,7 +283,7 @@
       }
     ],
     "iconIndex": 691,
-    "name": "Iron Breastplate",
+    "name": "Master Leather Armor",
     "note": "",
     "params": [
       0,
@@ -310,7 +310,7 @@
       }
     ],
     "iconIndex": 698,
-    "name": "Mithril Breastplate",
+    "name": "Enchanted Leather Armor",
     "note": "",
     "params": [
       0,
@@ -337,7 +337,7 @@
       }
     ],
     "iconIndex": 700,
-    "name": "Dragon Breastplate",
+    "name": "Legendary Leather Armor",
     "note": "",
     "params": [
       0,
@@ -381,7 +381,7 @@
   {
     "id": 15,
     "atypeId": 4,
-    "description": "[Heavy Equipment] Armor made of bronze.",
+    "description": "[Heavy Equipment] Worn Armor made of Iron.",
     "etypeId": 4,
     "traits": [
       {
@@ -390,8 +390,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 686,
-    "name": "Bronze Armor",
+    "iconIndex": 689,
+    "name": "Worn Iron Armor",
     "note": "",
     "params": [
       0,
@@ -435,7 +435,7 @@
   {
     "id": 17,
     "atypeId": 4,
-    "description": "[Heavy Equipment] Armor made of mithril.",
+    "description": "[Heavy Equipment] Armor made of mithril and Iron.",
     "etypeId": 4,
     "traits": [
       {
@@ -445,7 +445,7 @@
       }
     ],
     "iconIndex": 702,
-    "name": "Mithril Armor",
+    "name": "Fine Iron Armor",
     "note": "",
     "params": [
       0,
@@ -462,7 +462,7 @@
   {
     "id": 18,
     "atypeId": 4,
-    "description": "[Heavy Equipment] Armor made of dragon scales.",
+    "description": "[Heavy Equipment] Master Crafted Armor made of Iron.",
     "etypeId": 4,
     "traits": [
       {
@@ -471,8 +471,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 703,
-    "name": "Dragon Armor",
+    "iconIndex": 701,
+    "name": "Master Iron Armor",
     "note": "",
     "params": [
       0,
@@ -526,7 +526,7 @@
       }
     ],
     "iconIndex": 724,
-    "name": "Cotton Robe",
+    "name": "Worn Robe",
     "note": "",
     "params": [
       0,
@@ -543,7 +543,7 @@
   {
     "id": 21,
     "atypeId": 2,
-    "description": "[Magic Equipment] A high-quality cloak made of silk.",
+    "description": "[Magic Equipment] A high-quality Robe made of silk.",
     "etypeId": 4,
     "traits": [
       {
@@ -553,7 +553,7 @@
       }
     ],
     "iconIndex": 741,
-    "name": "Silk Cloak",
+    "name": "Robe",
     "note": "",
     "params": [
       0,
@@ -580,7 +580,7 @@
       }
     ],
     "iconIndex": 739,
-    "name": "Tactician’s Robe",
+    "name": "Fine Robe",
     "note": "",
     "params": [
       0,
@@ -607,7 +607,7 @@
       }
     ],
     "iconIndex": 740,
-    "name": "Sage’s Robe",
+    "name": "Master Robe",
     "note": "",
     "params": [
       0,
@@ -634,7 +634,7 @@
       }
     ],
     "iconIndex": 745,
-    "name": "Elemental Cloak",
+    "name": "Enchanted Robe",
     "note": "",
     "params": [
       0,
@@ -715,7 +715,7 @@
       }
     ],
     "iconIndex": 624,
-    "name": "Buckler",
+    "name": "Worn Round Shield",
     "note": "",
     "params": [
       0,
@@ -769,7 +769,7 @@
       }
     ],
     "iconIndex": 625,
-    "name": "Spiked Buckler",
+    "name": "Fine Buckler",
     "note": "",
     "params": [
       0,
@@ -796,7 +796,7 @@
       }
     ],
     "iconIndex": 634,
-    "name": "Mithril Buckler",
+    "name": "Master Buckler",
     "note": "",
     "params": [
       0,
@@ -823,7 +823,7 @@
       }
     ],
     "iconIndex": 632,
-    "name": "Dragon Buckler",
+    "name": "Enchanted Buckler",
     "note": "",
     "params": [
       0,
@@ -877,7 +877,7 @@
       }
     ],
     "iconIndex": 644,
-    "name": "Wooden Shield",
+    "name": "Worn Shield",
     "note": "",
     "params": [
       0,
@@ -904,7 +904,7 @@
       }
     ],
     "iconIndex": 647,
-    "name": "Bronze Shield",
+    "name": "Shield",
     "note": "",
     "params": [
       0,
@@ -931,7 +931,7 @@
       }
     ],
     "iconIndex": 650,
-    "name": "Iron Shield",
+    "name": "Fine Shield",
     "note": "",
     "params": [
       0,
@@ -958,7 +958,7 @@
       }
     ],
     "iconIndex": 653,
-    "name": "Mithril Shield",
+    "name": "Master Shield",
     "note": "",
     "params": [
       0,
@@ -985,7 +985,7 @@
       }
     ],
     "iconIndex": 654,
-    "name": "Dragon Shield",
+    "name": "Enchanted Shield",
     "note": "",
     "params": [
       0,
@@ -1228,7 +1228,7 @@
       }
     ],
     "iconIndex": 771,
-    "name": "Bandana",
+    "name": "Worn Hat",
     "note": "",
     "params": [
       0,
@@ -1255,7 +1255,7 @@
       }
     ],
     "iconIndex": 775,
-    "name": "Leather Bandana",
+    "name": "Hat",
     "note": "",
     "params": [
       0,
@@ -1282,7 +1282,7 @@
       }
     ],
     "iconIndex": 768,
-    "name": "Leather Hat",
+    "name": "Fine Hat",
     "note": "",
     "params": [
       0,
@@ -1309,7 +1309,7 @@
       }
     ],
     "iconIndex": 776,
-    "name": "Pirate hat",
+    "name": "Maser hat",
     "note": "",
     "params": [
       0,
@@ -1336,7 +1336,7 @@
       }
     ],
     "iconIndex": 777,
-    "name": "Feathered Hat",
+    "name": "Enchanted Hat",
     "note": "",
     "params": [
       0,
@@ -1390,7 +1390,7 @@
       }
     ],
     "iconIndex": 753,
-    "name": "Leather Cap",
+    "name": "Worn Cap",
     "note": "",
     "params": [
       0,
@@ -1417,7 +1417,7 @@
       }
     ],
     "iconIndex": 752,
-    "name": "Wooden Cap",
+    "name": "Cap",
     "note": "",
     "params": [
       0,
@@ -1444,7 +1444,7 @@
       }
     ],
     "iconIndex": 755,
-    "name": "Bronze Cap",
+    "name": "Fine Cap",
     "note": "",
     "params": [
       0,
@@ -1471,7 +1471,7 @@
       }
     ],
     "iconIndex": 755,
-    "name": "Iron Cap",
+    "name": "Master Cap",
     "note": "",
     "params": [
       0,
@@ -1498,7 +1498,7 @@
       }
     ],
     "iconIndex": 757,
-    "name": "Mithril Cap",
+    "name": "Enchanted Cap",
     "note": "",
     "params": [
       0,
@@ -1525,7 +1525,7 @@
       }
     ],
     "iconIndex": 758,
-    "name": "Dragon Cap",
+    "name": "Legendary Cap",
     "note": "",
     "params": [
       0,
@@ -1578,8 +1578,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 751,
-    "name": "Chainmail Coif",
+    "iconIndex": 759,
+    "name": "Worn Helm",
     "note": "",
     "params": [
       0,
@@ -1605,8 +1605,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 760,
-    "name": "Bronze Helm",
+    "iconIndex": 761,
+    "name": "Helm",
     "note": "",
     "params": [
       0,
@@ -1632,8 +1632,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 761,
-    "name": "Iron Helm",
+    "iconIndex": 762,
+    "name": "Fine Helm",
     "note": "",
     "params": [
       0,
@@ -1659,8 +1659,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 765,
-    "name": "Mithril Helm",
+    "iconIndex": 760,
+    "name": "Master Helm",
     "note": "",
     "params": [
       0,
@@ -1687,7 +1687,7 @@
       }
     ],
     "iconIndex": 767,
-    "name": "Dragon Helm",
+    "name": "Enchanted Helm",
     "note": "",
     "params": [
       0,
@@ -1741,7 +1741,7 @@
       }
     ],
     "iconIndex": 778,
-    "name": "Pointed Hat",
+    "name": "Worn Wizard Hat",
     "note": "",
     "params": [
       0,
@@ -1758,7 +1758,7 @@
   {
     "id": 66,
     "atypeId": 2,
-    "description": "[Magic Equipment] A simple crown enchanted with\nprotective magic.",
+    "description": "[Magic Equipment] A Wizad hat enchanted with\nprotective magic.",
     "etypeId": 3,
     "traits": [
       {
@@ -1767,8 +1767,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 838,
-    "name": "Circlet",
+    "iconIndex": 778,
+    "name": "Wizard Hat",
     "note": "",
     "params": [
       0,
@@ -1785,7 +1785,7 @@
   {
     "id": 67,
     "atypeId": 2,
-    "description": "[Magic Equipment] A silver crown enchanted with\nprotective magic.",
+    "description": "[Magic Equipment] A Wizard Hat enchanted with\nprotective magic.",
     "etypeId": 3,
     "traits": [
       {
@@ -1794,8 +1794,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 780,
-    "name": "Silver Circlet",
+    "iconIndex": 779,
+    "name": "Fine Wizard Hat",
     "note": "",
     "params": [
       0,
@@ -1812,7 +1812,7 @@
   {
     "id": 68,
     "atypeId": 2,
-    "description": "[Magic Equipment] A pure gold crown enchanted with\nprotective magic.",
+    "description": "[Magic Equipment] A Wizard Hat enchanted with\nStrong protective magic.",
     "etypeId": 3,
     "traits": [
       {
@@ -1821,8 +1821,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 781,
-    "name": "Gold Circlet",
+    "iconIndex": 779,
+    "name": "Master Wizard Hat",
     "note": "",
     "params": [
       0,
@@ -1839,7 +1839,7 @@
   {
     "id": 69,
     "atypeId": 2,
-    "description": "[Magic Equipment] A mithril crown enchanted with\nprotective magic.",
+    "description": "[Magic Equipment] A wizard hat enchanted with\nstrong protective magic.",
     "etypeId": 3,
     "traits": [
       {
@@ -1848,8 +1848,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 782,
-    "name": "Mithril Circlet",
+    "iconIndex": 779,
+    "name": "Enchanted Wizard Hat",
     "note": "",
     "params": [
       0,
@@ -1876,7 +1876,7 @@
       }
     ],
     "iconIndex": 779,
-    "name": "Master Sage Hat",
+    "name": "Legendary Sage Hat",
     "note": "",
     "params": [
       0,

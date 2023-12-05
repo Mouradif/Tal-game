@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 1,
+  "editMapId": 2,
   "elements": [
     "",
     "Physical",
@@ -362,7 +362,7 @@
     "EnemyPhase",
     "",
     "Active quest board",
-    "isDay",
+    "",
     "",
     "isNight",
     "Time System",
@@ -599,7 +599,7 @@
     "",
     ""
   ],
-  "versionId": 15788269,
+  "versionId": 59913108,
   "victoryMe": {
     "name": "",
     "pan": 0,

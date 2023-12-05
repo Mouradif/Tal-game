@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2089.2,
-    "scrollY": 1584.6
+    "scrollX": 816,
+    "scrollY": 624
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "enemy/quest item event map",
     "order": 44,
     "parentId": 0,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   },
   {
@@ -25,8 +25,8 @@
     "name": "Armor shop",
     "order": 2,
     "parentId": 1,
-    "scrollX": 811,
-    "scrollY": 453.5,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   },
   {
@@ -225,8 +225,8 @@
     "name": "Wilderness Adventure",
     "order": 27,
     "parentId": 38,
-    "scrollX": 811,
-    "scrollY": 546.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -401,7 +401,7 @@
   },
   {
     "id": 41,
-    "expanded": true,
+    "expanded": false,
     "name": "Lake Guild House",
     "order": 23,
     "parentId": 38,
@@ -429,12 +429,12 @@
   },
   {
     "id": 44,
-    "expanded": false,
+    "expanded": true,
     "name": "Character Creation",
     "order": 46,
     "parentId": 0,
-    "scrollX": 811,
-    "scrollY": 453.5,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   },
   {
@@ -455,6 +455,16 @@
     "parentId": 0,
     "scrollX": 811,
     "scrollY": 461.5,
+    "quick": false
+  },
+  {
+    "id": 47,
+    "expanded": false,
+    "name": "intro video",
+    "order": 47,
+    "parentId": 0,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   }
 ]

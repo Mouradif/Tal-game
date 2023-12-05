@@ -15,7 +15,6 @@ Game_Follower.prototype.refresh = function() {
 
 const RefreshPlayer = Game_Player.prototype.refresh;
 Game_Player.prototype.refresh = function() {
-  const leader = $gameParty
   const actorData = $gameParty.leader().actor();
   const { base, hair, top, bottom } = actorData.meta;
   if (!base) {
