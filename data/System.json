@@ -89,7 +89,7 @@
     }
   ],
   "battleBgm": {
-    "name": "",
+    "name": "Battle",
     "pan": 0,
     "pitch": 100,
     "volume": 90
@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 2,
+  "editMapId": 1,
   "elements": [
     "",
     "Physical",
@@ -164,7 +164,7 @@
     true,
     true
   ],
-  "optAutosave": true,
+  "optAutosave": false,
   "optDisplayTp": true,
   "optDrawTitle": true,
   "optExtraExp": false,
@@ -599,7 +599,7 @@
     "",
     ""
   ],
-  "versionId": 67014719,
+  "versionId": 15788269,
   "victoryMe": {
     "name": "",
     "pan": 0,

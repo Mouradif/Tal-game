@@ -8,6 +8,19 @@
  * @plugindesc This plugin should be first in the list. It defines utility functions that are used in other plugins
  * @author 0xSynon
  */
+
+Array.prototype.shuffle = function() {
+  let k, n, v;
+  n = this.length;
+  while (n > 1) {
+    n--;
+    k = Math.round(Math.random() * (n + 1));
+    v = this[k];
+    this[k] = this[n];
+    this[n] = v;
+  }
+};
+
 function deepParseJSON(arg) {
   if (typeof arg === 'object') {
     if (Array.isArray(arg)) {

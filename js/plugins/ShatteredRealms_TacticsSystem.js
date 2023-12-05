@@ -488,6 +488,30 @@ Tactics-System (https://github.com/belmoussaoui/Tactics-System).
 //
 // The static class that loads Effekseer effects.
 
+const emptyPage = () => ({
+    conditions: {
+        actorHp: 50,
+          actorId: 1,
+          actorValid: false,
+          enemyHp: 0,
+          enemyIndex: 0,
+          enemyValid: false,
+          switchId: 1,
+          switchValid: false,
+          turnA: 0,
+          turnB: 0,
+          turnEnding: false,
+          turnValid: false
+    },
+    list: [
+        {
+            code: 0,
+            indent: 0,
+            parameters: []
+        }
+    ]
+})
+
 class TacticsSystem {
 
     constructor() {
@@ -681,18 +705,26 @@ SceneManager.isCurrentScene = function(sceneClass) {
     return this._scene && this._scene.constructor === sceneClass;
 };
 
+const onSceneStart = SceneManager.onSceneStart;
+SceneManager.onSceneStart = function() {
+    onSceneStart.call(this);
+    if (SceneManager.sceneStartCallback)
+        SceneManager.sceneStartCallback();
+}
+
 //----
 // Move the game selector on hover
 //
-const TouchInputOnHover = TouchInput._onHover;
-TouchInput._onHover = function(x, y) {
-    TouchInputOnHover.call(this, x, y);
-    if (!SceneManager.isCurrentScene(Scene_Battle)) return;
-    const squareX = Math.floor(x / 48) + $gameMap._displayX;
-    const squareY = Math.floor(y / 48) + $gameMap._displayY;
-    if (squareX === $gameSelector._x && squareY === $gameSelector._y) return;
-    $gameSelector.setPosition(squareX, squareY);
-};
+// TODO: fix scroll speed
+// const TouchInputOnHover = TouchInput._onHover;
+// TouchInput._onHover = function(x, y) {
+//     TouchInputOnHover.call(this, x, y);
+//     if (!SceneManager.isCurrentScene(Scene_Battle)) return;
+//     const squareX = Math.floor(x / 48) + $gameMap._displayX;
+//     const squareY = Math.floor(y / 48) + $gameMap._displayY;
+//     if (squareX === $gameSelector._x && squareY === $gameSelector._y) return;
+//     $gameSelector.setPosition(squareX, squareY);
+// };
 
 //-----------------------------------------------------------------------------
 // Scene_Battle
@@ -1138,14 +1170,29 @@ Scene_Battle.prototype.endCommandSelection = function() {
 //
 // The static class that manages tactics progress.
 
+BattleManager.setupMapTroops = function(events) {
+    const troop = {
+        id: 1,
+        members: [],
+        name: 'Combat',
+        pages: [emptyPage()]
+    };
+    for (const event of events) {
+        troop.members.push({
+            enemyId: parseInt(event.meta.Enemy.trim()),
+            x: 100,
+            y: 100,
+            hidden: false
+        })
+    }
+}
+
 BattleManager.setup = function(troopId, canEscape, canLose) {
     this.initMembers();
     this._canEscape = canEscape;
     this._canLose = canLose;
     this.makeEscapeRatio();
-    if ($gameTroop._troopId === 0) {
-        $gameTroop.setup(troopId);
-    }
+    $gameTroop.setup(troopId);
     $gameSwitches.update();
     $gameVariables.update();
     const x = $gamePlayer.x;
@@ -1179,7 +1226,9 @@ BattleManager.initMembers = function() {
     this._rewards = {};
 };
 
+// TODO: don't require an event to place the player, just place it in the square they should have been teleported to
 BattleManager.createGameObjects = function() {
+    console.log('Creating game objects');
     const events = $gameMap.events();
     const citedRegions = events.filter(e => e.tparam('SpawnRegion') > 0).map(e => e.tparam('SpawnRegion'));
     const tileCountByRegion = citedRegions.reduce((a, c) => ({
@@ -1191,6 +1240,7 @@ BattleManager.createGameObjects = function() {
         ...a,
         [c]: $gameMap.getRandomTilesForRegion(parseInt(c), tileCountByRegion[c])
     }), {});
+    let playerAdded = false;
     for (const event of events) {
         const spawnRegion = event.tparam('SpawnRegion');
         const location = (spawnRegion > 0) ? tilesByRegion[spawnRegion].shift() : null;
@@ -1199,8 +1249,10 @@ BattleManager.createGameObjects = function() {
         }
         if (event.tparam('Actor') > 0) {
             this.addGameActor(event);
+            playerAdded = true;
         } else if (event.tparam('Party') > 0) {
             this.addGameParty(event)
+            playerAdded = true;
         } else if (event.tparam('Enemy') > 0) {
             this.addGameEnemy(event);
         } else if (event.tparam('Troop') > 0) {
@@ -1216,6 +1268,7 @@ BattleManager.addGameActor = function(event) {
 
 BattleManager.addGameParty = function(event) {
     const partyId = Number(event.tparam('Party'));
+    if (partyId > $gameParty.members().length) return;
     const actorId = $gameParty.memberId(partyId);
     $gamePartyTs.addActor(actorId, event, true);
 };
@@ -2030,10 +2083,11 @@ BattleManager.playDefeatMe = function() {
 };
 
 BattleManager.makeRewards = function() {
-    this._rewards = {};
-    this._rewards.gold = $gameTroop.goldTotal();
-    this._rewards.exp = $gameTroop.expTotal();
-    this._rewards.items = $gameTroop.makeDropItems();
+    this._rewards = {
+        gold: $gameTroop.goldTotal(),
+        exp: $gameTroop.expTotal(),
+        items: $gameTroop.makeDropItems()
+    };
 };
 
 BattleManager.displayVictoryMessage = function() {
@@ -2099,6 +2153,8 @@ BattleManager.gainDropItems = function() {
     });
 };
 
+// TODO: don't pop the scene, just start walking normally instead
+// TODO: or at least, transition to a SceneMap where you're standing in the same placed
 BattleManager.updateBattleEnd = function() {
     const tmp = SceneManager._stack[0];
     console.log(tmp);
@@ -2627,40 +2683,27 @@ Game_BattlerBase.prototype.waitSkillId = function() {
 // Game_Player
 //
 //
-const ExecuteEncounter = Game_Player.prototype.executeEncounter;
-const InitGamePlayerMembers = Game_Player.prototype.initMembers;
 const PerformPlayerTransfer = Game_Player.prototype.performTransfer;
-
-Game_Player.prototype.initMembers = function() {
-    InitGamePlayerMembers.call(this);
-    this._shouldPreventAutosave = false;
-    this._isBattleStarting = false;
-}
-
 Game_Player.prototype.performTransfer = function() {
-    if (this._isBattleStarting) {
-        $gameVariables.setValue(41, this._x);
-        $gameVariables.setValue(42, this._y);
-        $gameVariables.setValue(43, $gameMap._mapId);
-        this._isBattleStarting = false;
-    }
     PerformPlayerTransfer.call(this);
+    const enemies = $dataMap.events.filter(e => e && e.meta.Enemy);
+    if (enemies.length !== 0) {
+        BattleManager.setupMapTroops(enemies);
+        console.log('Start combat');
+        BattleManager.setup(1, false, false);
+        SceneManager.push(Scene_Battle);
+        SceneManager.sceneStartCallback = () => {
+            if (SceneManager.isCurrentScene(Scene_Map)) {
+                SceneManager._scene.stop();
+            }
+        }
+    }
 };
 
+// TODO: in general: when the destination map contains enemies, start a combat instead
 const ReserveTransfer = Game_Player.prototype.reserveTransfer;
 Game_Player.prototype.reserveTransfer = function(mapId, x, y, d, fadeType) {
     ReserveTransfer.call(this, mapId, x, y, d, fadeType);
-}
-
-Game_Player.prototype.executeEncounter = function() {
-    const encounter = ExecuteEncounter.call(this);
-    if (encounter) {
-        this._shouldPreventAutosave = true;
-        this._isBattleStarting = true;
-        this.reserveTransfer(93, 4, 8);
-        $gameMap._interpreter.setWaitMode("transfer");
-        return false;
-    }
 }
 
 //-----------------------------------------------------------------------------
@@ -2699,7 +2742,7 @@ Game_Battler.prototype.setupEvent = function(eventId) {
     const event = this.event()
     this._tx = event.x;
     this._ty = event.y;
-    this._char = new Game_Character();  // it's usedst to calculate the shortest path
+    this._char = new Game_Character();  // it's used to calculate the shortest path
     event.setBattler(this);
 };
 
@@ -2913,14 +2956,14 @@ Game_Battler.prototype.makeConfusionMove = function() {
         if (this.canUse(action.item())) {
             // actor can't use action in another actor
             if ($gameMap.eventsXy(this.tx, this.ty).length === 0) {
-                targets.push({'x': this.tx, 'y': this.ty});
+                targets.push(new Point(this.tx, this.ty));
             }
         }
     }
     $gameMap.clearTiles();
     const target = targets[Math.randomInt(targets.length)];
-    this._tx = target['x'];
-    this._ty = target['y'];
+    this._tx = target.x;
+    this._ty = target.y;
 };
 
 Game_Battler.prototype.isConfusedRangeOk = function(action) {
@@ -3254,10 +3297,6 @@ Game_Party.prototype.setupTactics = function(actors) {
 };
 
 
-Game_Party.prototype.setMaxBattleMembers = function() {
-    this._maxBattleMembers = this.allMembers().length;
-};
-
 Game_Party.prototype.maxBattleMembers = function() {
     return $gamePartyTs.inBattle() ? this._maxBattleMembers : 4;
 };
@@ -3468,6 +3507,29 @@ Game_Map.prototype.isPassableTile = function(x, y) {
     return false;
 };
 
+Game_Map.prototype.getTilesForRegion = function(regionId) {
+    const width = this.width();
+    const height = this.height();
+    const tiles = [];
+    for (let y = 0; y < height; y++) {
+        for (let x = 0; x < width; x++) {
+            if (this.regionId(x, y) === regionId) {
+                tiles.push({ x, y });
+            }
+        }
+    }
+    return tiles;
+}
+
+Game_Map.prototype.getRandomTilesForRegion = function(regionId, max = 1) {
+    const tiles = this.getTilesForRegion(regionId);
+    if (tiles.length === 0) return [];
+    tiles.shuffle();
+    const number = Math.min(max, tiles.length);
+    return tiles.slice(0, number);
+}
+
+
 //-----------------------------------------------------------------------------
 // Game_CharacterBase
 //
@@ -3495,9 +3557,10 @@ Game_CharacterBase.prototype.isCollidedWithEvents = function(x, y) {
     }
 };
 
-Game_CharacterBase.prototype.requestAnimation = function (animationId) {
-    this._animationId = animationId;
-};
+// TODO: check if it works without this
+// Game_CharacterBase.prototype.requestAnimation = function (animationId) {
+//     this._animationId = animationId;
+// };
 
 //-----------------------------------------------------------------------------
 // Game_Character
@@ -3952,6 +4015,7 @@ Game_Interpreter.prototype.iterateEnemyIndex = function(param, callback) {
 TacticsSystem.Game_Interpreter_command301 = Game_Interpreter.prototype.command301;
 Game_Interpreter.prototype.command301 = function(params) {
     Game_Interpreter.prototype.setWaitMode.call(this, 'TacticsSystem.battle');
+    SceneManager._isTacticalBattleStarting = true;
     return TacticsSystem.Game_Interpreter_command301.call(this, params);
 };
 
@@ -4171,13 +4235,25 @@ Game_TroopTs.prototype.onClear = function() {
 //
 // The scene class of the map screen.
 
-//TacticsSystem.Scene_Map_launchBattle = Scene_Map.prototype.launchBattle;
+const SceneMapStop = Scene_Map.prototype.stop;
+Scene_Map.prototype.stop = function() {
+    if (this._mapNameWindow === undefined) {
+        this._mapNameWindow = {
+            close: () => {},
+        }
+    }
+    console.log('stop scene map');
+    SceneMapStop.call(this);
+}
+
 Scene_Map.prototype.launchBattle = function() {
     BattleManager.saveBgmAndBgs();
     this.stopAudioOnBattleStart();
     SoundManager.playBattleStart();
     this._encounterEffectDuration = this.encounterEffectSpeed();
-    this._mapNameWindow.hide();
+    if (this._mapNameWindow.hide) {
+        this._mapNameWindow.hide();
+    }
 };
 
 Scene_Map.prototype.updateEncounterEffect = function() {
@@ -4197,7 +4273,6 @@ Scene_Map.prototype.updateEncounterEffect = function() {
     }
 };
 
-//TacticsSystem.Scene_Map_encounterEffectSpeed = Scene_Map.prototype.encounterEffectSpeed;
 Scene_Map.prototype.encounterEffectSpeed = function() {
     return 180;
 };
@@ -5276,8 +5351,8 @@ Window_Base.prototype._faceWidth  = 144;
 Window_Base.prototype._faceHeight = 144;
 
 Window_Base.prototype.drawEnemyImage = function(battler, x, y) {
-    width = Window_Base.prototype._faceWidth;
-    height = Window_Base.prototype._faceHeight;
+    const width = Window_Base.prototype._faceWidth;
+    const height = Window_Base.prototype._faceHeight;
     const bitmap = ImageManager.loadEnemy(battler.battlerName());
     const pw = bitmap.width;
     const ph = bitmap.height;

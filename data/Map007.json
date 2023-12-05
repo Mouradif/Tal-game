@@ -4742,7 +4742,7 @@
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
             "switch1Id": 1,
-            "switch1Valid": true,
+            "switch1Valid": false,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
