@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const execAsync = require('./exec');
 
 async function main() {
@@ -7,7 +7,8 @@ async function main() {
   const jsons = files.filter(f => f.endsWith('.json') && f !== 'package.json');
   const errors = [];
   for (const json of jsons) {
-    const content = fs.readFileSync(json, 'utf-8');
+    const content = await fs.readFile(json, 'utf-8').catch(() => null);
+    if (content === null) continue;
     const parsed = JSON.stringify(JSON.parse(content), null, 2);
     if (content !== parsed) {
       errors.push(`File ${json} is not formatted`);
