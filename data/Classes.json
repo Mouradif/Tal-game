@@ -30,6 +30,16 @@
         "value": 0.02
       },
       {
+        "code": 41,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 41,
+        "dataId": 1,
+        "value": 1
+      },
+      {
         "code": 51,
         "dataId": 1,
         "value": 0
@@ -40,23 +50,7 @@
         "value": 0
       }
     ],
-    "learnings": [
-      {
-        "level": 1,
-        "skillId": 4,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 5,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 6,
-        "note": ""
-      }
-    ],
+    "learnings": [],
     "name": "Adventurer",
     "note": "<Move:3>\n",
     "params": [
@@ -1780,6 +1774,11 @@
         "value": 1
       },
       {
+        "code": 41,
+        "dataId": 1,
+        "value": 1
+      },
+      {
         "code": 52,
         "dataId": 1,
         "value": 0
@@ -2667,6 +2666,11 @@
         "value": 1
       },
       {
+        "code": 41,
+        "dataId": 1,
+        "value": 1
+      },
+      {
         "code": 52,
         "dataId": 1,
         "value": 0
@@ -3537,6 +3541,11 @@
         "code": 22,
         "dataId": 2,
         "value": 0.04
+      },
+      {
+        "code": 41,
+        "dataId": 2,
+        "value": 1
       },
       {
         "code": 41,

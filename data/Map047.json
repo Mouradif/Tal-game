@@ -1363,7 +1363,7 @@
     null,
     {
       "id": 1,
-      "name": "EV001",
+      "name": "1-20 random intro",
       "note": "",
       "pages": [
         {
@@ -1475,24 +1475,242 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Once you were known as the Obsidian Scribe,"
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                " "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "said to write the destiny of empires on scrolls of darkness "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and starlight. Your arcane knowledge was sought by kings"
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                " "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and dreaded by tyrants. Raised as a child within the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "ancient civilization of Mari'dor, you were trained by a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "clandestine guild of wizards known as the Starlight Order."
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                " "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "You were destined for greatness, your name whispered "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "in legend. Ironically, it was that legend that bred "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "betrayal from those you once called comrades. Stripped of"
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                " "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your arcane prowess and robbed of your valuable tomes, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you were left with nothing. And now you find yourself here,"
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                " "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "standing on the outskirts of the small village town of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Talvare. A forgotten entity, penniless and lacking the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "majestical gear everyone raved about. The warm glow of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the village on the horizon is a poor substitute for the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "radiant starlight you once commanded, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "but it's home... for now."
               ]
             },
             {
@@ -1602,24 +1820,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "In a previous life, you were the child of esteemed nobility "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "in the grand kingdom of Eldria. Your days consisted of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "scholarly pursuits, fencing lessons, and elaborate balls. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "But your privileged life was shattered when a power-hungry "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "warlord seized your family estate. Stripped of your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "heritage and forced into hiding, you traversed treacherous "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "lands always a step ahead of the warlord's ravenous hounds. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Struggling to survive, you learned the hard way the skills "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of stealth, cunning, and swordplay. Years later, your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "journey led you to the quaint village town of Talvare. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Worn and weary, you arrived with nothing more than tattered"
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "clothing, no coin to your name, and no personal artifact "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "with you. You've gone from palace walls to a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "provincial life. Yet Talvare, in its simplicity and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "peaceful ambiance, offers a new beginning."
               ]
             },
             {
@@ -1729,24 +2137,144 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "You were born a humble farmer in Livelands, tilling soil "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "under the golden sun, content in the rhythm of sowing "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and harvest. A simple amulet, your only inheritance from "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a father you barely knew, sparked your absorption in "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "mystic arts, casting spells over potato crops and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "chicken coops. However, when a fearsome draught annihilated "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the community's crops, and the shadow of hunger loomed, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you were blamed for bringing a curse and banished. Now, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "penniless and alone, you find yourself at the edge of the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "tiny village town of Talvare, a stranger in a strange land."
               ]
             },
             {
@@ -1856,24 +2384,144 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "You were once a street urchin in the bustling city of "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Vadral, skilled in pickpocketing and deceit. However, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a botched robbery and an angry mob later, you were forced "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "to flee, narrowly escaping with your life. You left "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "everything behind, traveling through thick woods and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "treacherous mountains. After weeks on the run, hungry, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "bedraggled, and without a single coin, you stumble upon "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the tiny village of Talvare. With no memory of anything "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "but survival for so long, this quaint little settlement "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "is your only hope for a fresh start."
               ]
             },
             {
@@ -1983,24 +2631,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Raised amidst the solitude and the raw beauty of the "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Craggy Peaks, you learned the language of the wind, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "whispered secrets with the wild beasts, and carved your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "home out of the mountainside. Born of earth and echo, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you thrived in the wilderness, living amongst the spirits "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of nature. A whispered prophecy from the lips of the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "ancient trees spoke of a destiny tied to chaos and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "salvation. However, your harmonious existence was shattered "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "as a tumultuous storm, like no other, riddled your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "mountaintop home, robbing you of your only worldly "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "possessions. At the storm's end, you were led by an ethereal "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "force to the small village of Talvare. Bereft of coin and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "belongings, the humble village has become your new terrain "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "to navigate, a stark contrast to the boundless "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "wilderness you've known."
               ]
             },
             {
@@ -2110,24 +2948,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "In yet another lifetime, you were a member of an elite band "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of assassins, the Night's Shade - ghosts flitting through "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the dark, silencing whispers, stopping hearts. Your hands "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "were stained with guilt and regret - unwanted trophies from "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "jobs done for gold. However, when a kill went wrong and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "affected the innocent, you fled from the hands of your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "soulless brethren, leaving behind your tools of trade and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the safety of darkness. Now, devoid of your dark cloak "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and deadly weapons, you find yourself standing at the edge "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of the humble village of Talvare. Bitter memories fold into "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the night as dawn approaches. Penniless, possessionless, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "but resolved, you see the village in the early morning "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "light. This is your chance at redemption - "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "or at least, at peace."
               ]
             },
             {
@@ -2237,24 +3251,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Descended from an ancient lineage of seers, you were bathed "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "in starlight and swaddled in dreams as a youngling in the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "spirited realm of Zephyra. Endowed with the gift of second "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "sight and plunged into a world of cosmic symphony, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you lived intertwined with mystical threads of time and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "existence. Immersing in the dream river comes with a price, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you foresaw a terrible fate befalling on your people but "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you were powerless to divert the courses of destiny. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Wracked with remorse and haunted by your failure, you sought "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "isolation. Stripped of your ethereal possessions and the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "celestial wealth of Zephyra, you traverse the mundane world "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "as a nomad. Ultimately, your path leads you to the small "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and simple village town of Talvare. Penniless and invisible, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you find restless peace in its quiet lanes and humble folks, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the mystical echoes of your past pervading your present."
               ]
             },
             {
@@ -2364,24 +3568,172 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Growing up as an orphan in the bustling city of Kartigan, "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "survival meant trading your innocence for skills in sneaking "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and stealing. The hard city life forged you into a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "self-reliant and quick-thinking individual, well versed in "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the language of the streets. Eventually, a scam went south, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and you had to flee to save your skin. Now, one desperate, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and broke voyage later, you find yourself at the doorstep "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of the small village town of Talvare. In this peaceful "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "corner of the world, stripped of the city's noise and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "dangers, you have the opportunity to start over. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "The possibilities are as endless and unknown as the path "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "that led you here."
               ]
             },
             {
@@ -2491,24 +3843,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Once, you were a feared pirate captain sailing the Stormy "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Seas, notorious under the epithet 'Wave Wraith'. With your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "loyal crew and formidable ship, The Sea Specter, you claimed "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "wealth from the rich and formidable, living a life of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "dangerous freedom. Your name echoed across taverns, bringing "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "both terror and awe. However, a treacherous mutiny led by "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your closest confidante left you abandoned on a deserted "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "island with not even a rusty cutlass to your name. After a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "perilous journey of evasion, survival, and confrontation "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "with your inner demons, you washed up on the shore near the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "silent village of Talvare. Bereft and penniless, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your past seemed as distant as the sea you once ruled. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "This humble hamlet offered an unfamiliar respite, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a chance to rebuild amid its unsuspecting inhabitants."
               ]
             },
             {
@@ -2618,24 +4146,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "As a gifted blacksmith in the grand city of Durin's Keep, "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your name was synonymous with excellence and creativity. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "You were esteemed for transmuting ordinary metal into "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "extraordinary masterpieces. However, your life turned to "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "ashes when a ruthless lord envious of your fame falsely "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "accused you of conspiracy, stripping off your wealth, honor "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and the joy of forging. With nothing left but scars and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "shattered dreams, you embarked on a vagabond journey, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "ultimately leading you to the small village of Talvare. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "This hamlet, untouched by the grandeur and conspiracy of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "city life, promises a fresh start. You arrive penniless, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "robbed of your tools, and bereft of your creations. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "But determination fuels your spirit, to rise from the ashes, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "to shape your destiny just as you once shaped metal."
               ]
             },
             {
@@ -2745,24 +4449,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "You were the shadow that flirted with the dark corners of "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the grand kingdom of Heliohart. Known as the Night Prowler, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your hands danced in many a pocket, stealing baubles, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "secrets, and sometimes, lives. Infamy was your cloak, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "cunning, your weapon. You thrived in the adrenaline of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "danger, but a foul setup by a traitorous ally landed you in "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the kingdoms' most dreaded dungeons. However, fate had a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "cruel sense of humor. A bloody riot within the heartless "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "stone walls offered you a thrilling chance at escape. Now, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "running from your past and the kingdom's bloodhounds, you've "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "discovered asylum in the tranquil setting of Talvare. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Adorned in a facade of an ordinary townsperson and void of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "any wealth or tools of your dark trade, the small village "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "is your sanctuary...or your new playground."
               ]
             },
             {
@@ -2872,24 +4752,172 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Growing up as a baker's son in the town of Fairgrove, your "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "life was as simple as the loaves you kneaded. The scent of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "fresh bread was your morning greeting, and the gratitude of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "filled bellies, your nightly farewell. A falling-out over "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "family matters led to a harrowing night when you were forced "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "to leave home with nothing but the rough-spun tunic on your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "back. After weeks of darting through forests and sleeping "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "under the stars, you stumble upon the village of Talvare. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Empty pockets echoing the emptiness in your belly, you are "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "drawn to its calm - a beacon of hope for a life you "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "can knead back into shape. Your story is about to unfold "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "like an uncooked loaf, ready for the heat of the oven."
               ]
             },
             {
@@ -2999,24 +5027,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Born and raised under the lush canopy of the Verdant "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Whisper, you lived as one with the forest, understanding its "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "language and cherishing its bountiful offerings. You were "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the Forest's Whisper, moving with grace among the trees, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "communing with animals, and leaving no trace behind. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Steeped in the ancient secrets of the wilderness, you led "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a life of peaceful isolation. But when fire swept through "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the forest, blazing your home and life into ashes and smoke, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you were left with no choice but to abandon your sanctuary. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "After long, weary weeks of travel, you find yourself on the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "threshold of the small village of Talvare. Stripped of your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "symbiosis with the forest and bare of possessions, the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "village seems a peculiar dwelling. But perhaps it could "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "offer a new beginning, a fire clearing the way "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "for fresh growth."
               ]
             },
             {
@@ -3126,24 +5344,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "In the lofty halls of the Ivory Citadel, you were a "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "renowned scholar, your wisdom echoing in the corridors "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of power. Your research and erudition on ancient runes won "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "favor with the highest echelons of society. Life was a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "tapestry woven with threads of knowledge and power, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "for better or worse. But when the Citadel's lord, entranced "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "by dark magic, sought to use your knowledge for dire "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "notions, you opposed him, only to face grave consequences. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Escaping in the dead of night, you were stripped of your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "resources and status. Now, as destiny would have it, you "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "stand at the entrance of the humble village of Talvare. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Possessionless but not powerless, you foresee serenity in "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "this quaint village, buried in oblivion - "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a tranquil echo to your turbulent past."
               ]
             },
             {
@@ -3253,24 +5647,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "In the vibrant mercantile city of Solantha, you were an "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "influential tradesman, adept at the art of negotiation. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "With your gilded tongue and quick wit, you were successful "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "and wealthy beyond measure, your name echoed with respect "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "in the bustling market square. Yet power and money, as "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "enticing as they may be, also breed enemies. Betrayed by a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "trusted associate over a trade deal gone awry, you found "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "yourself accused of crimes you didn't commit. Abandoned and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "with your wealth seized, you escaped into the night. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Skirting unknown lands and hostile paths, you are now a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "mere silhouette at the outskirts of the small village "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "town of Talvare. Moneyless, nameless, yet hopeful, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you stand at the precipice of a life that holds promise "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "for a fresh bargain."
               ]
             },
             {
@@ -3380,24 +5950,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "You were a monk of the Silent Shores monastery, located "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "high in the Impossible Peaks. Abandoning worldly needs, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you sought enlightenment through meditation and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "interpretation of ancient scrolls. A life defined by quiet "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "contemplation and spiritual understanding was disrupted when "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your sanctuary was razed to the ground by marauders, seeking "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the ancient knowledge hidden within your sacred abode. With "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "the wisdom of ancients but, without any material "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "possessions, you found yourself wandering toward the quiet "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "village of Talvare. Unacquainted with the bustle of mundane "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "life and stripped of every material need, you hope to find "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "harmony in the peaceful hum of these untouched lives, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a melody of quiet existence. The whispering winds of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Talvare are far from your lost sanctuary, yet they carry a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "similar promise of finding tranquility amid chaos."
               ]
             },
             {
@@ -3507,24 +6267,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Once, you were a revered guardian of the Sacred Grove, "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "dwelling amidst lively, whispering leaves and ancient "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "wisdom. The forest was your shelter and guide; the creatures "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "therein were your companions. You lived in harmony with "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "nature, your ability to commune with it being your greatest "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "strength. However, darkness fell as savage marauders "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "plundered the grove, leaving you devoid of your dwelling, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "purpose, and companions. With sorrow in your heart and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "nothing more than the ordinary clothes on your back, you "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "embarked on a journey that led you to the serene village of "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Talvare. Stripped of your emerald sanctuary, although "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "penniless and seemingly ordinary, the village's raw and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "naive connection to its surrounding nature offers a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "semblance of home. In this humble dwelling, perhaps, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "you could plant the seeds of a new beginning."
               ]
             },
             {
@@ -3634,24 +6584,242 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "Brought up in the intimidating ranks of the Royal Vanguard "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of Kaspard, your life was a string of demanding drills, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "stringent discipline, and relentless strength tests. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Wielding a mean blade and an unyielding spirit, you rose "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "through the ranks, your honed instincts and steadfast "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "loyalty placing you amongst the elite, always ready for the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "call to glory and honor. That dawn came, but it was as "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "bitter as the chill of death. A bloody coup orchestrated by "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "treacherous insiders annihilated your comrades, but you, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "narrowly escaped, were named the traitor. Deprived of your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "position, honor, and everything you owned, you fled to "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "evade wrongful accusations, traversing danger-ridden "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "pathways. Your turbulent saga led you to the quiet, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "unsuspecting village of Talvare. Penniless and seemingly "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "insignificant, this small village promises a refuge, a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "place to heal, to prove your innocence, and perhaps, to "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "reclaim lost glory."
               ]
             },
             {
@@ -3761,24 +6929,214 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "You were once known as the greatest gladiator of the "
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "infamous arenas of Calliphas. Your fiery spirit and "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "proficiency in combat were admired by crowd and challengers "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "alike. Thrust into the ruthless world of gladiatorial combat "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "as a prisoner, the roar of bloodthirsty spectators was your "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "lullaby and the clash of steel, your calling. However, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "everything changed the day you spared your opponent's life, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "defying the brutal rules of the arena. Punished for your act "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of defiance, you escaped your chains, leaving your life as a "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "celebrated warrior behind. With no coin in your pocket, nor "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a weapon at your side, you've reached the peaceful village "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "of Talvare. This small hamlet, quiet and unhurried, offers "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "a stark contrast to the savage life you're accustomed to, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "but perhaps it's a chance for a new existence beyond the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "shadow of the bloodbaths."
               ]
             },
             {
@@ -3888,24 +7246,200 @@
               ]
             },
             {
-              "code": 230,
+              "code": 105,
               "indent": 2,
               "parameters": [
-                900
+                1,
+                true
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                "You, a humble apprentice of the benevolent wizard Myrddin,"
               ]
             },
             {
-              "code": 230,
+              "code": 405,
               "indent": 2,
               "parameters": [
-                900
+                " "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "lived a life secluded in the mystical Greatwood Forest. "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "Days merged into nights as you learnt the art of weaving "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "magic and deciphering ancient scrolls. Forest creatures were "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "your companions, and under starlit canopies, your magic "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "bloomed. But your tranquility was punctured when an evil "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "sorcerer cursed Myrddin deep into an eternal slumber and, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "in his wrath, razed your dwelling. Rendered penniless, "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "orphans of your protective forest, you escaped with nothing "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "more than your half-learnt spells. Guided by a falcon sent "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "by your slumbering master, you've made your way to the "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "quiet village of Talvare, devoid of any riches or arcane "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "tools. This is your new crossroads, where a boy abandoned "
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 405,
+              "indent": 2,
+              "parameters": [
+                "by fate evolves into a man that makes his own."
               ]
             },
             {

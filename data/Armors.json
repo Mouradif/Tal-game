@@ -1218,7 +1218,7 @@
   {
     "id": 46,
     "atypeId": 1,
-    "description": "[General Equipment] A cloth headband for protecting\nthe forehead.",
+    "description": "[General Equipment] A cloth Hood for protecting\nthe forehead.",
     "etypeId": 3,
     "traits": [
       {
@@ -1227,9 +1227,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 771,
-    "name": "Worn Hat",
-    "note": "",
+    "iconIndex": 750,
+    "name": "Worn Hood",
+    "note": "<hat:hat6_c1> brown",
     "params": [
       0,
       0,
@@ -1245,7 +1245,7 @@
   {
     "id": 47,
     "atypeId": 1,
-    "description": "[General Equipment] A leather headband for protecting\nthe forehead.",
+    "description": "[General Equipment] A leather Hood for protecting\nthe head.",
     "etypeId": 3,
     "traits": [
       {
@@ -1254,9 +1254,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 775,
-    "name": "Hat",
-    "note": "",
+    "iconIndex": 750,
+    "name": "Hood",
+    "note": "<hat:hat6_c3> white",
     "params": [
       0,
       0,
@@ -1272,7 +1272,7 @@
   {
     "id": 48,
     "atypeId": 1,
-    "description": "[General Equipment] A hat made of leather.",
+    "description": "[General Equipment] A Hood made of leather dyed green.",
     "etypeId": 3,
     "traits": [
       {
@@ -1281,9 +1281,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 768,
-    "name": "Fine Hat",
-    "note": "",
+    "iconIndex": 751,
+    "name": "Fine Hood",
+    "note": "<hat:hat6_c5> green",
     "params": [
       0,
       0,
@@ -1299,7 +1299,7 @@
   {
     "id": 49,
     "atypeId": 1,
-    "description": "[General Equipment] A Pirate hat for \nhead for protection.",
+    "description": "[General Equipment] A Hood for head for protection.",
     "etypeId": 3,
     "traits": [
       {
@@ -1308,9 +1308,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 776,
-    "name": "Maser hat",
-    "note": "",
+    "iconIndex": 751,
+    "name": "Master Hood",
+    "note": "<hat:hat6_c4> red",
     "params": [
       0,
       0,
@@ -1326,7 +1326,7 @@
   {
     "id": 50,
     "atypeId": 1,
-    "description": "[General Equipment] A fancy hat with bird feathers\nattached.",
+    "description": "[General Equipment] A fancy Hood.",
     "etypeId": 3,
     "traits": [
       {
@@ -1335,9 +1335,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 777,
-    "name": "Enchanted Hat",
-    "note": "",
+    "iconIndex": 751,
+    "name": "Enchanted Hood",
+    "note": "<hat:hat6_c6> blue",
     "params": [
       0,
       0,
@@ -1391,7 +1391,7 @@
     ],
     "iconIndex": 753,
     "name": "Worn Cap",
-    "note": "",
+    "note": "<hat:hat3_c1> brown",
     "params": [
       0,
       0,
@@ -1418,7 +1418,7 @@
     ],
     "iconIndex": 752,
     "name": "Cap",
-    "note": "",
+    "note": "<hat:hat3> silver",
     "params": [
       0,
       0,
@@ -1445,7 +1445,7 @@
     ],
     "iconIndex": 755,
     "name": "Fine Cap",
-    "note": "",
+    "note": "<hat:hat3_c2> gold",
     "params": [
       0,
       0,
@@ -1472,7 +1472,7 @@
     ],
     "iconIndex": 755,
     "name": "Master Cap",
-    "note": "",
+    "note": "<hat:hat3_c2> gold",
     "params": [
       0,
       0,
@@ -1499,7 +1499,7 @@
     ],
     "iconIndex": 757,
     "name": "Enchanted Cap",
-    "note": "",
+    "note": "<hat:hat3_c2> gold",
     "params": [
       0,
       0,
@@ -1526,7 +1526,7 @@
     ],
     "iconIndex": 758,
     "name": "Legendary Cap",
-    "note": "",
+    "note": "<hat:hat3_c2> gold",
     "params": [
       0,
       0,
@@ -1580,7 +1580,7 @@
     ],
     "iconIndex": 759,
     "name": "Worn Helm",
-    "note": "",
+    "note": "<hat:hat4_c1> brown",
     "params": [
       0,
       0,
@@ -1607,7 +1607,7 @@
     ],
     "iconIndex": 761,
     "name": "Helm",
-    "note": "",
+    "note": "<hat:hat4> silver",
     "params": [
       0,
       0,
@@ -1634,7 +1634,7 @@
     ],
     "iconIndex": 762,
     "name": "Fine Helm",
-    "note": "",
+    "note": "<hat:hat4_c2> gold/red",
     "params": [
       0,
       0,
@@ -1661,7 +1661,7 @@
     ],
     "iconIndex": 760,
     "name": "Master Helm",
-    "note": "",
+    "note": "<hat:hat4_c2> gold/red",
     "params": [
       0,
       0,
@@ -1688,7 +1688,7 @@
     ],
     "iconIndex": 767,
     "name": "Enchanted Helm",
-    "note": "",
+    "note": "<hat:hat4_c3> gold/blue",
     "params": [
       0,
       0,
@@ -1742,7 +1742,7 @@
     ],
     "iconIndex": 778,
     "name": "Worn Wizard Hat",
-    "note": "",
+    "note": "<hat:hat9_c5> brown",
     "params": [
       0,
       0,
@@ -1769,7 +1769,7 @@
     ],
     "iconIndex": 778,
     "name": "Wizard Hat",
-    "note": "",
+    "note": "<hat:hat9_c4> white",
     "params": [
       0,
       0,
@@ -1796,7 +1796,7 @@
     ],
     "iconIndex": 779,
     "name": "Fine Wizard Hat",
-    "note": "",
+    "note": "<hat:hat9_c2> green",
     "params": [
       0,
       0,
@@ -1823,7 +1823,7 @@
     ],
     "iconIndex": 779,
     "name": "Master Wizard Hat",
-    "note": "",
+    "note": "<hat:hat9_c1> red",
     "params": [
       0,
       0,
@@ -1850,7 +1850,7 @@
     ],
     "iconIndex": 779,
     "name": "Enchanted Wizard Hat",
-    "note": "",
+    "note": "<hat:hat9> blue",
     "params": [
       0,
       0,
@@ -1877,7 +1877,7 @@
     ],
     "iconIndex": 779,
     "name": "Legendary Sage Hat",
-    "note": "",
+    "note": "<hat:hat9_c3> black",
     "params": [
       0,
       0,

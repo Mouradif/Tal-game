@@ -1957,7 +1957,7 @@
     null,
     {
       "id": 1,
-      "name": "EV001",
+      "name": "fake door",
       "note": "",
       "pages": [
         {
@@ -2315,7 +2315,7 @@
     },
     {
       "id": 4,
-      "name": "EV004",
+      "name": "ambient light",
       "note": "",
       "pages": [
         {
@@ -2402,7 +2402,7 @@
     },
     {
       "id": 5,
-      "name": "EV005",
+      "name": "fire",
       "note": "",
       "pages": [
         {
@@ -2469,7 +2469,7 @@
     },
     {
       "id": 6,
-      "name": "EV006",
+      "name": "fire",
       "note": "",
       "pages": [
         {
@@ -2536,7 +2536,7 @@
     },
     {
       "id": 7,
-      "name": "EV007",
+      "name": "wall light",
       "note": "",
       "pages": [
         {
@@ -2603,7 +2603,7 @@
     },
     {
       "id": 8,
-      "name": "EV008",
+      "name": "wall light",
       "note": "",
       "pages": [
         {

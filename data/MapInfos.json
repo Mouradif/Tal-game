@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 816,
-    "scrollY": 624
+    "scrollX": 973.1999999999999,
+    "scrollY": 1374.6
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "enemy/quest item event map",
     "order": 44,
     "parentId": 0,
-    "scrollX": 1390.2857142857142,
-    "scrollY": 777.4285714285713,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -75,8 +75,8 @@
     "name": "RoomA1111",
     "order": 7,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 504.54545454545456,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -85,8 +85,8 @@
     "name": "RoomA1010",
     "order": 12,
     "parentId": 7,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -95,8 +95,8 @@
     "name": "RoomA0110",
     "order": 14,
     "parentId": 7,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -105,8 +105,8 @@
     "name": "RoomA0101",
     "order": 13,
     "parentId": 7,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 484.5,
     "quick": false
   },
   {
@@ -115,8 +115,8 @@
     "name": "RoomA1001",
     "order": 15,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 504.54545454545456,
+    "scrollX": 811,
+    "scrollY": 504.5,
     "quick": false
   },
   {
@@ -125,8 +125,8 @@
     "name": "RoomA1110",
     "order": 8,
     "parentId": 7,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -135,8 +135,8 @@
     "name": "RoomA1101",
     "order": 9,
     "parentId": 7,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -145,8 +145,8 @@
     "name": "RoomA1011",
     "order": 10,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 504.54545454545456,
+    "scrollX": 811,
+    "scrollY": 504.5,
     "quick": false
   },
   {
@@ -165,8 +165,8 @@
     "name": "RoomA1100",
     "order": 16,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 504.54545454545456,
+    "scrollX": 811,
+    "scrollY": 504.5,
     "quick": false
   },
   {
@@ -175,8 +175,8 @@
     "name": "RoomA0011",
     "order": 17,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 503.4545454545455,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -185,8 +185,8 @@
     "name": "RoomA1000",
     "order": 18,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 504.54545454545456,
+    "scrollX": 811,
+    "scrollY": 504.5,
     "quick": false
   },
   {
@@ -195,8 +195,8 @@
     "name": "RoomA0100",
     "order": 19,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 504.54545454545456,
+    "scrollX": 811,
+    "scrollY": 504.5,
     "quick": false
   },
   {
@@ -205,8 +205,8 @@
     "name": "RoomA0010",
     "order": 20,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 503.4545454545455,
+    "scrollX": 811,
+    "scrollY": 503.5,
     "quick": false
   },
   {
@@ -215,8 +215,8 @@
     "name": "RoomA0001",
     "order": 21,
     "parentId": 7,
-    "scrollX": 884.7272727272727,
-    "scrollY": 503.4545454545455,
+    "scrollX": 811,
+    "scrollY": 503.5,
     "quick": false
   },
   {
@@ -235,8 +235,8 @@
     "name": "Wilderness1110",
     "order": 29,
     "parentId": 23,
-    "scrollX": 811,
-    "scrollY": 545.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -245,8 +245,8 @@
     "name": "Wilderness1101",
     "order": 30,
     "parentId": 23,
-    "scrollX": 1216.5,
-    "scrollY": 680.25,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -285,8 +285,8 @@
     "name": "Wilderness0011",
     "order": 34,
     "parentId": 23,
-    "scrollX": 1216.5,
-    "scrollY": 680.25,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -295,8 +295,8 @@
     "name": "Wilderness0110",
     "order": 35,
     "parentId": 23,
-    "scrollX": 1216.5,
-    "scrollY": 680.25,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -305,8 +305,8 @@
     "name": "Wilderness1001",
     "order": 36,
     "parentId": 23,
-    "scrollX": 1216.5,
-    "scrollY": 680.25,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -325,7 +325,7 @@
     "name": "Wilderness0101",
     "order": 38,
     "parentId": 23,
-    "scrollX": 819,
+    "scrollX": 811,
     "scrollY": 546.5,
     "quick": false
   },
@@ -345,8 +345,8 @@
     "name": "Wilderness0100",
     "order": 40,
     "parentId": 23,
-    "scrollX": 1216.5,
-    "scrollY": 680.25,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -366,7 +366,7 @@
     "order": 42,
     "parentId": 23,
     "scrollX": 811,
-    "scrollY": 546.5,
+    "scrollY": 466.5,
     "quick": false
   },
   {
@@ -375,8 +375,8 @@
     "name": "Wildernes Start",
     "order": 22,
     "parentId": 1,
-    "scrollX": 811,
-    "scrollY": 453.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -385,8 +385,8 @@
     "name": "Training Grounds",
     "order": 25,
     "parentId": 38,
-    "scrollX": 811,
-    "scrollY": 546.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -396,7 +396,7 @@
     "order": 28,
     "parentId": 23,
     "scrollX": 811,
-    "scrollY": 546.5,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -405,8 +405,8 @@
     "name": "Lake Guild House",
     "order": 23,
     "parentId": 38,
-    "scrollX": 720.8888888888889,
-    "scrollY": 410.22222222222223
+    "scrollX": 1441.2,
+    "scrollY": 1404.6
   },
   {
     "id": 42,
@@ -414,8 +414,8 @@
     "name": "Local Forest",
     "order": 26,
     "parentId": 38,
-    "scrollX": 811,
-    "scrollY": 2333.5
+    "scrollX": 982.8,
+    "scrollY": 2152.2
   },
   {
     "id": 43,
@@ -443,8 +443,8 @@
     "name": "Guild House Inside",
     "order": 24,
     "parentId": 41,
-    "scrollX": 811,
-    "scrollY": 461.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -453,8 +453,8 @@
     "name": "Character Creation",
     "order": 43,
     "parentId": 0,
-    "scrollX": 811,
-    "scrollY": 461.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {

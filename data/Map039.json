@@ -1587,7 +1587,7 @@
     0,
     0,
     0,
-    0,
+    307,
     0,
     0,
     0,
@@ -2154,7 +2154,7 @@
     316,
     0,
     315,
-    307,
+    523,
     307,
     307,
     307,
@@ -2181,7 +2181,7 @@
     0,
     0,
     0,
-    0,
+    531,
     0,
     0,
     81,
@@ -4578,6 +4578,72 @@
       "x": 13,
       "y": 9
     },
-    null
+    {
+      "id": 4,
+      "name": "post lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 5
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 16,
+      "y": 15
+    }
   ]
 }

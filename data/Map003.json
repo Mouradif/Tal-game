@@ -2921,7 +2921,7 @@
     },
     {
       "id": 6,
-      "name": "EV006",
+      "name": "ambient lighting",
       "note": "",
       "pages": [
         {
@@ -3008,7 +3008,7 @@
     },
     {
       "id": 7,
-      "name": "EV007",
+      "name": "wall light",
       "note": "",
       "pages": [
         {
@@ -3075,7 +3075,7 @@
     },
     {
       "id": 8,
-      "name": "EV008",
+      "name": "wall light",
       "note": "",
       "pages": [
         {
@@ -3142,7 +3142,7 @@
     },
     {
       "id": 9,
-      "name": "EV009",
+      "name": "wall light",
       "note": "",
       "pages": [
         {
