@@ -112,7 +112,7 @@
     "animationId": 58,
     "damage": {
       "critical": true,
-      "elementId": 0,
+      "elementId": 1,
       "formula": "a.atk * 5 - b.def * 2",
       "type": 1,
       "variance": 20
@@ -143,7 +143,7 @@
     "animationId": 24,
     "damage": {
       "critical": true,
-      "elementId": 0,
+      "elementId": 1,
       "formula": "a.atk * 3 - b.def * 2",
       "type": 1,
       "variance": 20
@@ -165,7 +165,7 @@
     "speed": 0,
     "stypeId": 2,
     "successRate": 100,
-    "tpCost": 10,
+    "tpCost": 15,
     "tpGain": 0,
     "messageType": 1
   },
@@ -192,7 +192,7 @@
     "iconIndex": 157,
     "message1": "%1 casts %2!",
     "message2": "",
-    "mpCost": 15,
+    "mpCost": 20,
     "name": "Magic Bolt",
     "note": "",
     "occasion": 0,

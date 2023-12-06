@@ -2341,7 +2341,7 @@
         "code": 230,
         "indent": 0,
         "parameters": [
-          2
+          90
         ]
       },
       {
@@ -2656,12 +2656,31 @@
     "id": 18,
     "list": [
       {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_SkillShop",
+          "Call Scene",
+          "Call Scene",
+          {
+            "goods": "[\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\",\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\",\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "Shop Goods = [\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\",\"{\\\"skil…"
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Master Skill shop",
     "switchId": 1,
     "trigger": 0
   },
