@@ -15,7 +15,9 @@ Game_Follower.prototype.refresh = function() {
 
 const RefreshPlayer = Game_Player.prototype.refresh;
 Game_Player.prototype.refresh = function() {
-  const actorData = $gameParty.leader().actor();
+  const testLeader = $gameParty.leader();
+  const leader = testLeader == null ? $gamePartyTs.leader() : testLeader;
+  const actorData = leader.actor();
   const { base, hair, top, bottom } = actorData.meta;
   if (!base) {
     RefreshPlayer.call(this);
@@ -25,6 +27,30 @@ Game_Player.prototype.refresh = function() {
     base, hair, top, bottom
   }
   this._followers.refresh();
+}
+
+const RefreshEvent = Game_Event.prototype.refresh;
+Game_Event.prototype.refresh = function() {
+  const event = this.event();
+  if (event.meta.Party) {
+    const partyMemberId = parseInt(event.meta.Party);
+    const partyTsMembers = $gamePartyTs.members();
+    if (partyMemberId > partyTsMembers.length) {
+      RefreshEvent.call(this);
+      return;
+    }
+    const partyMember = partyTsMembers[partyMemberId - 1].actor();
+    const { base, hair, top, bottom } = partyMember.meta;
+    if (!base) {
+      RefreshEvent.call(this);
+      return;
+    }
+    this._parts = {
+      base, hair, top, bottom
+    }
+    return;
+  }
+  RefreshEvent.call(this);
 }
 
 ImageManager.loadCharacterPart = function(part, filename) {
@@ -50,7 +76,7 @@ Sprite_Character.prototype.setCharacter = function(character) {
 }
 
 Sprite_Character.prototype.isMultipart = function() {
-  return Boolean(this._character._parts);
+  return Boolean(this._character && this._character._parts);
 }
 
 const isCharacterImageChanged = Sprite_Character.prototype.isImageChanged;
@@ -67,6 +93,9 @@ Sprite_Character.prototype.isImageChanged = function() {
 const updateSpriteCharacter = Sprite_Character.prototype.update;
 Sprite_Character.prototype.update = function() {
   if (this.isMultipart()) {
+    if (!this._characterBase) {
+      Sprite_Character.prototype.setCharacter.call(this, this._character);
+    }
     this._characterBase.update();
     this._characterHair.update();
     this._characterTop.update();

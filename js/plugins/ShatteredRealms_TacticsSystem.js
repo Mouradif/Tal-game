@@ -708,8 +708,10 @@ SceneManager.isCurrentScene = function(sceneClass) {
 const onSceneStart = SceneManager.onSceneStart;
 SceneManager.onSceneStart = function() {
     onSceneStart.call(this);
-    if (SceneManager.sceneStartCallback)
+    if (SceneManager.sceneStartCallback) {
         SceneManager.sceneStartCallback();
+        SceneManager.sceneStartCallback = null;
+    }
 }
 
 //----
@@ -1226,9 +1228,7 @@ BattleManager.initMembers = function() {
     this._rewards = {};
 };
 
-// TODO: don't require an event to place the player, just place it in the square they should have been teleported to
 BattleManager.createGameObjects = function() {
-    console.log('Creating game objects');
     const events = $gameMap.events();
     const citedRegions = events.filter(e => e.tparam('SpawnRegion') > 0).map(e => e.tparam('SpawnRegion'));
     const tileCountByRegion = citedRegions.reduce((a, c) => ({
@@ -1240,22 +1240,26 @@ BattleManager.createGameObjects = function() {
         ...a,
         [c]: $gameMap.getRandomTilesForRegion(parseInt(c), tileCountByRegion[c])
     }), {});
-    let playerAdded = false;
     for (const event of events) {
+        if ($gameSelfSwitches.value([$gameMap._mapId, event._eventId, 'X'])) {
+            continue;
+        }
         const spawnRegion = event.tparam('SpawnRegion');
         const location = (spawnRegion > 0) ? tilesByRegion[spawnRegion].shift() : null;
         if (location) {
             event.setPosition(location.x, location.y);
         }
         if (event.tparam('Actor') > 0) {
+            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameActor(event);
-            playerAdded = true;
         } else if (event.tparam('Party') > 0) {
+            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameParty(event)
-            playerAdded = true;
         } else if (event.tparam('Enemy') > 0) {
+            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameEnemy(event);
         } else if (event.tparam('Troop') > 0) {
+            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameTroop(event);
         }
     }
@@ -1781,8 +1785,7 @@ BattleManager.updateMove = function() {
         if (action && action.isMove()) {
             action.applyMove();
             this._subject.nextMove();
-        }
-        if (!action || !action.isMove()){
+        } else {
             if (this._subject.canInput() && this._subject.isActor()) {
                 this._battlePhase = 'input';
             } else {
@@ -2063,8 +2066,6 @@ BattleManager.endBattle = function(result) {
     $gamePlayer._shouldPreventAutosave = false;
     $gameMap.clearTiles();
     if (this._eventCallback) {
-        console.log({ cb: this._eventCallback });
-        console.log($gameMap._interpreter._branch);
         this._eventCallback(result);
     }
     if (result === 0) {
@@ -2153,11 +2154,7 @@ BattleManager.gainDropItems = function() {
     });
 };
 
-// TODO: don't pop the scene, just start walking normally instead
-// TODO: or at least, transition to a SceneMap where you're standing in the same placed
 BattleManager.updateBattleEnd = function() {
-    const tmp = SceneManager._stack[0];
-    console.log(tmp);
     if (!this._escaped && $gameParty.isAllDead() || TacticsSystem.isDefeated) {
         if (this._canLose) {
             $gameParty.reviveBattleMembers();
@@ -2166,7 +2163,33 @@ BattleManager.updateBattleEnd = function() {
             SceneManager.goto(Scene_Gameover);
         }
     } else {
-        SceneManager.pop();
+        const battlers = $gameMap.events().map(e => e.battler()).filter(Boolean);
+        const battler = battlers.filter(b => b.constructor.name === 'Game_Actor').pop();
+        if (!battler) {
+            throw new Error('Combat won with no actor');
+        }
+        const events = $gameMap.events();
+        for (const event of events) {
+            if (
+              event.tparam('Enemy') > 0 ||
+              event.tparam('Troop') > 0
+            ) {
+                event.erase();
+            }
+        }
+        $gamePlayer.reserveTransfer(BattleManager._tacticsMapId, battler._tx, battler._ty, battler._char._direction, 0)
+        SceneManager.sceneStartCallback = () => {
+            for (const event of events) {
+                if (
+                  event.tparam('Party') > 0 ||
+                  event.tparam('Actor') > 0
+                ) {
+                    event.setOpacity(0);
+                    event.setThrough(true);
+                }
+            }
+        }
+        SceneManager.goto(Scene_Map);
     }
     this._phase = null;
     this.terminate();
@@ -2686,12 +2709,16 @@ Game_BattlerBase.prototype.waitSkillId = function() {
 const PerformPlayerTransfer = Game_Player.prototype.performTransfer;
 Game_Player.prototype.performTransfer = function() {
     PerformPlayerTransfer.call(this);
-    const enemies = $dataMap.events.filter(e => e && e.meta.Enemy);
+    const enemies = $dataMap.events.filter(e => e && e.meta.Enemy).filter(e => !$gameSelfSwitches.value([
+      $gameMap._mapId,
+      e.id,
+      'X'
+    ]));
     if (enemies.length !== 0) {
+        BattleManager._tacticsMapId = $gameMap._mapId;
         BattleManager.setupMapTroops(enemies);
-        console.log('Start combat');
         BattleManager.setup(1, false, false);
-        SceneManager.push(Scene_Battle);
+        SceneManager.goto(Scene_Battle);
         SceneManager.sceneStartCallback = () => {
             if (SceneManager.isCurrentScene(Scene_Map)) {
                 SceneManager._scene.stop();
@@ -2699,12 +2726,6 @@ Game_Player.prototype.performTransfer = function() {
         }
     }
 };
-
-// TODO: in general: when the destination map contains enemies, start a combat instead
-const ReserveTransfer = Game_Player.prototype.reserveTransfer;
-Game_Player.prototype.reserveTransfer = function(mapId, x, y, d, fadeType) {
-    ReserveTransfer.call(this, mapId, x, y, d, fadeType);
-}
 
 //-----------------------------------------------------------------------------
 // Game_Battler
@@ -3529,7 +3550,6 @@ Game_Map.prototype.getRandomTilesForRegion = function(regionId, max = 1) {
     return tiles.slice(0, number);
 }
 
-
 //-----------------------------------------------------------------------------
 // Game_CharacterBase
 //
@@ -3556,11 +3576,6 @@ Game_CharacterBase.prototype.isCollidedWithEvents = function(x, y) {
         return TacticsSystem.Game_CharacterBase_isCollidedWithEvents.call(this, x, y);
     }
 };
-
-// TODO: check if it works without this
-// Game_CharacterBase.prototype.requestAnimation = function (animationId) {
-//     this._animationId = animationId;
-// };
 
 //-----------------------------------------------------------------------------
 // Game_Character
@@ -4097,6 +4112,10 @@ Game_PartyTs.prototype.members = function() {
     });
 };
 
+Game_PartyTs.prototype.leader = function() {
+    return this.members()[0];
+}
+
 Game_PartyTs.prototype.clear = function() {
     this._actors = [];
     this._maxBattleMembers = 0;
@@ -4242,7 +4261,6 @@ Scene_Map.prototype.stop = function() {
             close: () => {},
         }
     }
-    console.log('stop scene map');
     SceneMapStop.call(this);
 }
 
