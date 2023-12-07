@@ -491,17 +491,17 @@ Tactics-System (https://github.com/belmoussaoui/Tactics-System).
 const emptyPage = () => ({
     conditions: {
         actorHp: 50,
-          actorId: 1,
-          actorValid: false,
-          enemyHp: 0,
-          enemyIndex: 0,
-          enemyValid: false,
-          switchId: 1,
-          switchValid: false,
-          turnA: 0,
-          turnB: 0,
-          turnEnding: false,
-          turnValid: false
+        actorId: 1,
+        actorValid: false,
+        enemyHp: 0,
+        enemyIndex: 0,
+        enemyValid: false,
+        switchId: 1,
+        switchValid: false,
+        turnA: 0,
+        turnB: 0,
+        turnEnding: false,
+        turnValid: false
     },
     list: [
         {
@@ -509,7 +509,14 @@ const emptyPage = () => ({
             indent: 0,
             parameters: []
         }
-    ]
+    ],
+    image: {
+        characterIndex: 0,
+        characterName: "",
+        direction: 2,
+        pattern: 0,
+        tileId: 0
+    }
 })
 
 class TacticsSystem {
@@ -2179,6 +2186,7 @@ BattleManager.updateBattleEnd = function() {
         }
         $gamePlayer.reserveTransfer(BattleManager._tacticsMapId, battler._tx, battler._ty, battler._char._direction, 0)
         SceneManager.sceneStartCallback = () => {
+            BattleManager.clear();
             for (const event of events) {
                 if (
                   event.tparam('Party') > 0 ||
@@ -2717,8 +2725,9 @@ Game_Player.prototype.performTransfer = function() {
     if (enemies.length !== 0) {
         BattleManager._tacticsMapId = $gameMap._mapId;
         BattleManager.setupMapTroops(enemies);
+        $gameMap._interpreter.setWaitMode.call(this, 'TacticsSystem.battle');
         BattleManager.setup(1, false, false);
-        SceneManager.goto(Scene_Battle);
+        SceneManager.push(Scene_Battle);
         SceneManager.sceneStartCallback = () => {
             if (SceneManager.isCurrentScene(Scene_Map)) {
                 SceneManager._scene.stop();
@@ -3857,6 +3866,7 @@ Game_Selector.prototype.updateSelect = function() {
             }
         }
     }
+    console.log(this._selectIndex);
 };
 
 Game_Selector.prototype.updateScroll = function(lastScrolledX, lastScrolledY) {
@@ -3990,6 +4000,7 @@ Game_Selector.prototype.selectTarget = function(action) {
 
 TacticsSystem.Game_Interpreter_updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
 Game_Interpreter.prototype.updateWaitMode = function() {
+    console.log('update Wait Mode')
     let waiting = false;
     switch (this._waitMode) {
         case 'TacticsSystem.battle':
@@ -4002,6 +4013,7 @@ Game_Interpreter.prototype.updateWaitMode = function() {
             return TacticsSystem.Game_Interpreter_updateWaitMode.call(this);
     }
     if (!waiting) {
+        console.log('update Wait Mode, not waiting')
         if (this._waitMode === 'TacticsSystem.battle') {
             BattleManager.clear();
         }

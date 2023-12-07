@@ -9317,10 +9317,6 @@ Game_Event.prototype.refresh = function() {
 };
 
 Game_Event.prototype.findProperPageIndex = function() {
-    const event = this.event();
-    if (event === null) {
-        console.log('Find proper page index', this);
-    }
     const pages = this.event().pages;
     for (let i = pages.length - 1; i >= 0; i--) {
         const page = pages[i];

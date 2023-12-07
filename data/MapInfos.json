@@ -61,12 +61,12 @@
   },
   {
     "id": 7,
-    "expanded": false,
+    "expanded": true,
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
-    "scrollX": 720.8888888888889,
-    "scrollY": 410.22222222222223,
+    "scrollX": 1382,
+    "scrollY": 825,
     "quick": false
   },
   {
@@ -405,8 +405,8 @@
     "name": "Lake Guild House",
     "order": 23,
     "parentId": 38,
-    "scrollX": 1441.2,
-    "scrollY": 1404.6
+    "scrollX": 1442,
+    "scrollY": 1405
   },
   {
     "id": 42,
