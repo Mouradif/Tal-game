@@ -2004,129 +2004,6 @@
     "id": 5,
     "list": [
       {
-        "code": 205,
-        "indent": 0,
-        "parameters": [
-          0,
-          {
-            "repeat": false,
-            "skippable": false,
-            "wait": true,
-            "list": [
-              {
-                "code": 36
-              },
-              {
-                "code": 17
-              },
-              {
-                "code": 15,
-                "parameters": [
-                  3
-                ]
-              },
-              {
-                "code": 18
-              },
-              {
-                "code": 15,
-                "parameters": [
-                  3
-                ]
-              },
-              {
-                "code": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": 505,
-        "indent": 0,
-        "parameters": [
-          {
-            "code": 36
-          }
-        ]
-      },
-      {
-        "code": 505,
-        "indent": 0,
-        "parameters": [
-          {
-            "code": 17
-          }
-        ]
-      },
-      {
-        "code": 505,
-        "indent": 0,
-        "parameters": [
-          {
-            "code": 15,
-            "parameters": [
-              3
-            ]
-          }
-        ]
-      },
-      {
-        "code": 505,
-        "indent": 0,
-        "parameters": [
-          {
-            "code": 18
-          }
-        ]
-      },
-      {
-        "code": 505,
-        "indent": 0,
-        "parameters": [
-          {
-            "code": 15,
-            "parameters": [
-              3
-            ]
-          }
-        ]
-      },
-      {
-        "code": 123,
-        "indent": 0,
-        "parameters": [
-          "A",
-          0
-        ]
-      },
-      {
-        "code": 125,
-        "indent": 0,
-        "parameters": [
-          0,
-          0,
-          1
-        ]
-      },
-      {
-        "code": 101,
-        "indent": 0,
-        "parameters": [
-          "",
-          0,
-          0,
-          2
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "1\\G were found!"
-        ]
-      },
-      {
         "code": 201,
         "indent": 0,
         "parameters": [
@@ -2197,7 +2074,7 @@
         "parameters": []
       }
     ],
-    "name": "Defeat Dungeon Treasure",
+    "name": "Defeat Dungeon",
     "switchId": 1,
     "trigger": 0
   },
@@ -2210,7 +2087,7 @@
         "parameters": []
       }
     ],
-    "name": "Fire",
+    "name": "",
     "switchId": 1,
     "trigger": 0
   },
@@ -2299,7 +2176,7 @@
         "code": 408,
         "indent": 0,
         "parameters": [
-          "1440 minutes = 24 hours "
+          "24 game hours = 1440 game minutes "
         ]
       },
       {
@@ -2335,6 +2212,13 @@
         "indent": 0,
         "parameters": [
           "900 frames = 1 in game minute"
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "900 frames = 15 real seconds"
         ]
       },
       {
@@ -2614,33 +2498,118 @@
     "id": 17,
     "list": [
       {
-        "code": 111,
+        "code": 357,
         "indent": 0,
         "parameters": [
-          11,
-          "shift",
-          1
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "tomes"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = tomes"
         ]
       },
       {
         "code": 357,
-        "indent": 1,
+        "indent": 0,
         "parameters": [
-          "CGMZ_QuestSystem",
-          "Call Scene",
-          "Call Scene",
-          {}
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "newbie weapons"
+          }
         ]
       },
       {
-        "code": 0,
-        "indent": 1,
-        "parameters": []
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = newbie weapons"
+        ]
       },
       {
-        "code": 412,
+        "code": 357,
         "indent": 0,
-        "parameters": []
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "newbie armor"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = newbie armor"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "potions"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = potions"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "potions"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = potions"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "potions"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = potions"
+        ]
       },
       {
         "code": 0,
@@ -2648,9 +2617,9 @@
         "parameters": []
       }
     ],
-    "name": "call quest scene",
-    "switchId": 16,
-    "trigger": 2
+    "name": "crypt chest",
+    "switchId": 1,
+    "trigger": 0
   },
   {
     "id": 18,

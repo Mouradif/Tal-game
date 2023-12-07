@@ -9,6 +9,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 32,
+        "rating": 4,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -58,7 +65,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:1>",
     "params": [
       50,
-      0,
+      50,
       10,
       10,
       10,
@@ -76,6 +83,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 33,
+        "rating": 3,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -120,7 +134,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:0>",
     "params": [
       70,
-      0,
+      50,
       15,
       10,
       10,
@@ -133,11 +147,18 @@
     "id": 3,
     "actions": [
       {
-        "conditionParam1": 0,
-        "conditionParam2": 0,
-        "conditionType": 0,
+        "skillId": 1,
         "rating": 5,
-        "skillId": 1
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 16,
+        "rating": 4,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -173,8 +194,18 @@
       },
       {
         "code": 31,
-        "dataId": 3,
+        "dataId": 4,
         "value": 0
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 2
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.5
       }
     ],
     "gold": 10,
@@ -182,7 +213,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:2>",
     "params": [
       100,
-      0,
+      300,
       20,
       20,
       20,
@@ -200,6 +231,27 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 15,
+        "rating": 3,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.4
+      },
+      {
+        "skillId": 34,
+        "rating": 5,
+        "conditionType": 1,
+        "conditionParam1": 1,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 41,
+        "rating": 3,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -244,7 +296,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:3>",
     "params": [
       200,
-      0,
+      300,
       30,
       30,
       10,
@@ -303,7 +355,7 @@
     ],
     "gold": 10,
     "name": "Cultist",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:1>",
     "params": [
       100,
       100,
@@ -365,7 +417,7 @@
     ],
     "gold": 10,
     "name": "Cultist Leader",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:3>",
     "params": [
       250,
       300,
@@ -427,7 +479,7 @@
     ],
     "gold": 10,
     "name": "Cultist (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:5>",
     "params": [
       250,
       300,
@@ -489,10 +541,10 @@
     ],
     "gold": 15,
     "name": "Bandit",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:0>",
     "params": [
       100,
-      0,
+      50,
       20,
       20,
       10,
@@ -551,10 +603,10 @@
     ],
     "gold": 15,
     "name": "Bandit Leader",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:2>",
     "params": [
       300,
-      0,
+      100,
       30,
       30,
       10,
@@ -613,10 +665,10 @@
     ],
     "gold": 15,
     "name": "Bandit (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:6>",
     "params": [
       300,
-      0,
+      200,
       30,
       30,
       10,
@@ -675,10 +727,10 @@
     ],
     "gold": 0,
     "name": "Orc",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:0>",
     "params": [
       100,
-      0,
+      50,
       10,
       10,
       10,
@@ -737,10 +789,10 @@
     ],
     "gold": 50,
     "name": "Orc Archer",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:1>",
     "params": [
       100,
-      0,
+      100,
       10,
       10,
       10,
@@ -799,10 +851,10 @@
     ],
     "gold": 250,
     "name": "Orc (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:3>",
     "params": [
       100,
-      0,
+      200,
       10,
       10,
       10,
@@ -861,10 +913,10 @@
     ],
     "gold": 30,
     "name": "Troll",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$troll1a_3>\n<TacticsCharacterIndex:3>",
     "params": [
       250,
-      0,
+      100,
       30,
       15,
       10,
@@ -923,10 +975,10 @@
     ],
     "gold": 100,
     "name": "Troll (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$troll2a_3>\n<TacticsCharacterIndex:3>",
     "params": [
       300,
-      100,
+      200,
       40,
       25,
       25,
@@ -985,7 +1037,7 @@
     ],
     "gold": 50,
     "name": "Floating Skull",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$bigskullB_3>\n<TacticsCharacterIndex:3>",
     "params": [
       150,
       100,
@@ -1047,7 +1099,7 @@
     ],
     "gold": 75,
     "name": "Flame Skull (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$bigskullD_3>\n<TacticsCharacterIndex:3>",
     "params": [
       250,
       500,
@@ -1109,10 +1161,10 @@
     ],
     "gold": 15,
     "name": "Zombie",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:mzombies_3>\n<TacticsCharacterIndex:7>",
     "params": [
       100,
-      0,
+      50,
       20,
       25,
       10,
@@ -1171,10 +1223,10 @@
     ],
     "gold": 15,
     "name": "Zombie Lord (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:mzombies_3>\n<TacticsCharacterIndex:2>",
     "params": [
       100,
-      0,
+      200,
       20,
       25,
       10,
@@ -1233,10 +1285,10 @@
     ],
     "gold": 0,
     "name": "Ratman",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:1>",
     "params": [
       100,
-      0,
+      50,
       10,
       10,
       10,
@@ -1295,10 +1347,10 @@
     ],
     "gold": 0,
     "name": "Ratman Stone Thrower",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:3>",
     "params": [
       100,
-      0,
+      100,
       10,
       10,
       10,
@@ -1357,10 +1409,10 @@
     ],
     "gold": 0,
     "name": "Ratman (Boss)",
-    "note": "<cgmzdroptable:newbie drops>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:2>",
     "params": [
       100,
-      0,
+      200,
       10,
       10,
       10,

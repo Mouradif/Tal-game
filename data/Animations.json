@@ -49,15 +49,15 @@
     "offsetY": 0,
     "rotation": {
       "x": 0,
-      "y": 0,
-      "z": 0
+      "y": 90,
+      "z": 90
     },
-    "scale": 75,
+    "scale": 25,
     "soundTimings": [
       {
         "frame": 0,
         "se": {
-          "name": "EVFX04_01_SpiralArrow",
+          "name": "Arcane_Magic_Spell_DRY_03",
           "pan": 0,
           "pitch": 100,
           "volume": 90
@@ -65,7 +65,7 @@
       }
     ],
     "speed": 100,
-    "alignBottom": false,
+    "alignBottom": true,
     "timings": []
   },
   {
@@ -5337,10 +5337,41 @@
   },
   {
     "id": 116,
-    "displayType": 0,
-    "effectName": "",
-    "flashTimings": [],
-    "name": "",
+    "displayType": 2,
+    "effectName": "Flash",
+    "flashTimings": [
+      {
+        "frame": 2,
+        "duration": 30,
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "frame": 19,
+        "duration": 10,
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "frame": 24,
+        "duration": 10,
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    ],
+    "name": "Power up",
     "offsetX": 0,
     "offsetY": 0,
     "rotation": {
@@ -5348,9 +5379,20 @@
       "y": 0,
       "z": 0
     },
-    "scale": 100,
-    "soundTimings": [],
-    "speed": 100
+    "scale": 150,
+    "soundTimings": [
+      {
+        "frame": 0,
+        "se": {
+          "name": "Power_Up_Buff_DRY_20",
+          "pan": 0,
+          "pitch": 130,
+          "volume": 90
+        }
+      }
+    ],
+    "speed": 100,
+    "timings": []
   },
   {
     "id": 117,

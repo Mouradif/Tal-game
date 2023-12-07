@@ -28,15 +28,15 @@
     "id": 2,
     "battlerName": "",
     "characterIndex": 0,
-    "characterName": ")base_character",
+    "characterName": ")Guild_rogue",
     "classId": 1,
     "equips": [
-      4,
-      0,
-      50,
       5,
-      77,
-      92
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "faceIndex": 0,
     "faceName": "",

@@ -1862,7 +1862,7 @@
     {
       "id": 1,
       "name": "blue slime",
-      "note": "",
+      "note": "<Enemy:1><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -1988,7 +1988,7 @@
     {
       "id": 2,
       "name": "green slime",
-      "note": "",
+      "note": "<Enemy:2><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2063,7 +2063,7 @@
     {
       "id": 3,
       "name": "fire slime",
-      "note": "",
+      "note": "<Enemy:3><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2138,7 +2138,7 @@
     {
       "id": 4,
       "name": "king slime Boss",
-      "note": "",
+      "note": "<Enemy:4><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2213,7 +2213,7 @@
     {
       "id": 5,
       "name": "bandit1",
-      "note": "",
+      "note": "<Enemy:8><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2348,88 +2348,14 @@
           "walkAnime": true
         }
       ],
-      "x": 3,
+      "x": 5,
       "y": 1
     },
-    {
-      "id": 6,
-      "name": "bandit2",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "bandits_3",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 4
-          },
-          "list": [
-            {
-              "code": 301,
-              "indent": 0,
-              "parameters": [
-                0,
-                8,
-                false,
-                false
-              ]
-            },
-            {
-              "code": 214,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 1,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 2,
-          "walkAnime": true
-        }
-      ],
-      "x": 3,
-      "y": 2
-    },
+    null,
     {
       "id": 7,
       "name": "bandit Leader",
-      "note": "",
+      "note": "<Enemy:9><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2498,13 +2424,13 @@
           "walkAnime": true
         }
       ],
-      "x": 3,
-      "y": 3
+      "x": 5,
+      "y": 2
     },
     {
       "id": 8,
       "name": "bandit boss",
-      "note": "",
+      "note": "<Enemy:10><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2573,13 +2499,13 @@
           "walkAnime": true
         }
       ],
-      "x": 3,
-      "y": 4
+      "x": 5,
+      "y": 3
     },
     {
       "id": 9,
       "name": "Cultist",
-      "note": "",
+      "note": "<Enemy:5><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2648,13 +2574,13 @@
           "walkAnime": true
         }
       ],
-      "x": 5,
+      "x": 3,
       "y": 1
     },
     {
       "id": 10,
       "name": "Cultist Leader",
-      "note": "",
+      "note": "<Enemy:6><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2723,13 +2649,13 @@
           "walkAnime": true
         }
       ],
-      "x": 5,
+      "x": 3,
       "y": 2
     },
     {
       "id": 11,
       "name": "Cultist Boss",
-      "note": "",
+      "note": "<Enemy:7><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2798,13 +2724,13 @@
           "walkAnime": true
         }
       ],
-      "x": 5,
+      "x": 3,
       "y": 3
     },
     {
       "id": 12,
       "name": "Orc",
-      "note": "",
+      "note": "<Enemy:11><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -2930,7 +2856,7 @@
     {
       "id": 13,
       "name": "Orc Archer",
-      "note": "",
+      "note": "<Enemy:12><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3056,7 +2982,7 @@
     {
       "id": 14,
       "name": "Orc Boss",
-      "note": "",
+      "note": "<Enemy:13><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3182,7 +3108,7 @@
     {
       "id": 15,
       "name": "Troll",
-      "note": "",
+      "note": "<Enemy:14><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3308,7 +3234,7 @@
     {
       "id": 16,
       "name": "Troll Boss",
-      "note": "",
+      "note": "<Enemy:15><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3434,7 +3360,7 @@
     {
       "id": 17,
       "name": "Zombie",
-      "note": "",
+      "note": "<Enemy:18><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3554,13 +3480,13 @@
           "walkAnime": true
         }
       ],
-      "x": 11,
+      "x": 13,
       "y": 1
     },
     {
       "id": 18,
       "name": "Zombie Boss",
-      "note": "",
+      "note": "<Enemy:19><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3680,13 +3606,13 @@
           "walkAnime": true
         }
       ],
-      "x": 11,
+      "x": 13,
       "y": 2
     },
     {
       "id": 19,
       "name": "Floating Skull",
-      "note": "",
+      "note": "<Enemy:16><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3806,13 +3732,13 @@
           "walkAnime": true
         }
       ],
-      "x": 13,
+      "x": 11,
       "y": 1
     },
     {
       "id": 20,
       "name": "Flame Skull",
-      "note": "",
+      "note": "<Enemy:17><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -3932,13 +3858,13 @@
           "walkAnime": true
         }
       ],
-      "x": 13,
+      "x": 11,
       "y": 2
     },
     {
       "id": 21,
       "name": "Ratman",
-      "note": "",
+      "note": "<Enemy:20><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -4064,7 +3990,7 @@
     {
       "id": 22,
       "name": "Ratman Stone Thrower",
-      "note": "",
+      "note": "<Enemy:21><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -4190,7 +4116,7 @@
     {
       "id": 23,
       "name": "Ratman Boss",
-      "note": "",
+      "note": "<Enemy:22><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {

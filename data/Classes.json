@@ -9632,6 +9632,11 @@
         "value": 1
       },
       {
+        "code": 41,
+        "dataId": 1,
+        "value": 1
+      },
+      {
         "code": 52,
         "dataId": 1,
         "value": 0
@@ -9677,7 +9682,53 @@
         "value": 1
       }
     ],
-    "learnings": [],
+    "learnings": [
+      {
+        "level": 1,
+        "skillId": 4,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 5,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 6,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 14,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 15,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 16,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 17,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 20,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 21,
+        "note": ""
+      }
+    ],
     "name": "Knight",
     "note": "",
     "params": [

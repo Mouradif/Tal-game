@@ -3564,7 +3564,7 @@
     },
     {
       "id": 2,
-      "name": "Treasure (1G)",
+      "name": "crypt treasure",
       "note": "",
       "pages": [
         {
@@ -3585,13 +3585,180 @@
           },
           "directionFix": true,
           "image": {
-            "characterIndex": 6,
+            "tileId": 0,
             "characterName": "!chests",
             "direction": 2,
             "pattern": 1,
-            "tileId": 0
+            "characterIndex": 6
           },
           "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Chest2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "repeat": false,
+                  "skippable": false,
+                  "wait": true,
+                  "list": [
+                    {
+                      "code": 36
+                    },
+                    {
+                      "code": 17
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 18
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 36
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 17
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 18
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 0,
+              "parameters": [
+                {
+                  "code": 15,
+                  "parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                0,
+                2,
+                50,
+                500
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 0,
+              "parameters": [
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Coin",
+                  "volume": 100,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\V[1]\\G were found!"
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                17
+              ]
+            },
             {
               "code": 117,
               "indent": 0,
@@ -3643,8 +3810,8 @@
           },
           "directionFix": true,
           "image": {
-            "characterIndex": 6,
-            "characterName": "!chests",
+            "characterIndex": 0,
+            "characterName": "!Chest",
             "direction": 8,
             "pattern": 1,
             "tileId": 0
@@ -4657,8 +4824,8 @@
     },
     {
       "id": 12,
-      "name": "blue slime",
-      "note": "<Enemy:1><SpawnRegion:11>",
+      "name": "king slime",
+      "note": "<Enemy:4><SpawnRegion:11>",
       "pages": [
         {
           "conditions": {
@@ -4772,8 +4939,8 @@
           "walkAnime": false
         }
       ],
-      "x": 9,
-      "y": 10
+      "x": 13,
+      "y": 4
     }
   ]
 }
