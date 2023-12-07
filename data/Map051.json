@@ -1281,17 +1281,17 @@
     0,
     0,
     0,
-    307,
-    0,
-    307,
-    0,
-    307,
+    184,
     0,
     0,
-    307,
+    0,
+    0,
+    0,
+    0,
+    0,
     83,
     84,
-    307,
+    184,
     0,
     0,
     0,
@@ -1308,7 +1308,7 @@
     0,
     0,
     0,
-    185,
+    0,
     0,
     0,
     0,
@@ -1848,17 +1848,17 @@
     267,
     304,
     307,
-    304,
-    307,
-    304,
-    307,
-    304,
     307,
     307,
-    304,
     307,
     307,
-    304,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
+    307,
     307,
     307,
     306,
@@ -1875,17 +1875,17 @@
     275,
     313,
     0,
-    312,
-    0,
-    312,
-    0,
-    312,
+    185,
     0,
     0,
-    312,
+    0,
+    0,
+    0,
+    0,
+    0,
     91,
     92,
-    312,
+    0,
     0,
     0,
     313,
@@ -3037,6 +3037,16 @@
     0,
     0,
     0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -3054,6 +3064,16 @@
     0,
     0,
     0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -3071,36 +3091,16 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
     0,
     0,
     0,
@@ -3439,494 +3439,7 @@
     null,
     {
       "id": 1,
-      "name": "Training Guide",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 20,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": ")old warrior bill",
-            "direction": 2,
-            "pattern": 0,
-            "characterIndex": 0
-          },
-          "list": [
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "Hello young Adventurer Are you looking for training? or "
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "some practice fights against my monsters in the Arena?"
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 0,
-              "parameters": [
-                [
-                  "Traning",
-                  "Arena"
-                ],
-                1,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                0,
-                "Traning"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "If you got the gold I can train you a Slime Companion."
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                1,
-                "Arena"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "Welcome to the arena my friend I have some local slimes "
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "that I've wrangled up just for this occasion."
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 1,
-              "parameters": [
-                [
-                  "No Thanks",
-                  "Slimes"
-                ],
-                1,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [
-                0,
-                "No Thanks"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": [
-                "Ok bye"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [
-                1,
-                "Slimes"
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 2,
-              "parameters": [
-                [
-                  "blue slime",
-                  "green slime",
-                  "fire slime",
-                  "king slime"
-                ],
-                1,
-                0,
-                1,
-                1
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [
-                0,
-                "blue slime"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": [
-                "Blue slime it is."
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": [
-                "Just enter the arena."
-              ]
-            },
-            {
-              "code": 201,
-              "indent": 3,
-              "parameters": [
-                0,
-                48,
-                14,
-                16,
-                0,
-                0
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [
-                1,
-                "green slime"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": [
-                "Green slime it is."
-              ]
-            },
-            {
-              "code": 201,
-              "indent": 3,
-              "parameters": [
-                0,
-                49,
-                14,
-                13,
-                0,
-                0
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [
-                2,
-                "fire slime"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": [
-                "Fire slime it is. Be carful now."
-              ]
-            },
-            {
-              "code": 201,
-              "indent": 3,
-              "parameters": [
-                0,
-                50,
-                14,
-                13,
-                0,
-                0
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [
-                3,
-                "king slime"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": [
-                "",
-                0,
-                1,
-                1,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": [
-                "King slime is a big boy watch out."
-              ]
-            },
-            {
-              "code": 201,
-              "indent": 3,
-              "parameters": [
-                0,
-                48,
-                14,
-                13,
-                0,
-                0
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 21,
-            "switch1Valid": true,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": ")old warrior bill",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        }
-      ],
-      "x": 15,
-      "y": 16
-    },
-    {
-      "id": 2,
-      "name": "Transfer (Wildernes Start)",
+      "name": "exit",
       "note": "",
       "pages": [
         {
@@ -3955,25 +3468,13 @@
           },
           "list": [
             {
-              "code": 250,
-              "indent": 0,
-              "parameters": [
-                {
-                  "name": "footsteps-stones",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
-              ]
-            },
-            {
               "code": 201,
               "indent": 0,
               "parameters": [
                 0,
-                38,
-                7,
-                2,
+                39,
+                14,
+                16,
                 0,
                 0
               ]
@@ -4001,17 +3502,17 @@
           "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 1,
+          "trigger": 0,
           "walkAnime": true
         }
       ],
-      "x": 13,
-      "y": 20
+      "x": 14,
+      "y": 15
     },
     {
-      "id": 3,
-      "name": "monster",
-      "note": "",
+      "id": 2,
+      "name": "Player",
+      "note": "<Party:1>",
       "pages": [
         {
           "conditions": {
@@ -4021,7 +3522,7 @@
             "itemValid": false,
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
-            "switch1Id": 6,
+            "switch1Id": 1,
             "switch1Valid": false,
             "switch2Id": 1,
             "switch2Valid": false,
@@ -4032,9 +3533,9 @@
           "directionFix": false,
           "image": {
             "tileId": 0,
-            "characterName": "slimevariants_3",
+            "characterName": "",
             "direction": 2,
-            "pattern": 1,
+            "pattern": 0,
             "characterIndex": 1
           },
           "list": [
@@ -4058,15 +3559,75 @@
           },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 1,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 3,
-          "walkAnime": true
+          "trigger": 1,
+          "walkAnime": false
         }
       ],
-      "x": 6,
-      "y": 5
+      "x": 14,
+      "y": 13
+    },
+    {
+      "id": 3,
+      "name": "king slime",
+      "note": "<Enemy:4><SpawnRegion:11>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 6,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        }
+      ],
+      "x": 13,
+      "y": 9
     },
     {
       "id": 4,
@@ -4135,256 +3696,8 @@
       "x": 16,
       "y": 15
     },
-    null,
     {
-      "id": 6,
-      "name": "monster",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 7,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "slimevariants_3",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 3,
-          "walkAnime": true
-        }
-      ],
-      "x": 8,
-      "y": 5
-    },
-    {
-      "id": 7,
-      "name": "monster",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 8,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "slimevariants_3",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 2
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 3,
-          "walkAnime": true
-        }
-      ],
-      "x": 10,
-      "y": 5
-    },
-    {
-      "id": 8,
-      "name": "monster",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 9,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "!$slime_king_single_3x",
-            "direction": 2,
-            "pattern": 1,
-            "characterIndex": 0
-          },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 3,
-          "walkAnime": true
-        }
-      ],
-      "x": 13,
-      "y": 5
-    },
-    {
-      "id": 9,
-      "name": "post lamp",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 19,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "!lights",
-            "direction": 4,
-            "pattern": 0,
-            "characterIndex": 6
-          },
-          "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": [
-                "[light fire]"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": true,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 21,
-      "y": 4
-    },
-    {
-      "id": 10,
+      "id": 5,
       "name": "post lamp",
       "note": "",
       "pages": [
@@ -4448,6 +3761,73 @@
         }
       ],
       "x": 4,
+      "y": 4
+    },
+    {
+      "id": 6,
+      "name": "post lamp",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 19,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "!lights",
+            "direction": 4,
+            "pattern": 0,
+            "characterIndex": 6
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "[light fire]"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 21,
       "y": 4
     }
   ]

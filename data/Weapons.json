@@ -161,7 +161,7 @@
     ],
     "iconIndex": 544,
     "name": "Sharp stick",
-    "note": "<weapon:dagger>",
+    "note": "<weapon:dagger>\n<range:1>",
     "params": [
       0,
       0,
@@ -747,7 +747,7 @@
     ],
     "iconIndex": 576,
     "name": "Worn Bow",
-    "note": "<weapon:bow>",
+    "note": "<weapon:bow>\n<Range:5>",
     "params": [
       0,
       0,
@@ -785,7 +785,7 @@
     ],
     "iconIndex": 579,
     "name": "Bow",
-    "note": "<weapon:bow_c1>",
+    "note": "<weapon:bow_c1>\n<Range:6>",
     "params": [
       0,
       0,
@@ -823,7 +823,7 @@
     ],
     "iconIndex": 580,
     "name": "Fine Bow",
-    "note": "<weapon:bow_c2>",
+    "note": "<weapon:bow_c2>\n<Range:7>",
     "params": [
       0,
       0,
@@ -861,7 +861,7 @@
     ],
     "iconIndex": 581,
     "name": "Mastercraft Bow",
-    "note": "<weapon:bow_c3>",
+    "note": "<weapon:bow_c3>\n<Range:8>",
     "params": [
       0,
       0,

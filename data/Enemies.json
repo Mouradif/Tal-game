@@ -66,9 +66,9 @@
     "params": [
       50,
       50,
+      15,
       10,
-      10,
-      10,
+      15,
       10,
       10,
       10
@@ -86,7 +86,7 @@
       },
       {
         "skillId": 33,
-        "rating": 3,
+        "rating": 4,
         "conditionType": 0,
         "conditionParam1": 0,
         "conditionParam2": 0
@@ -135,9 +135,9 @@
     "params": [
       70,
       50,
+      20,
+      10,
       15,
-      10,
-      10,
       10,
       20,
       10
@@ -155,7 +155,7 @@
       },
       {
         "skillId": 16,
-        "rating": 4,
+        "rating": 5,
         "conditionType": 0,
         "conditionParam1": 0,
         "conditionParam2": 0
@@ -299,7 +299,7 @@
       300,
       30,
       30,
-      10,
+      20,
       30,
       20,
       20
@@ -789,7 +789,7 @@
     ],
     "gold": 50,
     "name": "Orc Archer",
-    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:1>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:1>\n<range:10>",
     "params": [
       100,
       100,

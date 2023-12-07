@@ -5,8 +5,8 @@
     "members": [
       {
         "enemyId": 1,
-        "x": 407,
-        "y": 300,
+        "x": 553,
+        "y": 379,
         "hidden": false
       }
     ],
@@ -19,7 +19,7 @@
           "actorValid": false,
           "enemyHp": 0,
           "enemyIndex": 0,
-          "enemyValid": false,
+          "enemyValid": true,
           "switchId": 1,
           "switchValid": false,
           "turnA": 0,
@@ -28,6 +28,24 @@
           "turnValid": false
         },
         "list": [
+          {
+            "code": 101,
+            "indent": 0,
+            "parameters": [
+              "",
+              0,
+              1,
+              1,
+              ""
+            ]
+          },
+          {
+            "code": 401,
+            "indent": 0,
+            "parameters": [
+              "You killed the blue slime!"
+            ]
+          },
           {
             "code": 0,
             "indent": 0,
