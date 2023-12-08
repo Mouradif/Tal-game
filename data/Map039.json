@@ -3498,9 +3498,10 @@
               "parameters": [
                 [
                   "Traning",
-                  "Arena"
+                  "Arena",
+                  "Just saying hi"
                 ],
-                1,
+                2,
                 0,
                 2,
                 0
@@ -3578,7 +3579,7 @@
                   "No Thanks",
                   "Slimes"
                 ],
-                1,
+                0,
                 0,
                 2,
                 0
@@ -3624,6 +3625,31 @@
               ]
             },
             {
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "So far, you've killed \\V[21] blue slimes, \\V[22] green"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "slimes, \\V[23] fire slimes and \\V[24] King Slimes"
+              ]
+            },
+            {
               "code": 102,
               "indent": 2,
               "parameters": [
@@ -3633,7 +3659,7 @@
                   "fire slime",
                   "king slime"
                 ],
-                1,
+                -2,
                 0,
                 1,
                 1
@@ -3819,6 +3845,37 @@
               "parameters": []
             },
             {
+              "code": 403,
+              "indent": 2,
+              "parameters": [
+                6,
+                null
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "",
+                0,
+                0,
+                2,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "Ok then, see ya"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
               "code": 404,
               "indent": 2,
               "parameters": []
@@ -3832,6 +3889,37 @@
               "code": 404,
               "indent": 1,
               "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Just saying hi"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                0,
+                2,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Oh, Hi!"
+              ]
             },
             {
               "code": 0,
@@ -4059,9 +4147,9 @@
           "moveSpeed": 3,
           "moveType": 0,
           "priorityType": 1,
-          "stepAnime": false,
+          "stepAnime": true,
           "through": false,
-          "trigger": 3,
+          "trigger": 1,
           "walkAnime": true
         }
       ],
@@ -4135,7 +4223,75 @@
       "x": 16,
       "y": 15
     },
-    null,
+    {
+      "id": 5,
+      "name": "EV005",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": ")NPC_cleric",
+            "direction": 2,
+            "pattern": 0,
+            "characterIndex": 0
+          },
+          "list": [
+            {
+              "code": 212,
+              "indent": 0,
+              "parameters": [
+                -1,
+                72,
+                true
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 8,
+      "y": 17
+    },
     {
       "id": 6,
       "name": "monster",
@@ -4187,9 +4343,9 @@
           "moveSpeed": 3,
           "moveType": 0,
           "priorityType": 1,
-          "stepAnime": false,
+          "stepAnime": true,
           "through": false,
-          "trigger": 3,
+          "trigger": 1,
           "walkAnime": true
         }
       ],
@@ -4247,9 +4403,9 @@
           "moveSpeed": 3,
           "moveType": 0,
           "priorityType": 1,
-          "stepAnime": false,
+          "stepAnime": true,
           "through": false,
-          "trigger": 3,
+          "trigger": 1,
           "walkAnime": true
         }
       ],
@@ -4307,9 +4463,9 @@
           "moveSpeed": 3,
           "moveType": 0,
           "priorityType": 1,
-          "stepAnime": false,
+          "stepAnime": true,
           "through": false,
-          "trigger": 3,
+          "trigger": 1,
           "walkAnime": true
         }
       ],
@@ -4449,6 +4605,7 @@
       ],
       "x": 4,
       "y": 4
-    }
+    },
+    null
   ]
 }

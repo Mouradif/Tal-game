@@ -785,7 +785,7 @@
     ],
     "iconIndex": 579,
     "name": "Bow",
-    "note": "<weapon:bow_c1>\n<Range:6>",
+    "note": "<weapon:bow_c1>\n<Range:3 6 line>",
     "params": [
       0,
       0,

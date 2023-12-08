@@ -20,7 +20,7 @@
   "encounterList": [],
   "encounterStep": 30,
   "height": 21,
-  "note": "",
+  "note": "<OnCombatFinished:22>",
   "parallaxLoopX": false,
   "parallaxLoopY": false,
   "parallaxName": "",
@@ -3572,7 +3572,7 @@
     {
       "id": 3,
       "name": "green slime",
-      "note": "<Enemy:2><SpawnRegion:11>",
+      "note": "<Enemy:2><SpawnRegion:11><OnDeath:24>",
       "pages": [
         {
           "conditions": {

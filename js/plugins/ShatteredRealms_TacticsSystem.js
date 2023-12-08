@@ -1256,17 +1256,21 @@ BattleManager.createGameObjects = function() {
         if (location) {
             event.setPosition(location.x, location.y);
         }
-        if (event.tparam('Actor') > 0) {
+        if (!event.tparam('Respawns') && (
+          event.tparam('Actor') > 0 ||
+          event.tparam('Party') > 0 ||
+          event.tparam('Enemy') > 0 ||
+          event.tparam('Troop') > 0
+        )) {
             $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
+        }
+        if (event.tparam('Actor') > 0) {
             this.addGameActor(event);
         } else if (event.tparam('Party') > 0) {
-            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameParty(event)
         } else if (event.tparam('Enemy') > 0) {
-            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameEnemy(event);
         } else if (event.tparam('Troop') > 0) {
-            $gameSelfSwitches.setValue([event._mapId, event._eventId, 'X'], true);
             this.addGameTroop(event);
         }
     }
@@ -2181,12 +2185,19 @@ BattleManager.updateBattleEnd = function() {
               event.tparam('Enemy') > 0 ||
               event.tparam('Troop') > 0
             ) {
-                event.erase();
+                if (!event.tparam('Respawns')) {
+                    event.erase();
+                }
             }
         }
         $gamePlayer.reserveTransfer(BattleManager._tacticsMapId, battler._tx, battler._ty, battler._char._direction, 0)
         SceneManager.sceneStartCallback = () => {
+            console.log('Map tag', $dataMap.meta);
             BattleManager.clear();
+            const eventId = $dataMap.meta.OnCombatFinished;
+            if (eventId) {
+                $gameTemp.reserveCommonEvent(Number(eventId));
+            }
             for (const event of events) {
                 if (
                   event.tparam('Party') > 0 ||
@@ -2196,6 +2207,7 @@ BattleManager.updateBattleEnd = function() {
                     event.setThrough(true);
                 }
             }
+            BattleManager._isInCombat = false;
         }
         SceneManager.goto(Scene_Map);
     }
@@ -2723,6 +2735,8 @@ Game_Player.prototype.performTransfer = function() {
       'X'
     ]));
     if (enemies.length !== 0) {
+        if (BattleManager._isInCombat) return;
+        BattleManager._isInCombat = true;
         BattleManager._tacticsMapId = $gameMap._mapId;
         BattleManager.setupMapTroops(enemies);
         $gameMap._interpreter.setWaitMode.call(this, 'TacticsSystem.battle');
@@ -2733,6 +2747,22 @@ Game_Player.prototype.performTransfer = function() {
                 SceneManager._scene.stop();
             }
         }
+    }
+};
+
+//--------------------------------------------------
+// Game_Enemy
+Game_Enemy.prototype.die = function() {
+    Game_Battler.prototype.die.call(this);
+    this.checkAndTriggerDeathEvent();
+};
+
+// Function to check note tag and trigger event
+Game_Enemy.prototype.checkAndTriggerDeathEvent = function() {
+    let note = this.event().event().note;
+    let eventId = note.match(/<OnDeath:(\d+)>/);
+    if (eventId) {
+        $gameTemp.reserveCommonEvent(Number(eventId[1]));
     }
 };
 
@@ -3866,7 +3896,6 @@ Game_Selector.prototype.updateSelect = function() {
             }
         }
     }
-    console.log(this._selectIndex);
 };
 
 Game_Selector.prototype.updateScroll = function(lastScrolledX, lastScrolledY) {
@@ -4000,7 +4029,6 @@ Game_Selector.prototype.selectTarget = function(action) {
 
 TacticsSystem.Game_Interpreter_updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
 Game_Interpreter.prototype.updateWaitMode = function() {
-    console.log('update Wait Mode')
     let waiting = false;
     switch (this._waitMode) {
         case 'TacticsSystem.battle':
@@ -4013,7 +4041,6 @@ Game_Interpreter.prototype.updateWaitMode = function() {
             return TacticsSystem.Game_Interpreter_updateWaitMode.call(this);
     }
     if (!waiting) {
-        console.log('update Wait Mode, not waiting')
         if (this._waitMode === 'TacticsSystem.battle') {
             BattleManager.clear();
         }
