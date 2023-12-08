@@ -1400,7 +1400,7 @@
                 "Set Map Ambient",
                 {
                   "color": "#C2C2C2",
-                  "time": "60"
+                  "time": "1"
                 }
               ]
             },
@@ -1415,19 +1415,20 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Time = 60"
+                "Time = 1"
               ]
             },
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "Tal_CustomEventHandlers",
-                "AttachHandler",
-                "Attach an event handler",
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
                 {
-                  "event": "onChoiceSelect",
-                  "handler": "$dataActors[2].meta.base = `skin${index}`;\n$gamePlayer.refresh();\nlocalStorage.setItem('player:base', $dataActors[2].meta.base);"
+                  "actor": "2",
+                  "part": "base",
+                  "isColor": "false"
                 }
               ]
             },
@@ -1435,117 +1436,34 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Event = onChoiceSelect"
+                "Actor ID = 2"
               ]
             },
             {
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Handler = $dataActors[2].meta.base = `skin${index}`; $gameP…"
+                "Part Name = base"
               ]
             },
             {
-              "code": 101,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                "",
-                0,
-                0,
-                2,
-                ""
+                "Is Color Selection = false"
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "Pick a skin tone"
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 0,
-              "parameters": [
-                [
-                  "A",
-                  "B",
-                  "C",
-                  "D"
-                ],
-                -1,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                0,
-                "A"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                1,
-                "B"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                2,
-                "C"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                3,
-                "D"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
             },
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "Tal_CustomEventHandlers",
-                "AttachHandler",
-                "Attach an event handler",
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
                 {
-                  "event": "onChoiceSelect",
-                  "handler": "$dataActors[2].meta.hair = `hair${index + 1}`;\n$gamePlayer.refresh();\nlocalStorage.setItem('player:hair', $dataActors[2].meta.hair);"
+                  "actor": "2",
+                  "part": "hair",
+                  "isColor": "false"
                 }
               ]
             },
@@ -1553,117 +1471,34 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Event = onChoiceSelect"
+                "Actor ID = 2"
               ]
             },
             {
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Handler = $dataActors[2].meta.hair = `hair${index + 1}`; $g…"
+                "Part Name = hair"
               ]
             },
             {
-              "code": 101,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                "",
-                0,
-                0,
-                2,
-                ""
+                "Is Color Selection = false"
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "Pick a hair style"
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 0,
-              "parameters": [
-                [
-                  "A",
-                  "B",
-                  "C",
-                  "D"
-                ],
-                -1,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                0,
-                "A"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                1,
-                "B"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                2,
-                "C"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                3,
-                "D"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
             },
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "Tal_CustomEventHandlers",
-                "AttachHandler",
-                "Attach an event handler",
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
                 {
-                  "event": "onChoiceSelect",
-                  "handler": "$dataActors[2].meta.top = `top${index}`;\n$gamePlayer.refresh();\nlocalStorage.setItem('player:top', $dataActors[2].meta.top);"
+                  "actor": "2",
+                  "part": "hair",
+                  "isColor": "true"
                 }
               ]
             },
@@ -1671,117 +1506,34 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Event = onChoiceSelect"
+                "Actor ID = 2"
               ]
             },
             {
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Handler = $dataActors[2].meta.top = `top${index}`; $gamePla…"
+                "Part Name = hair"
               ]
             },
             {
-              "code": 101,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                "",
-                0,
-                0,
-                2,
-                ""
+                "Is Color Selection = true"
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "Pick a Top"
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 0,
-              "parameters": [
-                [
-                  "A",
-                  "B",
-                  "C",
-                  "D"
-                ],
-                -1,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                0,
-                "A"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                1,
-                "B"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                2,
-                "C"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                3,
-                "D"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
             },
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "Tal_CustomEventHandlers",
-                "AttachHandler",
-                "Attach an event handler",
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
                 {
-                  "event": "onChoiceSelect",
-                  "handler": "$dataActors[2].meta.bottom = `bottom${index}`;\n$gamePlayer.refresh();\nlocalStorage.setItem('player:bottom', $dataActors[2].meta.bottom);"
+                  "actor": "2",
+                  "part": "top",
+                  "isColor": "false"
                 }
               ]
             },
@@ -1789,116 +1541,34 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Event = onChoiceSelect"
+                "Actor ID = 2"
               ]
             },
             {
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Handler = $dataActors[2].meta.bottom = `bottom${index}`; $g…"
+                "Part Name = top"
               ]
             },
             {
-              "code": 101,
+              "code": 657,
               "indent": 0,
               "parameters": [
-                "",
-                0,
-                0,
-                2,
-                ""
+                "Is Color Selection = false"
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "Pick a Bottom"
-              ]
-            },
-            {
-              "code": 102,
-              "indent": 0,
-              "parameters": [
-                [
-                  "A",
-                  "B",
-                  "C",
-                  "D"
-                ],
-                -1,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                0,
-                "A"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                1,
-                "B"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                2,
-                "C"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                3,
-                "D"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
             },
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "Tal_CustomEventHandlers",
-                "DetachHandler",
-                "Detach an event handler",
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
                 {
-                  "event": "onChoiceSelect"
+                  "actor": "2",
+                  "part": "top",
+                  "isColor": "true"
                 }
               ]
             },
@@ -1906,7 +1576,91 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Event = onChoiceSelect"
+                "Actor ID = 2"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Part Name = top"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Is Color Selection = true"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
+                {
+                  "actor": "2",
+                  "part": "bottom",
+                  "isColor": "false"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Actor ID = 2"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Part Name = bottom"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Is Color Selection = false"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Tal_CharacterCreation",
+                "CustomizeCharacter",
+                "Customize Character",
+                {
+                  "actor": "2",
+                  "part": "bottom",
+                  "isColor": "true"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Actor ID = 2"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Part Name = bottom"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Is Color Selection = true"
               ]
             },
             {
