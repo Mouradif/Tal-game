@@ -2225,7 +2225,7 @@
         "code": 230,
         "indent": 0,
         "parameters": [
-          90
+          900
         ]
       },
       {
@@ -2285,117 +2285,14 @@
     "id": 10,
     "list": [
       {
-        "code": 111,
-        "indent": 0,
-        "parameters": [
-          1,
-          20,
-          0,
-          360,
-          0
-        ]
-      },
-      {
-        "code": 121,
-        "indent": 1,
-        "parameters": [
-          19,
-          19,
-          1
-        ]
-      },
-      {
-        "code": 0,
-        "indent": 1,
-        "parameters": []
-      },
-      {
-        "code": 412,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 111,
-        "indent": 0,
-        "parameters": [
-          1,
-          20,
-          0,
-          1080,
-          0
-        ]
-      },
-      {
-        "code": 121,
-        "indent": 1,
-        "parameters": [
-          19,
-          19,
-          0
-        ]
-      },
-      {
-        "code": 0,
-        "indent": 1,
-        "parameters": []
-      },
-      {
-        "code": 412,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 111,
-        "indent": 0,
-        "parameters": [
-          0,
-          19,
-          1
-        ]
-      },
-      {
-        "code": 355,
-        "indent": 1,
-        "parameters": [
-          "$gameLighting.setMapAmbient('day', 120);"
-        ]
-      },
-      {
-        "code": 0,
-        "indent": 1,
-        "parameters": []
-      },
-      {
-        "code": 411,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 355,
-        "indent": 1,
-        "parameters": [
-          "$gameLighting.setMapAmbient('night', 120);"
-        ]
-      },
-      {
-        "code": 0,
-        "indent": 1,
-        "parameters": []
-      },
-      {
-        "code": 412,
-        "indent": 0,
-        "parameters": []
-      },
-      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "time of day",
-    "switchId": 20,
-    "trigger": 2
+    "name": "",
+    "switchId": 1,
+    "trigger": 0
   },
   {
     "id": 11,

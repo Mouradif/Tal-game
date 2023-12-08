@@ -2127,7 +2127,7 @@
     },
     {
       "id": 10,
-      "name": "lamp post",
+      "name": "ambient light",
       "note": "",
       "pages": [
         {
@@ -2156,10 +2156,30 @@
           },
           "list": [
             {
-              "code": 108,
+              "code": 357,
               "indent": 0,
               "parameters": [
-                "[light fire]"
+                "-ShoraLighting-",
+                "Set Map Ambient",
+                "Set Map Ambient",
+                {
+                  "color": "#C2C2C2",
+                  "time": "60"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Color = #C2C2C2"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Time = 60"
               ]
             },
             {
@@ -2185,12 +2205,12 @@
           "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 0,
+          "trigger": 4,
           "walkAnime": true
         }
       ],
-      "x": 6,
-      "y": 3
+      "x": 0,
+      "y": 0
     }
   ]
 }

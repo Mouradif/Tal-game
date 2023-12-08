@@ -3439,7 +3439,7 @@
     null,
     {
       "id": 1,
-      "name": "exit",
+      "name": "ambient light",
       "note": "",
       "pages": [
         {
@@ -3468,15 +3468,30 @@
           },
           "list": [
             {
-              "code": 201,
+              "code": 357,
               "indent": 0,
               "parameters": [
-                0,
-                39,
-                14,
-                16,
-                0,
-                0
+                "-ShoraLighting-",
+                "Set Map Ambient",
+                "Set Map Ambient",
+                {
+                  "color": "#C2C2C2",
+                  "time": "60"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Color = #C2C2C2"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "Time = 60"
               ]
             },
             {
@@ -3502,12 +3517,12 @@
           "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 0,
+          "trigger": 4,
           "walkAnime": true
         }
       ],
-      "x": 14,
-      "y": 15
+      "x": 0,
+      "y": 0
     },
     {
       "id": 2,
@@ -3566,8 +3581,8 @@
           "walkAnime": false
         }
       ],
-      "x": 12,
-      "y": 9
+      "x": 14,
+      "y": 14
     },
     {
       "id": 3,
