@@ -11,6 +11,21 @@ Game_Follower.prototype.refresh = function() {
   this._parts = {
     base, hair, top, bottom
   };
+  const equips = actorData.equips().filter(Boolean);
+  for (const equip of equips) {
+    if (equip.meta.weapon) {
+      this._parts.weapon = equip.meta.weapon;
+    }
+    if (equip.meta.hat) {
+      this._parts.hat = equip.meta.hat;
+    }
+    if (equip.meta.top) {
+      this._parts.top = equip.meta.top;
+    }
+    if (equip.meta.bottom) {
+      this._parts.bottom = equip.meta.bottom;
+    }
+  }
 };
 
 const RefreshPlayer = Game_Player.prototype.refresh;
@@ -26,8 +41,23 @@ Game_Player.prototype.refresh = function() {
   this._parts = {
     base, hair, top, bottom
   }
+  const equips = leader.equips().filter(Boolean);
+  for (const equip of equips) {
+    if (equip.meta.weapon) {
+      this._parts.weapon = equip.meta.weapon;
+    }
+    if (equip.meta.hat) {
+      this._parts.hat = equip.meta.hat;
+    }
+    if (equip.meta.top) {
+      this._parts.top = equip.meta.top;
+    }
+    if (equip.meta.bottom) {
+      this._parts.bottom = equip.meta.bottom;
+    }
+  }
   this._followers.refresh();
-}
+};
 
 const RefreshEvent = Game_Event.prototype.refresh;
 Game_Event.prototype.refresh = function() {
@@ -48,10 +78,25 @@ Game_Event.prototype.refresh = function() {
     this._parts = {
       base, hair, top, bottom
     }
+    const equips = partyTsMembers[partyMemberId - 1].equips().filter(Boolean);
+    for (const equip of equips) {
+      if (equip.meta.weapon) {
+        this._parts.weapon = equip.meta.weapon;
+      }
+      if (equip.meta.hat) {
+        this._parts.hat = equip.meta.hat;
+      }
+      if (equip.meta.top) {
+        this._parts.top = equip.meta.top;
+      }
+      if (equip.meta.bottom) {
+        this._parts.bottom = equip.meta.bottom;
+      }
+    }
     return;
   }
   RefreshEvent.call(this);
-}
+};
 
 ImageManager.loadCharacterPart = function(part, filename) {
   return this.loadBitmap("img/character_parts/" + part + "/", filename);
@@ -72,16 +117,20 @@ Sprite_Character.prototype.setCharacter = function(character) {
     this._characterHair = new Sprite_CharacterPart(character, 'hair');
     this._characterTop = new Sprite_CharacterPart(character, 'top');
     this._characterBottom = new Sprite_CharacterPart(character, 'bottom');
+    this._characterWeapon = new Sprite_CharacterPart(character, 'weapon');
+    this._characterHat = new Sprite_CharacterPart(character, 'hat');
     this.addChild(this._characterBase);
     this.addChild(this._characterHair);
     this.addChild(this._characterTop);
     this.addChild(this._characterBottom);
+    this.addChild(this._characterWeapon);
+    this.addChild(this._characterHat);
   }
-}
+};
 
 Sprite_Character.prototype.isMultipart = function() {
   return Boolean(this._character && this._character._parts);
-}
+};
 
 const isCharacterImageChanged = Sprite_Character.prototype.isImageChanged;
 Sprite_Character.prototype.isImageChanged = function() {
@@ -89,7 +138,9 @@ Sprite_Character.prototype.isImageChanged = function() {
     this._characterBase.isImageChanged() ||
     this._characterHair.isImageChanged() ||
     this._characterTop.isImageChanged() ||
-    this._characterBottom.isImageChanged()
+    this._characterBottom.isImageChanged() ||
+    this._characterWeapon.isImageChanged() ||
+    this._characterHat.isImageChanged()
   ) : false;
   return partChanged || isCharacterImageChanged.call(this);
 };
@@ -104,15 +155,16 @@ Sprite_Character.prototype.update = function() {
     this._characterHair.update();
     this._characterTop.update();
     this._characterBottom.update();
+    this._characterWeapon.update();
+    this._characterHat.update();
     this.updateBitmap();
     this.updateOther();
     this.updatePosition();
-    // this.z = this._character.screenZ();
     Sprite.prototype.updateVisibility.call(this);
     return;
   }
   updateSpriteCharacter.call(this);
-}
+};
 
 const patternWidth = Sprite_Character.prototype.patternWidth;
 Sprite_Character.prototype.patternWidth = function() {
@@ -120,7 +172,7 @@ Sprite_Character.prototype.patternWidth = function() {
     return this._characterBase.patternWidth();
   }
   return patternWidth.call(this);
-}
+};
 
 const patternHeight = Sprite_Character.prototype.patternHeight;
 Sprite_Character.prototype.patternHeight = function() {
@@ -128,7 +180,7 @@ Sprite_Character.prototype.patternHeight = function() {
     return this._characterBase.patternHeight();
   }
   return patternHeight.call(this);
-}
+};
 
 
 /**
@@ -146,7 +198,7 @@ Sprite_CharacterPart.prototype.initialize = function(character, part) {
   this._part = part;
   this._partName = null;
   this._isElementsCharacter = true;
-}
+};
 
 Sprite_CharacterPart.prototype.updateVisibility = function() {
   Sprite.prototype.updateVisibility.call(this);
@@ -157,11 +209,11 @@ Sprite_CharacterPart.prototype.updateVisibility = function() {
 
 Sprite_CharacterPart.prototype.isMultipart = function() {
   return false;
-}
+};
 
 Sprite_CharacterPart.prototype.isEmptyPart = function() {
   return !Boolean(this._part) || !Boolean(this._partName);
-}
+};
 
 Sprite_CharacterPart.prototype.updateBitmap = function() {
   if (this.isImageChanged()) {
@@ -182,15 +234,15 @@ Sprite_CharacterPart.prototype.updatePosition = function() {
   this.x = 0;
   this.y = 0;
   this.z = 0;
-}
+};
 
 Sprite_CharacterPart.prototype.patternWidth = function() {
   return this.bitmap.width / 3;
-}
+};
 
 Sprite_CharacterPart.prototype.patternHeight = function() {
   return this.bitmap.height / 4;
-}
+};
 
 Sprite_CharacterPart.prototype.isImageChanged = function() {
   return this._partName !== this._character._parts[this._part];
@@ -203,4 +255,6 @@ Scene_Load.prototype.onLoadSuccess = function() {
   $dataActors[2].meta.hair = localStorage.getItem('player:hair');
   $dataActors[2].meta.top = localStorage.getItem('player:top');
   $dataActors[2].meta.bottom = localStorage.getItem('player:bottom');
-}
+  $dataActors[2].meta.bottom = localStorage.getItem('player:weapon');
+  $dataActors[2].meta.bottom = localStorage.getItem('player:hat');
+};

@@ -2192,7 +2192,6 @@ BattleManager.updateBattleEnd = function() {
         }
         $gamePlayer.reserveTransfer(BattleManager._tacticsMapId, battler._tx, battler._ty, battler._char._direction, 0)
         SceneManager.sceneStartCallback = () => {
-            console.log('Map tag', $dataMap.meta);
             BattleManager.clear();
             const eventId = $dataMap.meta.OnCombatFinished;
             if (eventId) {
