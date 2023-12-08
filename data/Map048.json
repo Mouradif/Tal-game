@@ -20,7 +20,7 @@
   "encounterList": [],
   "encounterStep": 30,
   "height": 21,
-  "note": "",
+  "note": "<OnCombatFinished:22>",
   "parallaxLoopX": false,
   "parallaxLoopY": false,
   "parallaxName": "",
@@ -3512,7 +3512,7 @@
     {
       "id": 2,
       "name": "Player",
-      "note": "<Party:1>",
+      "note": "<Party:1><Respawns>",
       "pages": [
         {
           "conditions": {
@@ -3566,13 +3566,13 @@
           "walkAnime": false
         }
       ],
-      "x": 14,
-      "y": 13
+      "x": 12,
+      "y": 9
     },
     {
       "id": 3,
       "name": "blue slime",
-      "note": "<Enemy:1><SpawnRegion:11>",
+      "note": "<Enemy:1><Respawns><SpawnRegion:11><OnDeath:23>",
       "pages": [
         {
           "conditions": {

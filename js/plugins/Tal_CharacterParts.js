@@ -64,6 +64,10 @@ const setSpriteCharacter = Sprite_Character.prototype.setCharacter;
 Sprite_Character.prototype.setCharacter = function(character) {
   setSpriteCharacter.call(this, character);
   if (this.isMultipart()) {
+    if (window._talCharacters == null) {
+      window._talCharacters = [];
+    }
+    window._talCharacters.push({ character, sprite: this });
     this._characterBase = new Sprite_CharacterPart(character, 'base');
     this._characterHair = new Sprite_CharacterPart(character, 'hair');
     this._characterTop = new Sprite_CharacterPart(character, 'top');
@@ -102,7 +106,8 @@ Sprite_Character.prototype.update = function() {
     this._characterBottom.update();
     this.updateBitmap();
     this.updateOther();
-    this.z = this._character.screenZ();
+    this.updatePosition();
+    // this.z = this._character.screenZ();
     Sprite.prototype.updateVisibility.call(this);
     return;
   }
@@ -172,6 +177,12 @@ Sprite_CharacterPart.prototype.characterBlockX = function() {
 Sprite_CharacterPart.prototype.characterBlockY = function() {
   return 0;
 };
+
+Sprite_CharacterPart.prototype.updatePosition = function() {
+  this.x = 0;
+  this.y = 0;
+  this.z = 0;
+}
 
 Sprite_CharacterPart.prototype.patternWidth = function() {
   return this.bitmap.width / 3;
