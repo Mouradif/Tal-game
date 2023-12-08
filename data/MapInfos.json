@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2079.6,
-    "scrollY": 1446.6
+    "scrollX": 1216.5,
+    "scrollY": 680.25
   },
   {
     "id": 2,
@@ -65,8 +65,8 @@
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -76,7 +76,7 @@
     "order": 7,
     "parentId": 7,
     "scrollX": 811,
-    "scrollY": 461.5,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -225,8 +225,8 @@
     "name": "Wilderness Adventure",
     "order": 31,
     "parentId": 38,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 893.4545454545455,
+    "scrollY": 504.54545454545456,
     "quick": false
   },
   {
@@ -375,8 +375,8 @@
     "name": "Wildernes Start",
     "order": 22,
     "parentId": 1,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -385,8 +385,8 @@
     "name": "Training Grounds",
     "order": 25,
     "parentId": 38,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -405,8 +405,8 @@
     "name": "Lake Guild House",
     "order": 23,
     "parentId": 38,
-    "scrollX": 1442,
-    "scrollY": 1405
+    "scrollX": 1216.5,
+    "scrollY": 680.25
   },
   {
     "id": 42,
@@ -414,8 +414,8 @@
     "name": "Local Forest",
     "order": 30,
     "parentId": 38,
-    "scrollX": 982.8,
-    "scrollY": 2152.2
+    "scrollX": 1216.5,
+    "scrollY": 680.25
   },
   {
     "id": 43,
@@ -473,8 +473,8 @@
     "name": "TG blue slime map",
     "order": 26,
     "parentId": 39,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -483,8 +483,8 @@
     "name": "TG green slime map",
     "order": 27,
     "parentId": 39,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -493,8 +493,8 @@
     "name": "TG fire slime map",
     "order": 28,
     "parentId": 39,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -503,8 +503,8 @@
     "name": "TG king slime map",
     "order": 29,
     "parentId": 39,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   }
 ]
