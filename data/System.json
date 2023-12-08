@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 48,
+  "editMapId": 44,
   "elements": [
     "",
     "Physical",
@@ -342,9 +342,9 @@
       "volume": 40
     }
   ],
-  "startMapId": 39,
-  "startX": 15,
-  "startY": 17,
+  "startMapId": 44,
+  "startX": 8,
+  "startY": 6,
   "switches": [
     "",
     "dungeon entrance",
@@ -600,7 +600,7 @@
     "",
     ""
   ],
-  "versionId": 91031084,
+  "versionId": 34073710,
   "victoryMe": {
     "name": "",
     "pan": 0,

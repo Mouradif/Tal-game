@@ -450,16 +450,6 @@
   {
     "id": 46,
     "expanded": false,
-    "name": "Character Creation",
-    "order": 47,
-    "parentId": 0,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
-    "quick": false
-  },
-  {
-    "id": 47,
-    "expanded": false,
     "name": "intro video",
     "order": 51,
     "parentId": 0,
@@ -468,7 +458,7 @@
     "quick": false
   },
   {
-    "id": 48,
+    "id": 47,
     "expanded": false,
     "name": "TG blue slime map",
     "order": 26,
@@ -478,7 +468,7 @@
     "quick": false
   },
   {
-    "id": 49,
+    "id": 48,
     "expanded": false,
     "name": "TG green slime map",
     "order": 27,
@@ -488,7 +478,7 @@
     "quick": false
   },
   {
-    "id": 50,
+    "id": 49,
     "expanded": false,
     "name": "TG fire slime map",
     "order": 28,
@@ -498,7 +488,7 @@
     "quick": false
   },
   {
-    "id": 51,
+    "id": 50,
     "expanded": false,
     "name": "TG king slime map",
     "order": 29,
