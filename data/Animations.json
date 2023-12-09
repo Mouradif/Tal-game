@@ -5204,7 +5204,8 @@
       }
     ],
     "speed": 100,
-    "timings": []
+    "timings": [],
+    "alignBottom": true
   },
   {
     "id": 111,
@@ -5230,7 +5231,7 @@
       "y": 0,
       "z": 0
     },
-    "scale": 100,
+    "scale": 50,
     "soundTimings": [
       {
         "frame": 0,
@@ -5243,7 +5244,8 @@
       }
     ],
     "speed": 100,
-    "timings": []
+    "timings": [],
+    "alignBottom": true
   },
   {
     "id": 112,
@@ -5269,7 +5271,7 @@
       "y": 0,
       "z": 0
     },
-    "scale": 60,
+    "scale": 50,
     "soundTimings": [
       {
         "frame": 0,
@@ -5282,7 +5284,8 @@
       }
     ],
     "speed": 100,
-    "timings": []
+    "timings": [],
+    "alignBottom": true
   },
   {
     "id": 113,

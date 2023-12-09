@@ -2251,6 +2251,437 @@
           "through": false,
           "trigger": 0,
           "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 32,
+            "itemValid": true,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "e_npcA_shadow_3x",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 2
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Hello Traveler would you like to... can I help you?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Show the Note",
+                  "leave"
+                ],
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Show the Note"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                42,
+                42,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "leave"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 45,
+                "parameters": [
+                  "$gameTemp.requestBalloon($gameMap.event(this.eventId()), 1);"
+                ],
+                "indent": 0
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  150
+                ],
+                "indent": null
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 3,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 42,
+            "variableValid": true,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "e_npcA_shadow_3x",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 2
+          },
+          "list": [
+            {
+              "code": 302,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                15,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                8,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                22,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                29,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                36,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                16,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                23,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                30,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                37,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                3,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                17,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                10,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                24,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                31,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                38,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                18,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                11,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                25,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                32,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 0,
+              "parameters": [
+                1,
+                39,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
         }
       ],
       "x": 10,

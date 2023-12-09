@@ -19,7 +19,7 @@
     ],
     "iconIndex": 481,
     "name": "Worn Dagger",
-    "note": "<weapon:dagger>",
+    "note": "<weapon:dagger>\n<MoveMod:1>\n   \n",
     "params": [
       0,
       0,
@@ -52,7 +52,7 @@
     ],
     "iconIndex": 480,
     "name": "Dagger",
-    "note": "<weapon:dagger_c1>",
+    "note": "<weapon:dagger_c1>\n<MoveMod:1>",
     "params": [
       0,
       0,
@@ -90,7 +90,7 @@
     ],
     "iconIndex": 482,
     "name": "Fine Dagger",
-    "note": "<weapon:dagger_c2>",
+    "note": "<weapon:dagger_c2>\n<MoveMod:1>",
     "params": [
       0,
       0,
@@ -128,7 +128,7 @@
     ],
     "iconIndex": 483,
     "name": "Mastercraft Dagger",
-    "note": "<weapon:dagger_c3>",
+    "note": "<weapon:dagger_c3>\n<MoveMod:1>",
     "params": [
       0,
       0,
@@ -145,7 +145,7 @@
   {
     "id": 5,
     "animationId": 112,
-    "description": "Just a pointy stick",
+    "description": "Just a pointy stick with a little reach.",
     "etypeId": 1,
     "traits": [
       {
@@ -161,7 +161,7 @@
     ],
     "iconIndex": 544,
     "name": "Sharp stick",
-    "note": "<weapon:dagger>\n<range:1>",
+    "note": "<weapon:dagger>\n",
     "params": [
       0,
       0,
@@ -260,7 +260,7 @@
     ],
     "iconIndex": 466,
     "name": "Worn Sword",
-    "note": "<weapon:sword>\n<Range:1>",
+    "note": "<weapon:sword>\n<Range:0 2 line>",
     "params": [
       0,
       0,
@@ -293,7 +293,7 @@
     ],
     "iconIndex": 472,
     "name": "Sword",
-    "note": "<weapon:sword_c1>\n<Range:1>",
+    "note": "<weapon:sword_c1>\n<Range:0 2 line>",
     "params": [
       0,
       0,
@@ -331,7 +331,7 @@
     ],
     "iconIndex": 470,
     "name": "Fine Sword",
-    "note": "<weapon:sword_c2>\n<Range:1>",
+    "note": "<weapon:sword_c2>\n<Range:0 2 line>",
     "params": [
       0,
       0,
@@ -347,7 +347,7 @@
   },
   {
     "id": 11,
-    "animationId": 117,
+    "animationId": 111,
     "description": "A Beautiful Sword with a sculpted hilt and sharp blade.\nThis Sword can cuase an extra bleed effect.",
     "etypeId": 1,
     "traits": [
@@ -369,7 +369,7 @@
     ],
     "iconIndex": 475,
     "name": "Mastercraft Sword",
-    "note": "<weapon:sword_c3>\n<Range:1>",
+    "note": "<weapon:sword_c3>\n<Range:0 2 line>",
     "params": [
       0,
       0,
@@ -485,7 +485,7 @@
   {
     "id": 15,
     "animationId": 111,
-    "description": "A worn and chipped Sword.",
+    "description": "A worn and chipped Short Sword.",
     "etypeId": 1,
     "traits": [
       {
@@ -501,7 +501,7 @@
     ],
     "iconIndex": 464,
     "name": "Worn Short Sword",
-    "note": "<weapon:short_sword>",
+    "note": "<weapon:short_sword>\n<Range:0 1 rectangle>",
     "params": [
       0,
       0,
@@ -534,7 +534,7 @@
     ],
     "iconIndex": 465,
     "name": "Short Sword",
-    "note": "<weapon:short_sword_c1>",
+    "note": "<weapon:short_sword_c1>\n<Range:0 1 rectangle>",
     "params": [
       0,
       0,
@@ -572,7 +572,7 @@
     ],
     "iconIndex": 466,
     "name": "Fine Short Sword",
-    "note": "<weapon:short_sword_c2>",
+    "note": "<weapon:short_sword_c2>\n<Range:0 1 rectangle>",
     "params": [
       0,
       0,
@@ -610,7 +610,7 @@
     ],
     "iconIndex": 468,
     "name": "Mastercraft Short Sword",
-    "note": "<weapon:short_sword_c3>",
+    "note": "<weapon:short_sword_c3>\n<Range:0 1 rectangle>",
     "params": [
       0,
       0,
@@ -747,7 +747,7 @@
     ],
     "iconIndex": 576,
     "name": "Worn Bow",
-    "note": "<weapon:bow>\n<Range:5>",
+    "note": "<weapon:bow>\n<Range:3 5>\n<MoveMod:-1>",
     "params": [
       0,
       0,
@@ -785,7 +785,7 @@
     ],
     "iconIndex": 579,
     "name": "Bow",
-    "note": "<weapon:bow_c1>\n<Range:3 6 line>",
+    "note": "<weapon:bow_c1>\n<Range:3 6>\n<MoveMod:-1>",
     "params": [
       0,
       0,
@@ -823,7 +823,7 @@
     ],
     "iconIndex": 580,
     "name": "Fine Bow",
-    "note": "<weapon:bow_c2>\n<Range:7>",
+    "note": "<weapon:bow_c2>\n<Range:3 7>\n<MoveMod:-1>",
     "params": [
       0,
       0,
@@ -861,7 +861,7 @@
     ],
     "iconIndex": 581,
     "name": "Mastercraft Bow",
-    "note": "<weapon:bow_c3>\n<Range:8>",
+    "note": "<weapon:bow_c3>\n<Range:2 7>\n<MoveMod:-1>",
     "params": [
       0,
       0,
@@ -1003,7 +1003,7 @@
     ],
     "iconIndex": 486,
     "name": "Worn Battle Axe",
-    "note": "<weapon:battleaxe>",
+    "note": "<weapon:battleaxe>\n<Range:0 2>\n",
     "params": [
       0,
       0,
@@ -1046,7 +1046,7 @@
     ],
     "iconIndex": 487,
     "name": "Battle Axe",
-    "note": "<weapon:battleaxe_c1>",
+    "note": "<weapon:battleaxe_c1>\n<Range:0 2>\n",
     "params": [
       0,
       0,
@@ -1089,7 +1089,7 @@
     ],
     "iconIndex": 489,
     "name": "Fine Battle Axe",
-    "note": "<weapon:battleaxe_c2>",
+    "note": "<weapon:battleaxe_c2>\n<Range:0 2>",
     "params": [
       0,
       0,
@@ -1132,7 +1132,7 @@
     ],
     "iconIndex": 488,
     "name": "Mastercraft Battle Axe",
-    "note": "<weapon:battleaxe_c3>",
+    "note": "<weapon:battleaxe_c3>\n<Range:0 2>",
     "params": [
       0,
       0,
@@ -1274,7 +1274,7 @@
     ],
     "iconIndex": 516,
     "name": "Worn Staff",
-    "note": "<weapon:staff>\n<Range:2>",
+    "note": "<weapon:staff>\n<Range:0 1 rectangle>",
     "params": [
       0,
       50,
@@ -1317,7 +1317,7 @@
     ],
     "iconIndex": 517,
     "name": "Staff",
-    "note": "<weapon:staff_c1>\n<Range:2>",
+    "note": "<weapon:staff_c1>\n<Range:0 1 rectangle>",
     "params": [
       0,
       100,
@@ -1360,7 +1360,7 @@
     ],
     "iconIndex": 518,
     "name": "Fine Staff",
-    "note": "<weapon:staff_c2>\n<Range:2>",
+    "note": "<weapon:staff_c2>\n<Range:0 1 rectangle>",
     "params": [
       0,
       200,
@@ -1403,7 +1403,7 @@
     ],
     "iconIndex": 519,
     "name": "Mastercraft Staff",
-    "note": "<weapon:staff_c3>\n<Range:2>",
+    "note": "<weapon:staff_c3>\n<Range:0 1 rectangle>",
     "params": [
       0,
       300,

@@ -28,10 +28,10 @@
     "id": 2,
     "battlerName": "",
     "characterIndex": 0,
-    "characterName": "",
-    "classId": 4,
+    "characterName": ")Guild_rogue",
+    "classId": 3,
     "equips": [
-      23,
+      15,
       0,
       0,
       0,
@@ -45,7 +45,7 @@
     "maxLevel": 99,
     "name": "Sam",
     "nickname": "",
-    "note": "<base:skin3>\n<hair:hair6_c4>\n<top:top8_c1>\n<bottom:bottom3>",
+    "note": "",
     "profile": ""
   },
   {

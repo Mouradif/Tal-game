@@ -97,7 +97,7 @@
   "battleback1Name": "",
   "battleback2Name": "",
   "battlerHue": 0,
-  "battlerName": "bandit",
+  "battlerName": "blue_slime_pixel",
   "battleSystem": 0,
   "boat": {
     "bgm": {
@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 48,
+  "editMapId": 1,
   "elements": [
     "",
     "Physical",
@@ -175,8 +175,7 @@
   "optSlipDeath": false,
   "optTransparent": false,
   "partyMembers": [
-    2,
-    1
+    2
   ],
   "ship": {
     "bgm": {
@@ -342,9 +341,9 @@
       "volume": 40
     }
   ],
-  "startMapId": 39,
-  "startX": 15,
-  "startY": 17,
+  "startMapId": 1,
+  "startX": 29,
+  "startY": 32,
   "switches": [
     "",
     "dungeon entrance",
@@ -365,7 +364,7 @@
     "",
     "",
     "",
-    "isNight",
+    "",
     "Time System",
     "king slime killed",
     "",
@@ -377,6 +376,26 @@
     "",
     "",
     "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Guild member",
+    "Apprentice mage",
+    "Fighter",
+    "Rogue",
+    "sir malory quest1",
+    "weapon shop note",
+    "armor shop note",
+    "item shop note",
+    "Inn note",
+    "sir malory quest2",
     "",
     "",
     "",
@@ -598,9 +617,29 @@
     "",
     "",
     "",
+    "",
+    "note for armor shop",
+    "note for weapon shop",
+    "note for item shop",
+    "note for inn",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     ""
   ],
-  "versionId": 91031084,
+  "versionId": 28458082,
   "victoryMe": {
     "name": "",
     "pan": 0,

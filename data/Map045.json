@@ -3544,8 +3544,38 @@
               ]
             },
             {
-              "code": 101,
+              "code": 111,
               "indent": 2,
+              "parameters": [
+                7,
+                200,
+                0
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 3,
+              "parameters": [
+                1,
+                0,
+                200
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 3,
+              "parameters": [
+                {
+                  "name": "Coin",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
               "parameters": [
                 "",
                 0,
@@ -3556,27 +3586,57 @@
             },
             {
               "code": 401,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 "Nice to have you aboard \\P[1]."
               ]
             },
             {
-              "code": 125,
-              "indent": 2,
+              "code": 121,
+              "indent": 3,
               "parameters": [
-                1,
-                0,
-                200
+                41,
+                41,
+                0
               ]
             },
             {
-              "code": 123,
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 411,
               "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 3,
               "parameters": [
-                "A",
-                0
+                "",
+                0,
+                1,
+                1,
+                ""
               ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "Looks like you need a bit more coin \\P[1]."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
             },
             {
               "code": 0,
@@ -3661,7 +3721,7 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "ready as a memebr that is. "
+                "ready as a member that is. "
               ]
             },
             {
@@ -3687,8 +3747,38 @@
               ]
             },
             {
-              "code": 101,
+              "code": 111,
               "indent": 2,
+              "parameters": [
+                7,
+                200,
+                0
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 3,
+              "parameters": [
+                1,
+                0,
+                200
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 3,
+              "parameters": [
+                {
+                  "name": "Coin",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 3,
               "parameters": [
                 "",
                 0,
@@ -3699,27 +3789,57 @@
             },
             {
               "code": 401,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 "Nice to have you aboard \\P[1]."
               ]
             },
             {
-              "code": 125,
-              "indent": 2,
+              "code": 121,
+              "indent": 3,
               "parameters": [
-                1,
-                0,
-                200
+                41,
+                41,
+                0
               ]
             },
             {
-              "code": 123,
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 411,
               "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 3,
               "parameters": [
-                "A",
-                0
+                "",
+                0,
+                1,
+                1,
+                ""
               ]
+            },
+            {
+              "code": 401,
+              "indent": 3,
+              "parameters": [
+                "Looks like you need a bit more coin \\P[1]."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
             },
             {
               "code": 0,
@@ -3805,9 +3925,9 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
+            "selfSwitchValid": false,
+            "switch1Id": 41,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -3842,11 +3962,81 @@
               ]
             },
             {
-              "code": 117,
+              "code": 102,
               "indent": 0,
+              "parameters": [
+                [
+                  "Buy",
+                  "Sell",
+                  "End"
+                ],
+                2,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Buy"
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 1,
               "parameters": [
                 18
               ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Sell"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                0,
+                0,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "End"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 0,
@@ -4233,7 +4423,146 @@
       "x": 24,
       "y": 8
     },
-    null,
+    {
+      "id": 7,
+      "name": "EV007",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 125,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                1000
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Coin",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 20,
+      "y": 4
+    },
     {
       "id": 8,
       "name": "window",
@@ -4950,6 +5279,15 @@
               "code": 111,
               "indent": 1,
               "parameters": [
+                0,
+                41,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
                 1,
                 2,
                 0,
@@ -4959,7 +5297,7 @@
             },
             {
               "code": 111,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 4,
                 2,
@@ -4969,7 +5307,7 @@
             },
             {
               "code": 111,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 9,
                 36,
@@ -4978,7 +5316,7 @@
             },
             {
               "code": 111,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 4,
                 2,
@@ -4988,7 +5326,7 @@
             },
             {
               "code": 101,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "",
                 0,
@@ -4999,28 +5337,28 @@
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "Looks like you meet all the requairments. Would you like "
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "to train now? this action is not reversable you will be set"
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "on the mages career path. "
               ]
             },
             {
               "code": 102,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 [
                   "Yes",
@@ -5034,7 +5372,7 @@
             },
             {
               "code": 402,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 0,
                 "Yes"
@@ -5042,7 +5380,7 @@
             },
             {
               "code": 101,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "",
                 0,
@@ -5053,21 +5391,21 @@
             },
             {
               "code": 401,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "Ok thats great News. We have a new apprentice in the guild."
               ]
             },
             {
               "code": 401,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "hip hip haza!!!"
               ]
             },
             {
               "code": 321,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 3,
                 5,
@@ -5075,12 +5413,54 @@
               ]
             },
             {
-              "code": 123,
-              "indent": 6,
+              "code": 121,
+              "indent": 7,
               "parameters": [
-                "A",
+                42,
+                42,
                 0
               ]
+            },
+            {
+              "code": 0,
+              "indent": 7,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 6,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 7,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 7,
+              "parameters": [
+                "Ok no problem I understand its a big choice to make."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 7,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 6,
+              "parameters": []
             },
             {
               "code": 0,
@@ -5088,12 +5468,9 @@
               "parameters": []
             },
             {
-              "code": 402,
+              "code": 411,
               "indent": 5,
-              "parameters": [
-                1,
-                "No"
-              ]
+              "parameters": []
             },
             {
               "code": 101,
@@ -5110,7 +5487,33 @@
               "code": 401,
               "indent": 6,
               "parameters": [
-                "Ok no problem I understand its a big choice to make."
+                "It seems you havent learned the skill Magic Bolt. you will"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "need to start your training. come back when you have."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 6,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 6,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
@@ -5119,7 +5522,7 @@
               "parameters": []
             },
             {
-              "code": 404,
+              "code": 412,
               "indent": 5,
               "parameters": []
             },
@@ -5148,33 +5551,14 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "It seems you havent learned the skill Magic Bolt. you will"
+                "It seems all we need now is a worn staff to "
               ]
             },
             {
               "code": 401,
               "indent": 5,
               "parameters": [
-                "need to start your training. come back when you have."
-              ]
-            },
-            {
-              "code": 357,
-              "indent": 5,
-              "parameters": [
-                "CGMZ_SkillShop",
-                "Call Scene",
-                "Call Scene",
-                {
-                  "goods": "[\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
-                }
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 5,
-              "parameters": [
-                "Shop Goods = [\"{\\\"skill\\\":\\\"6\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                "start your training. come back when you have one."
               ]
             },
             {
@@ -5212,14 +5596,14 @@
               "code": 401,
               "indent": 4,
               "parameters": [
-                "It seems all we need now is a worn staff to "
+                "I only train Adventures to become apprentice mages. "
               ]
             },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "start your training. come back when you have one."
+                "It looks like you set yourself on a career path already."
               ]
             },
             {
@@ -5257,14 +5641,14 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "I only train Adventures to become apprentice mages. "
+                "Sorry looks like you need a few more ranks. Look for some"
               ]
             },
             {
               "code": 401,
               "indent": 3,
               "parameters": [
-                "It looks like you set yourself on a career path already."
+                "xp tomes to rank up."
               ]
             },
             {
@@ -5302,14 +5686,14 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Sorry looks like you need a few more ranks. Look for some"
+                "The first thing you need to do is sign up to the guild with "
               ]
             },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "xp tomes to rank up."
+                "the guild master. Its about 200 gold to join"
               ]
             },
             {
@@ -5460,9 +5844,9 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
+            "selfSwitchValid": false,
+            "switch1Id": 42,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -5478,6 +5862,45 @@
             "characterIndex": 0
           },
           "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Welcome back \\P[1], I can still train you to become a "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Wizard but if your interested in the healing arts. You will"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "need to speak to Agatha the Guild Cleric at the castle"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "temple. (more soon)"
+              ]
+            },
             {
               "code": 0,
               "indent": 0,
@@ -5604,6 +6027,15 @@
               "code": 111,
               "indent": 1,
               "parameters": [
+                0,
+                41,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
                 1,
                 2,
                 0,
@@ -5613,7 +6045,7 @@
             },
             {
               "code": 111,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 4,
                 2,
@@ -5623,7 +6055,7 @@
             },
             {
               "code": 111,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 9,
                 8,
@@ -5632,7 +6064,7 @@
             },
             {
               "code": 111,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 4,
                 2,
@@ -5642,7 +6074,7 @@
             },
             {
               "code": 101,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "",
                 0,
@@ -5653,28 +6085,28 @@
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "Looks like you meet all the requairments. Would you like "
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "to train now? this action is not reversable you will be set"
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "on the Fighters career path. "
               ]
             },
             {
               "code": 102,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 [
                   "Yes",
@@ -5688,7 +6120,7 @@
             },
             {
               "code": 402,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 0,
                 "Yes"
@@ -5696,7 +6128,7 @@
             },
             {
               "code": 101,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "",
                 0,
@@ -5707,21 +6139,21 @@
             },
             {
               "code": 401,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "Ok thats great News. We have a new Fighter in the guild."
               ]
             },
             {
               "code": 401,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "hip hip haza!!!"
               ]
             },
             {
               "code": 321,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 3,
                 3,
@@ -5729,12 +6161,54 @@
               ]
             },
             {
-              "code": 123,
-              "indent": 6,
+              "code": 121,
+              "indent": 7,
               "parameters": [
-                "A",
+                43,
+                43,
                 0
               ]
+            },
+            {
+              "code": 0,
+              "indent": 7,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 6,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 7,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 7,
+              "parameters": [
+                "Ok no problem I understand its a big choice to make."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 7,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 6,
+              "parameters": []
             },
             {
               "code": 0,
@@ -5742,12 +6216,9 @@
               "parameters": []
             },
             {
-              "code": 402,
+              "code": 411,
               "indent": 5,
-              "parameters": [
-                1,
-                "No"
-              ]
+              "parameters": []
             },
             {
               "code": 101,
@@ -5764,7 +6235,33 @@
               "code": 401,
               "indent": 6,
               "parameters": [
-                "Ok no problem I understand its a big choice to make."
+                "It seems you havent learned the skill Double Slash. you will"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "need to start your training. come back when you have."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 6,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 6,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
@@ -5773,7 +6270,7 @@
               "parameters": []
             },
             {
-              "code": 404,
+              "code": 412,
               "indent": 5,
               "parameters": []
             },
@@ -5802,33 +6299,14 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "It seems you havent learned the skill Double Slash. you will"
+                "It seems all we need now is a worn sword to "
               ]
             },
             {
               "code": 401,
               "indent": 5,
               "parameters": [
-                "need to start your training. come back when you have."
-              ]
-            },
-            {
-              "code": 357,
-              "indent": 5,
-              "parameters": [
-                "CGMZ_SkillShop",
-                "Call Scene",
-                "Call Scene",
-                {
-                  "goods": "[\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
-                }
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 5,
-              "parameters": [
-                "Shop Goods = [\"{\\\"skill\\\":\\\"5\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                "start your training. come back when you have one."
               ]
             },
             {
@@ -5866,14 +6344,14 @@
               "code": 401,
               "indent": 4,
               "parameters": [
-                "It seems all we need now is a worn sword to "
+                "I only train Adventures to become Fighters. I looks like "
               ]
             },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "start your training. come back when you have one."
+                "you set yourself on a career path already."
               ]
             },
             {
@@ -5911,14 +6389,14 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "I only train Adventures to become Fighters. I looks like "
+                "Sorry looks like you need a few more ranks. Look for some"
               ]
             },
             {
               "code": 401,
               "indent": 3,
               "parameters": [
-                "you set yourself on a career path already."
+                "xp tomes to rank up."
               ]
             },
             {
@@ -5956,14 +6434,14 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Sorry looks like you need a few more ranks. Look for some"
+                "The first thing you need to do is sign up to the guild with "
               ]
             },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "xp tomes to rank up."
+                "the guild master. Its about 200 gold to join"
               ]
             },
             {
@@ -6114,9 +6592,9 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
+            "selfSwitchValid": false,
+            "switch1Id": 43,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -6132,6 +6610,45 @@
             "characterIndex": 0
           },
           "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Welcome back \\P[1], I can still train you to become a "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Warrior. You may also be interested in training to become a"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "knight of the realm. You can talk to Sir Drake at the"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "castle training grounds. (more soon)"
+              ]
+            },
             {
               "code": 0,
               "indent": 0,
@@ -6258,6 +6775,15 @@
               "code": 111,
               "indent": 1,
               "parameters": [
+                0,
+                41,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
                 1,
                 2,
                 0,
@@ -6267,7 +6793,7 @@
             },
             {
               "code": 111,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 4,
                 2,
@@ -6277,7 +6803,7 @@
             },
             {
               "code": 111,
-              "indent": 3,
+              "indent": 4,
               "parameters": [
                 9,
                 22,
@@ -6286,7 +6812,7 @@
             },
             {
               "code": 111,
-              "indent": 4,
+              "indent": 5,
               "parameters": [
                 4,
                 2,
@@ -6296,7 +6822,7 @@
             },
             {
               "code": 101,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "",
                 0,
@@ -6307,28 +6833,28 @@
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "Looks like you meet all the requairments. Would you like "
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "to train now? this action is not reversable you will be set"
               ]
             },
             {
               "code": 401,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 "on the hunters career path. "
               ]
             },
             {
               "code": 102,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 [
                   "Yes",
@@ -6342,7 +6868,7 @@
             },
             {
               "code": 402,
-              "indent": 5,
+              "indent": 6,
               "parameters": [
                 0,
                 "Yes"
@@ -6350,7 +6876,7 @@
             },
             {
               "code": 101,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "",
                 0,
@@ -6361,21 +6887,21 @@
             },
             {
               "code": 401,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "Ok thats great News. We have a new hunter in the guild."
               ]
             },
             {
               "code": 401,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 "hip hip haza!!!"
               ]
             },
             {
               "code": 321,
-              "indent": 6,
+              "indent": 7,
               "parameters": [
                 3,
                 4,
@@ -6383,12 +6909,54 @@
               ]
             },
             {
-              "code": 123,
-              "indent": 6,
+              "code": 121,
+              "indent": 7,
               "parameters": [
-                "A",
+                44,
+                44,
                 0
               ]
+            },
+            {
+              "code": 0,
+              "indent": 7,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 6,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 7,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 7,
+              "parameters": [
+                "Ok no problem I understand its a big choice to make."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 7,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 6,
+              "parameters": []
             },
             {
               "code": 0,
@@ -6396,12 +6964,9 @@
               "parameters": []
             },
             {
-              "code": 402,
+              "code": 411,
               "indent": 5,
-              "parameters": [
-                1,
-                "No"
-              ]
+              "parameters": []
             },
             {
               "code": 101,
@@ -6418,7 +6983,40 @@
               "code": 401,
               "indent": 6,
               "parameters": [
-                "Ok no problem I understand its a big choice to make."
+                "It seems you havent learned the skill Quick Strike. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "you will need to start your training. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "Come back when you have."
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 6,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 6,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
               ]
             },
             {
@@ -6427,7 +7025,7 @@
               "parameters": []
             },
             {
-              "code": 404,
+              "code": 412,
               "indent": 5,
               "parameters": []
             },
@@ -6456,40 +7054,14 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "It seems you havent learned the skill Quick Strike. "
+                "It seems all we need now is a worn bow to "
               ]
             },
             {
               "code": 401,
               "indent": 5,
               "parameters": [
-                "you will need to start your training. "
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 5,
-              "parameters": [
-                "Come back when you have."
-              ]
-            },
-            {
-              "code": 357,
-              "indent": 5,
-              "parameters": [
-                "CGMZ_SkillShop",
-                "Call Scene",
-                "Call Scene",
-                {
-                  "goods": "[\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
-                }
-              ]
-            },
-            {
-              "code": 657,
-              "indent": 5,
-              "parameters": [
-                "Shop Goods = [\"{\\\"skill\\\":\\\"4\\\",\\\"price\\\":\\\"-1\\\"}\"]"
+                "start your training. come back when you have one."
               ]
             },
             {
@@ -6527,14 +7099,14 @@
               "code": 401,
               "indent": 4,
               "parameters": [
-                "It seems all we need now is a worn bow to "
+                "I only train Adventures to become Hunters. I looks like "
               ]
             },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "start your training. come back when you have one."
+                "you set yourself on a career path already."
               ]
             },
             {
@@ -6572,14 +7144,14 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "I only train Adventures to become Hunters. I looks like "
+                "Sorry looks like you need a few more ranks. Look for some"
               ]
             },
             {
               "code": 401,
               "indent": 3,
               "parameters": [
-                "you set yourself on a career path already."
+                "xp tomes to rank up."
               ]
             },
             {
@@ -6617,14 +7189,14 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Sorry looks like you need a few more ranks. Look for some"
+                "The first thing you need to do is sign up to the guild with "
               ]
             },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "xp tomes to rank up."
+                "the guild master. Its about 200 gold to join"
               ]
             },
             {
@@ -6768,9 +7340,9 @@
             "itemId": 1,
             "itemValid": false,
             "selfSwitchCh": "A",
-            "selfSwitchValid": true,
-            "switch1Id": 1,
-            "switch1Valid": false,
+            "selfSwitchValid": false,
+            "switch1Id": 44,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -6786,6 +7358,45 @@
             "characterIndex": 0
           },
           "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Welcome back \\P[1], I can still train you to become a "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Rogue. I have also heard rumers there might be an assassin"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "guild somewhere but those places are not easy to find."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "... (more soon)"
+              ]
+            },
             {
               "code": 0,
               "indent": 0,
