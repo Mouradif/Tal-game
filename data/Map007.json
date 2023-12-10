@@ -3579,8 +3579,66 @@
           },
           "list": [
             {
-              "code": 250,
+              "code": 111,
               "indent": 0,
+              "parameters": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Run away from the crypt?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 1,
+              "parameters": [
+                [
+                  "Yes",
+                  "No"
+                ],
+                1,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                0,
+                "Yes"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 2,
               "parameters": [
                 {
                   "name": "door-front-opening",
@@ -3592,7 +3650,7 @@
             },
             {
               "code": 250,
-              "indent": 0,
+              "indent": 2,
               "parameters": [
                 {
                   "name": "footsteps-stones",
@@ -3604,14 +3662,14 @@
             },
             {
               "code": 230,
-              "indent": 0,
+              "indent": 2,
               "parameters": [
                 90
               ]
             },
             {
               "code": 201,
-              "indent": 0,
+              "indent": 2,
               "parameters": [
                 0,
                 1,
@@ -3620,6 +3678,70 @@
                 0,
                 0
               ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 205,
+              "indent": 2,
+              "parameters": [
+                -1,
+                {
+                  "list": [
+                    {
+                      "code": 4,
+                      "indent": null
+                    },
+                    {
+                      "code": 0
+                    }
+                  ],
+                  "repeat": false,
+                  "skippable": false,
+                  "wait": true
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 2,
+              "parameters": [
+                {
+                  "code": 4,
+                  "indent": null
+                }
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 0,
@@ -4742,7 +4864,7 @@
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
             "switch1Id": 1,
-            "switch1Valid": true,
+            "switch1Valid": false,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -4793,7 +4915,7 @@
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
             "switch1Id": 1,
-            "switch1Valid": false,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -4832,18 +4954,6 @@
               "code": 221,
               "indent": 0,
               "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [
-                0,
-                8,
-                13,
-                9,
-                0,
-                0
-              ]
             },
             {
               "code": 231,
@@ -4893,9 +5003,28 @@
               ]
             },
             {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                300
+              ]
+            },
+            {
               "code": 221,
               "indent": 0,
               "parameters": []
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                8,
+                13,
+                9,
+                0,
+                0
+              ]
             },
             {
               "code": 235,

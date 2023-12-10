@@ -30,6 +30,26 @@ PluginManager.callCommand = function (self, pluginName, commandName, args) {
   return null;
 };
 
+/**
+ * Draw a line, new
+ *
+ * @method drawLine
+ * @param {Number} x1 The x coordinate for the start.
+ * @param {Number} y1 The y coordinate for the start.
+ * @param {Number} x2 The x coordinate for the destination.
+ * @param {Number} y2 The y coordinate for the destination.
+ */
+Bitmap.prototype.drawLine = function(x1, y1, x2, y2) {
+  const context = this._context;
+  context.save();
+  context.beginPath();
+  context.moveTo(x1, y1);
+  context.lineTo(x2, y2);
+  context.stroke();
+  context.restore();
+  this._baseTexture.update();
+};
+
 function deepParseJSON(arg) {
   if (typeof arg === 'object') {
     if (Array.isArray(arg)) {

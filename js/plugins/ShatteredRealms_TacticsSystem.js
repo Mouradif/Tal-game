@@ -671,26 +671,6 @@ Game_Interpreter.prototype.mapClearTiles = function() {
  * @param {Number} height The height of the bitmap
  */
 
-/**
- * Draw a line, new
- *
- * @method drawLine
- * @param {Number} x1 The x coordinate for the start.
- * @param {Number} y1 The y coordinate for the start.
- * @param {Number} x2 The x coordinate for the destination.
- * @param {Number} y2 The y coordinate for the destination.
- */
-Bitmap.prototype.drawLine = function(x1, y1, x2, y2) {
-    const context = this._context;
-    context.save();
-    context.beginPath();
-    context.moveTo(x1, y1);
-    context.lineTo(x2, y2);
-    context.stroke();
-    context.restore();
-    this._baseTexture.update();
-};
-
 //-----------------------------------------------------------------------------
 // DataManager
 //
@@ -2724,7 +2704,12 @@ Game_BattlerBase.prototype.waitSkillId = function() {
 //-----------------------------------------------------------------------------
 // Game_Player
 //
-//
+const InitGamePlayer = Game_Player.prototype.initMembers;
+Game_Player.prototype.initMembers = function() {
+    InitGamePlayer.call(this);
+    this._shouldPreventAutosave = false;
+}
+
 const PerformPlayerTransfer = Game_Player.prototype.performTransfer;
 Game_Player.prototype.performTransfer = function() {
     PerformPlayerTransfer.call(this);
@@ -2734,6 +2719,7 @@ Game_Player.prototype.performTransfer = function() {
       'X'
     ]));
     if (enemies.length !== 0) {
+        $gamePlayer._shouldPreventAutosave = true;
         if (BattleManager._isInCombat) return;
         BattleManager._isInCombat = true;
         BattleManager._tacticsMapId = $gameMap._mapId;

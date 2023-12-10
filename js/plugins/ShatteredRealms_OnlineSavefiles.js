@@ -19,7 +19,11 @@
 (function() {
   const ExecuteAutosave = Scene_Base.prototype.executeAutosave;
   Scene_Base.prototype.executeAutosave = function() {
-    if ($dataMap.note.contains('nosave') || $gamePlayer._shouldPreventAutosave) {
+    if (
+      $gameSystem._offChain ||
+      $dataMap.note.contains('nosave') ||
+      $gamePlayer._shouldPreventAutosave
+    ) {
       return;
     }
     ExecuteAutosave.call(this);

@@ -38,11 +38,16 @@
     }
   };
 
+  Scene_Title.prototype.playOffchain = async function() {
+    $gameSystem._offChain = true;
+    SceneManager._scene.commandNewGame();
+  };
+
   Scene_Title.prototype.commandWindowRect = function() {
     const offsetX = $dataSystem.titleCommandWindow.offsetX;
     const offsetY = $dataSystem.titleCommandWindow.offsetY * 2; // * 3 to align center
     const ww = this.mainCommandWidth();
-    const wh = this.calcWindowHeight(2, true); // 2 instd of 3
+    const wh = this.calcWindowHeight(3, true);
     const wx = (Graphics.boxWidth - ww) / 2 + offsetX;
     const wy = Graphics.boxHeight - wh - 96 + offsetY;
     return new Rectangle(wx, wy, ww, wh);
@@ -53,10 +58,9 @@
     const rect = this.commandWindowRect();
     this._commandWindow = new Window_TitleCommand(rect);
     this._commandWindow.setBackgroundType(background);
-    this._commandWindow.setHandler("newGame", this.commandNewGame.bind(this));
-    this._commandWindow.setHandler("continue", this.commandContinue.bind(this));
     this._commandWindow.setHandler("options", this.commandOptions.bind(this));
     this._commandWindow.setHandler("connectWallet", this.connectWallet.bind(this));
+    this._commandWindow.setHandler("playOffchain", this.playOffchain.bind(this));
     this.addWindow(this._commandWindow);
   };
 
@@ -66,7 +70,7 @@
 
   Window_TitleCommand.prototype.makeCommandList = function() {
     this.addCommand("Connect Wallet", "connectWallet");
+    this.addCommand("Play Offchain", "playOffchain");
     this.addCommand(TextManager.options, "options");
   };
-
 })();
