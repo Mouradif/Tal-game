@@ -27551,7 +27551,7 @@
                   "Window Name": "Quest Board",
                   "Quest Names": "[\"Join the Adventurers Guild\"]",
                   "Scene Image": "pictures/quest board816x624",
-                  "Category Icon Type": "",
+                  "Category Icon Type": "Discover",
                   "Show Legend": "false"
                 }
               ]
@@ -27581,7 +27581,7 @@
               "code": 657,
               "indent": 0,
               "parameters": [
-                "Category Icon Type = "
+                "Category Icon Type = Discover"
               ]
             },
             {
@@ -27687,7 +27687,7 @@
                 1,
                 0,
                 1,
-                1
+                0
               ]
             },
             {
@@ -27826,7 +27826,7 @@
                 1,
                 0,
                 1,
-                1
+                0
               ]
             },
             {

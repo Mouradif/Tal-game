@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2098.7999999999997,
-    "scrollY": 1384.2
+    "scrollX": 2089.2,
+    "scrollY": 1696.1999999999998
   },
   {
     "id": 2,
@@ -25,8 +25,8 @@
     "name": "Armor shop",
     "order": 2,
     "parentId": 1,
-    "scrollX": 1390.2857142857142,
-    "scrollY": 777.4285714285713,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -225,7 +225,7 @@
     "name": "Wilderness Adventure",
     "order": 32,
     "parentId": 38,
-    "scrollX": 690,
+    "scrollX": 973.1999999999999,
     "scrollY": 544.1999999999999,
     "quick": false
   },
@@ -406,7 +406,7 @@
     "order": 23,
     "parentId": 38,
     "scrollX": 1668,
-    "scrollY": 1677.4285714285713
+    "scrollY": 1677
   },
   {
     "id": 42,
@@ -414,8 +414,8 @@
     "name": "Local Forest",
     "order": 30,
     "parentId": 38,
-    "scrollX": 1197.6,
-    "scrollY": 1798.1999999999998
+    "scrollX": 2098.7999999999997,
+    "scrollY": 804.5999999999999
   },
   {
     "id": 43,
@@ -443,8 +443,8 @@
     "name": "Guild House Inside",
     "order": 24,
     "parentId": 41,
-    "scrollX": 1390.2857142857142,
-    "scrollY": 777.4285714285713,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {

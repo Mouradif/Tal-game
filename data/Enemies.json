@@ -607,10 +607,10 @@
     "params": [
       300,
       100,
-      30,
-      30,
+      25,
+      25,
       10,
-      10,
+      15,
       30,
       30
     ]
@@ -671,9 +671,9 @@
       200,
       30,
       30,
-      10,
-      10,
-      30,
+      20,
+      25,
+      35,
       30
     ]
   },
@@ -727,7 +727,7 @@
     ],
     "gold": 0,
     "name": "Orc",
-    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:0>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:0>\n<Move:7>",
     "params": [
       100,
       50,
@@ -789,7 +789,7 @@
     ],
     "gold": 50,
     "name": "Orc Archer",
-    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:1>\n<range:10>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:1>\n<Range:6>",
     "params": [
       100,
       100,
@@ -855,11 +855,11 @@
     "params": [
       100,
       200,
+      40,
+      25,
       10,
-      10,
-      10,
-      10,
-      10,
+      25,
+      25,
       10
     ]
   },
@@ -979,7 +979,7 @@
     "params": [
       300,
       200,
-      40,
+      50,
       25,
       25,
       30,
@@ -996,6 +996,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 30,
+        "rating": 4,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -1041,12 +1048,12 @@
     "params": [
       150,
       100,
-      27,
+      20,
       25,
       25,
       25,
-      10,
-      10
+      15,
+      40
     ]
   },
   {
@@ -1058,6 +1065,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 16,
+        "rating": 5,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -1120,6 +1134,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 28,
+        "rating": 5,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.6
       }
     ],
     "battlerHue": 0,
@@ -1161,7 +1182,7 @@
     ],
     "gold": 15,
     "name": "Zombie",
-    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:mzombies_3>\n<TacticsCharacterIndex:7>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:mzombies_3>\n<TacticsCharacterIndex:7>\n<Move:4>",
     "params": [
       100,
       50,
@@ -1182,6 +1203,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 28,
+        "rating": 5,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.6
       }
     ],
     "battlerHue": 0,

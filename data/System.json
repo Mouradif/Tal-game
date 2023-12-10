@@ -5,10 +5,10 @@
     "screenHeight": 832,
     "uiAreaWidth": 1088,
     "uiAreaHeight": 832,
-    "numberFontFilename": "mplus-2p-bold-sub.woff",
+    "numberFontFilename": "ArgentPixelCF-Regular.woff2",
     "fallbackFonts": "Verdana, sans-serif",
     "fontSize": 26,
-    "mainFontFilename": "mplus-1m-regular.woff",
+    "mainFontFilename": "ArgentPixelCF-Italic.woff",
     "screenScale": 1,
     "windowOpacity": 192
   },
@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 1,
+  "editMapId": 7,
   "elements": [
     "",
     "Physical",
@@ -639,7 +639,7 @@
     "",
     ""
   ],
-  "versionId": 38810222,
+  "versionId": 99136226,
   "victoryMe": {
     "name": "",
     "pan": 0,
