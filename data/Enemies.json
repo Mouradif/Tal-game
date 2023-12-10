@@ -291,7 +291,7 @@
         "value": 0
       }
     ],
-    "gold": 100,
+    "gold": 250,
     "name": "King Slime (Boss)",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:3>",
     "params": [
@@ -314,6 +314,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 6,
+        "rating": 5,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -353,7 +360,7 @@
         "value": 0
       }
     ],
-    "gold": 10,
+    "gold": 50,
     "name": "Cultist",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:1>",
     "params": [
@@ -376,6 +383,20 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 6,
+        "rating": 5,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 16,
+        "rating": 5,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.6
       }
     ],
     "battlerHue": 88,
@@ -415,11 +436,11 @@
         "value": 0
       }
     ],
-    "gold": 10,
+    "gold": 100,
     "name": "Cultist Leader",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:3>",
     "params": [
-      250,
+      200,
       300,
       20,
       25,
@@ -438,6 +459,34 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 6,
+        "rating": 5,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 15,
+        "rating": 3,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.4
+      },
+      {
+        "skillId": 16,
+        "rating": 5,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 38,
+        "rating": 5,
+        "conditionType": 1,
+        "conditionParam1": 2,
+        "conditionParam2": 5
       }
     ],
     "battlerHue": 266,
@@ -477,11 +526,11 @@
         "value": 0
       }
     ],
-    "gold": 10,
+    "gold": 300,
     "name": "Cultist (Boss)",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:5>",
     "params": [
-      250,
+      300,
       300,
       20,
       25,
@@ -539,7 +588,7 @@
         "value": 0
       }
     ],
-    "gold": 15,
+    "gold": 20,
     "name": "Bandit",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:0>",
     "params": [
@@ -601,7 +650,7 @@
         "value": 0
       }
     ],
-    "gold": 15,
+    "gold": 50,
     "name": "Bandit Leader",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:2>",
     "params": [
@@ -663,7 +712,7 @@
         "value": 0
       }
     ],
-    "gold": 15,
+    "gold": 200,
     "name": "Bandit (Boss)",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:6>",
     "params": [
@@ -707,7 +756,7 @@
         "kind": 0
       }
     ],
-    "exp": 25,
+    "exp": 0,
     "traits": [
       {
         "code": 22,
@@ -729,7 +778,7 @@
     "name": "Orc",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:0>\n<Move:7>",
     "params": [
-      100,
+      200,
       50,
       10,
       10,
@@ -791,13 +840,13 @@
     "name": "Orc Archer",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:1>\n<Range:6>",
     "params": [
+      150,
       100,
-      100,
+      15,
+      20,
       10,
       10,
-      10,
-      10,
-      10,
+      20,
       10
     ]
   },
@@ -810,6 +859,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 30,
+        "rating": 3,
+        "conditionType": 1,
+        "conditionParam1": 2,
+        "conditionParam2": 4
       }
     ],
     "battlerHue": 0,
@@ -853,9 +909,9 @@
     "name": "Orc (Boss)",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ork1>\n<TacticsCharacterIndex:3>",
     "params": [
-      100,
+      500,
       200,
-      40,
+      30,
       25,
       10,
       25,
@@ -872,6 +928,13 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 30,
+        "rating": 3,
+        "conditionType": 1,
+        "conditionParam1": 2,
+        "conditionParam2": 4
       }
     ],
     "battlerHue": 0,
@@ -911,7 +974,7 @@
         "value": 0
       }
     ],
-    "gold": 30,
+    "gold": 50,
     "name": "Troll",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$troll1a_3>\n<TacticsCharacterIndex:3>",
     "params": [
@@ -934,6 +997,27 @@
         "conditionType": 0,
         "rating": 5,
         "skillId": 1
+      },
+      {
+        "skillId": 11,
+        "rating": 4,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 30,
+        "rating": 5,
+        "conditionType": 1,
+        "conditionParam1": 2,
+        "conditionParam2": 4
+      },
+      {
+        "skillId": 44,
+        "rating": 3,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -973,13 +1057,13 @@
         "value": 0
       }
     ],
-    "gold": 100,
+    "gold": 1000,
     "name": "Troll (Boss)",
-    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$troll2a_3>\n<TacticsCharacterIndex:3>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$troll2a_3>\n<TacticsCharacterIndex:3>\n<Move:6>",
     "params": [
-      300,
+      500,
       200,
-      50,
+      40,
       25,
       25,
       30,
@@ -1249,11 +1333,11 @@
         "value": 0
       }
     ],
-    "gold": 15,
+    "gold": 300,
     "name": "Zombie Lord (Boss)",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:mzombies_3>\n<TacticsCharacterIndex:2>",
     "params": [
-      100,
+      500,
       200,
       20,
       25,
@@ -1311,29 +1395,36 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 25,
     "name": "Ratman",
-    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:1>",
+    "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:1>\n<Move:6>",
     "params": [
-      100,
+      150,
       50,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
+      15,
+      15,
+      15,
+      15,
+      20,
+      20
     ]
   },
   {
     "id": 21,
     "actions": [
       {
-        "conditionParam1": 0,
-        "conditionParam2": 0,
+        "skillId": 1,
+        "rating": 4,
         "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      },
+      {
+        "skillId": 45,
         "rating": 5,
-        "skillId": 1
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       }
     ],
     "battlerHue": 0,
@@ -1373,16 +1464,16 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 75,
     "name": "Ratman Stone Thrower",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:3>",
     "params": [
       100,
-      100,
-      10,
-      10,
-      10,
-      10,
+      300,
+      20,
+      15,
+      25,
+      30,
       10,
       10
     ]
@@ -1435,18 +1526,18 @@
         "value": 0
       }
     ],
-    "gold": 0,
+    "gold": 300,
     "name": "Ratman (Boss)",
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:2>",
     "params": [
-      100,
       200,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
+      200,
+      25,
+      20,
+      25,
+      20,
+      40,
+      30
     ]
   }
 ]

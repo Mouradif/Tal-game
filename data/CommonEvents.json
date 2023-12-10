@@ -2290,7 +2290,7 @@
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "---loot chests---",
     "switchId": 1,
     "trigger": 0
   },
@@ -2298,12 +2298,31 @@
     "id": 11,
     "list": [
       {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "Common loot chest"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = Common loot chest"
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Common loot chest",
     "switchId": 1,
     "trigger": 0
   },
@@ -2311,12 +2330,31 @@
     "id": 12,
     "list": [
       {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "Rare loot chest"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = Rare loot chest"
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Rare loot chest",
     "switchId": 1,
     "trigger": 0
   },
@@ -2324,12 +2362,31 @@
     "id": 13,
     "list": [
       {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "CGMZ_DropTables",
+          "Generate Drop",
+          "Generate Drop",
+          {
+            "id": "Epic loot chest"
+          }
+        ]
+      },
+      {
+        "code": 657,
+        "indent": 0,
+        "parameters": [
+          "id = Epic loot chest"
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Epic loot chest",
     "switchId": 1,
     "trigger": 0
   },
