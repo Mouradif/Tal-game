@@ -341,9 +341,9 @@
       "volume": 40
     }
   ],
-  "startMapId": 1,
-  "startX": 29,
-  "startY": 32,
+  "startMapId": 7,
+  "startX": 13,
+  "startY": 7,
   "switches": [
     "",
     "dungeon entrance",
@@ -639,7 +639,7 @@
     "",
     ""
   ],
-  "versionId": 94713121,
+  "versionId": 38810222,
   "victoryMe": {
     "name": "",
     "pan": 0,

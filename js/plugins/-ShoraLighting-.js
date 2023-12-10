@@ -922,7 +922,7 @@ LightingShaderGenerator.generateSampleSrc = function(maxTextures)
         setup.call(this, mapId);
         this._lighting = [];
         this._staticLighting = [];
-        if ($dataMap) {
+        if ($dataMap && $dataMap.note) {
             this.scanNoteTags($dataMap.note.split('\n'));
             this.scanTileNoteTag(this.tileset().note.split('\n'));
         }

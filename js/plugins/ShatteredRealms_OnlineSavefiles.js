@@ -21,7 +21,7 @@
   Scene_Base.prototype.executeAutosave = function() {
     if (
       $gameSystem._offChain ||
-      $dataMap.note.contains('nosave') ||
+      ($dataMap && $dataMap.note && $dataMap.note.contains('nosave')) ||
       $gamePlayer._shouldPreventAutosave
     ) {
       return;

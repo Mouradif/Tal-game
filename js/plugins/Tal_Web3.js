@@ -102,10 +102,6 @@
   const $pluginName = 'Tal_Web3';
   const $plugin = $plugins.find(p => p.name === $pluginName);
 
-  const networkData = [{
-    chainId: $plugin.parameters.chainId
-  }];
-
   const initSystem = Game_System.prototype.initialize;
   Game_System.prototype.initialize = function() {
     initSystem.call(this);
@@ -150,10 +146,26 @@
       $gameActors.actor($plugin.parameters.ethAddressActorId).setName(addresses[0]);
     }).then(() =>
       new Promise(resolve => setTimeout(resolve, 500))
-    ).then(() => window.ethereum.request({
-      method: "wallet_switchEthereumChain",
-      params: networkData,
-    })).then(() => window._TalAddress).catch((e) => {
+    ).then(() =>
+      window.ethereum.request({
+        method: "wallet_switchEthereumChain",
+        params: [{
+          chainId: $plugin.parameters.chainId
+        }],
+      }).then(console.log).catch((e) => window.ethereum.request({
+        method: 'wallet_addEthereumChain',
+        params: [{
+          chainId: $plugin.parameters.chainId,
+          chainName: 'Tal Subnet',
+          rpcUrls: ['https://rpc.tal.gg'],
+          nativeCurrency: {
+            name: 'G',
+            symbol: ' G',
+            decimals: 18
+          },
+        }]
+      }))
+    ).then(() => window._TalAddress).catch((e) => {
       $gameVariables.setValue($plugin.parameters.ethStatusVariable, 500);
     });
   }

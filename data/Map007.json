@@ -3562,7 +3562,7 @@
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
             "switch1Id": 1,
-            "switch1Valid": false,
+            "switch1Valid": true,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -3579,17 +3579,8 @@
           },
           "list": [
             {
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                0,
-                1,
-                0
-              ]
-            },
-            {
               "code": 101,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 "",
                 0,
@@ -3600,14 +3591,14 @@
             },
             {
               "code": 401,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 "Run away from the crypt?"
               ]
             },
             {
               "code": 102,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 [
                   "Yes",
@@ -3621,7 +3612,7 @@
             },
             {
               "code": 402,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 0,
                 "Yes"
@@ -3629,7 +3620,7 @@
             },
             {
               "code": 121,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 1,
                 1,
@@ -3638,7 +3629,7 @@
             },
             {
               "code": 250,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 {
                   "name": "door-front-opening",
@@ -3650,7 +3641,7 @@
             },
             {
               "code": 250,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 {
                   "name": "footsteps-stones",
@@ -3662,14 +3653,14 @@
             },
             {
               "code": 230,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
-                90
+                15
               ]
             },
             {
               "code": 201,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 0,
                 1,
@@ -3681,12 +3672,12 @@
             },
             {
               "code": 0,
-              "indent": 2,
+              "indent": 1,
               "parameters": []
             },
             {
               "code": 402,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 1,
                 "No"
@@ -3694,7 +3685,7 @@
             },
             {
               "code": 205,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 -1,
                 {
@@ -3715,7 +3706,7 @@
             },
             {
               "code": 505,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 {
                   "code": 4,
@@ -3725,23 +3716,107 @@
             },
             {
               "code": 0,
-              "indent": 2,
+              "indent": 1,
               "parameters": []
             },
             {
               "code": 404,
-              "indent": 1,
+              "indent": 0,
               "parameters": []
             },
             {
               "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
               "indent": 0,
               "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 1,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "door-front-opening",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "footsteps-stones",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                15
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                1,
+                59,
+                27,
+                0,
+                0
+              ]
             },
             {
               "code": 0,
@@ -5265,6 +5340,7 @@
       ],
       "x": 0,
       "y": 0
-    }
+    },
+    null
   ]
 }

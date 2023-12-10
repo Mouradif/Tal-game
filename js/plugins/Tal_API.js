@@ -77,4 +77,14 @@
   PluginManager.registerCommand(pluginName, "saveGame", params => saveFile(params));
 
   PluginManager.registerCommand(pluginName, "loadGame", params => loadFile(params));
+
+  const loadMapData = DataManager.loadMapData;
+  DataManager.loadMapData = function(mapId) {
+    if ($gamePlayer._offChain) {
+      return loadMapData.call(this);
+    }
+    const filename = "Map%1.json".format(mapId.padZero(3));
+    this.loadDataFile("$dataMap", filename);
+  };
+
 })();
