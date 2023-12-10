@@ -68,7 +68,7 @@
     ],
     "iconIndex": 656,
     "name": "Adventurer’s Clothing",
-    "note": "",
+    "note": "<top:top6_c1>\n<bottom:bottom1_c3>",
     "params": [
       0,
       0,
@@ -95,7 +95,7 @@
     ],
     "iconIndex": 663,
     "name": "Fine Adventurer’s Clothing",
-    "note": "",
+    "note": "<top:top6>\n<bottom:bottom1_c3>",
     "params": [
       0,
       0,
@@ -122,7 +122,7 @@
     ],
     "iconIndex": 674,
     "name": "Master Adventurer’s Clothing",
-    "note": "",
+    "note": "<top:top6_c4>\n<bottom:bottom1_c1>",
     "params": [
       0,
       0,
@@ -149,7 +149,7 @@
     ],
     "iconIndex": 677,
     "name": "Enchanted Adventurer’s Clothing",
-    "note": "",
+    "note": "<top:top6_c2>\n<bottom:bottom1_c4>",
     "params": [
       0,
       0,
@@ -203,7 +203,7 @@
     ],
     "iconIndex": 666,
     "name": "Worn Leather Armor",
-    "note": "",
+    "note": "<top:top3_c3>\n",
     "params": [
       0,
       0,
@@ -230,7 +230,7 @@
     ],
     "iconIndex": 659,
     "name": "Leather Armor",
-    "note": "",
+    "note": "<top:top3>",
     "params": [
       0,
       0,
@@ -257,7 +257,7 @@
     ],
     "iconIndex": 676,
     "name": "Fine Leather Armor",
-    "note": "",
+    "note": "<top:top3_c1>",
     "params": [
       0,
       0,
@@ -284,7 +284,7 @@
     ],
     "iconIndex": 691,
     "name": "Master Leather Armor",
-    "note": "",
+    "note": "<top:top3_c4>\n<bottom:bottom1_c3>",
     "params": [
       0,
       0,
@@ -311,7 +311,7 @@
     ],
     "iconIndex": 698,
     "name": "Enchanted Leather Armor",
-    "note": "",
+    "note": "<top:top8_c4>\n<bottom:bottom3_c1>",
     "params": [
       0,
       0,
@@ -338,7 +338,7 @@
     ],
     "iconIndex": 700,
     "name": "Legendary Leather Armor",
-    "note": "",
+    "note": "<top:top8_c3>\n<bottom:bottom2_c3>",
     "params": [
       0,
       0,
@@ -392,7 +392,7 @@
     ],
     "iconIndex": 689,
     "name": "Worn Iron Armor",
-    "note": "",
+    "note": "<top:top11_c5>\n<bottom:bottom8_c5>",
     "params": [
       10,
       0,
@@ -419,7 +419,7 @@
     ],
     "iconIndex": 692,
     "name": "Iron Armor",
-    "note": "",
+    "note": "<top:top11_c4>\n<bottom:bottom8_c4>",
     "params": [
       20,
       0,
@@ -446,7 +446,7 @@
     ],
     "iconIndex": 702,
     "name": "Fine Iron Armor",
-    "note": "",
+    "note": "<top:top12_c4>\n<bottom:bottom8_c4>",
     "params": [
       30,
       0,
@@ -473,7 +473,7 @@
     ],
     "iconIndex": 701,
     "name": "Master Iron Armor",
-    "note": "",
+    "note": "<top:top11_c3>\n<bottom:bottom8_c4>",
     "params": [
       40,
       0,
@@ -527,7 +527,7 @@
     ],
     "iconIndex": 724,
     "name": "Worn Robe",
-    "note": "",
+    "note": "<top:top10_c3> brown\n",
     "params": [
       0,
       0,
@@ -552,9 +552,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 741,
+    "iconIndex": 725,
     "name": "Robe",
-    "note": "",
+    "note": "<top:top10_c3>\n<bottom:bottom7_c3>",
     "params": [
       0,
       0,
@@ -579,9 +579,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 739,
+    "iconIndex": 742,
     "name": "Fine Robe",
-    "note": "",
+    "note": "<top:top10_c2> geen\n<bottom:bottom7_c2> green",
     "params": [
       0,
       0,
@@ -606,9 +606,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 740,
+    "iconIndex": 744,
     "name": "Master Robe",
-    "note": "",
+    "note": "<top:top10> red\n<bottom:bottom7_c1> red",
     "params": [
       0,
       0,
@@ -633,9 +633,9 @@
         "value": 0
       }
     ],
-    "iconIndex": 745,
+    "iconIndex": 743,
     "name": "Enchanted Robe",
-    "note": "",
+    "note": "<top:top10_c1> blue\n<bottom:bottom7> blue",
     "params": [
       0,
       0,
