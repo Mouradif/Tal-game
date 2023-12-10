@@ -135,7 +135,6 @@
 
   Window_CharacterFeatureSelect.prototype.callOkHandler = function() {
     Window_Command.prototype.callOkHandler.call(this);
-    localStorage.setItem(`player:${this._bodyPart}`, $dataActors[this._actorIndex].meta[this._bodyPart]);
     this.close();
     $gameMap._interpreter.wait(12);
     $gameMap._interpreter.setWaitMode('');

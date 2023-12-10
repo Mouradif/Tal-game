@@ -21,6 +21,15 @@ Array.prototype.shuffle = function() {
   }
 };
 
+PluginManager.callCommand = function (self, pluginName, commandName, args) {
+  const key = pluginName + ":" + commandName;
+  const func = this._commands[key];
+  if (typeof func === "function") {
+    return func.bind(self)(args);
+  }
+  return null;
+};
+
 function deepParseJSON(arg) {
   if (typeof arg === 'object') {
     if (Array.isArray(arg)) {

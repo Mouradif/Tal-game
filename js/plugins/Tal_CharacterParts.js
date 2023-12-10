@@ -251,10 +251,6 @@ Sprite_CharacterPart.prototype.isImageChanged = function() {
 const onLoad = Scene_Load.prototype.onLoadSuccess;
 Scene_Load.prototype.onLoadSuccess = function() {
   onLoad.call(this);
-  $dataActors[2].meta.base = localStorage.getItem('player:base');
-  $dataActors[2].meta.hair = localStorage.getItem('player:hair');
-  $dataActors[2].meta.top = localStorage.getItem('player:top');
-  $dataActors[2].meta.bottom = localStorage.getItem('player:bottom');
-  $dataActors[2].meta.bottom = localStorage.getItem('player:weapon');
-  $dataActors[2].meta.bottom = localStorage.getItem('player:hat');
+  const { base, hair, top, bottom } = $gamePlayer._parts;
+  $dataActors[2].meta = { base, hair, top, bottom };
 };

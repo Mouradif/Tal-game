@@ -161,10 +161,10 @@
     true,
     true,
     true,
-    true,
-    true
+    false,
+    false
   ],
-  "optAutosave": false,
+  "optAutosave": true,
   "optDisplayTp": true,
   "optDrawTitle": true,
   "optExtraExp": false,
@@ -341,9 +341,9 @@
       "volume": 40
     }
   ],
-  "startMapId": 1,
-  "startX": 29,
-  "startY": 32,
+  "startMapId": 44,
+  "startX": 8,
+  "startY": 6,
   "switches": [
     "",
     "dungeon entrance",
@@ -584,7 +584,7 @@
     "CombatPlayerPhaseId",
     "CombatBattlePhaseId",
     "CombatTurnCountId",
-    "",
+    "ETH Status",
     "",
     "",
     "",
@@ -639,7 +639,7 @@
     "",
     ""
   ],
-  "versionId": 15133985,
+  "versionId": 34073710,
   "victoryMe": {
     "name": "",
     "pan": 0,
