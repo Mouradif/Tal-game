@@ -2243,9 +2243,9 @@
   },
   {
     "id": 84,
-    "atypeId": 0,
-    "description": "",
-    "etypeId": 2,
+    "atypeId": 1,
+    "description": "basically rags",
+    "etypeId": 4,
     "traits": [
       {
         "code": 22,
@@ -2253,8 +2253,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 658,
+    "name": "Tatterd Cloths",
     "note": "",
     "params": [
       0,
@@ -2270,9 +2270,9 @@
   },
   {
     "id": 85,
-    "atypeId": 0,
-    "description": "",
-    "etypeId": 2,
+    "atypeId": 1,
+    "description": "worn and tatterd shoes",
+    "etypeId": 5,
     "traits": [
       {
         "code": 22,
@@ -2280,8 +2280,8 @@
         "value": 0
       }
     ],
-    "iconIndex": 0,
-    "name": "",
+    "iconIndex": 816,
+    "name": "Tatterd Shoes",
     "note": "",
     "params": [
       0,

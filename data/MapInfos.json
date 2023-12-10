@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1390.2857142857142,
-    "scrollY": 1574.5714285714284
+    "scrollX": 2098.7999999999997,
+    "scrollY": 1384.2
   },
   {
     "id": 2,
@@ -65,8 +65,8 @@
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
-    "scrollX": 1390.2857142857142,
-    "scrollY": 777.4285714285713,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -405,7 +405,7 @@
     "name": "Lake Guild House",
     "order": 23,
     "parentId": 38,
-    "scrollX": 1681.7142857142856,
+    "scrollX": 1668,
     "scrollY": 1677.4285714285713
   },
   {
@@ -443,8 +443,8 @@
     "name": "Guild House Inside",
     "order": 24,
     "parentId": 41,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   },
   {
@@ -473,8 +473,8 @@
     "name": "TG blue slime map",
     "order": 26,
     "parentId": 39,
-    "scrollX": 745,
-    "scrollY": 504.5,
+    "scrollX": 1390.2857142857142,
+    "scrollY": 777.4285714285713,
     "quick": false
   },
   {
