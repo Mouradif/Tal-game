@@ -119,7 +119,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 7,
+  "editMapId": 1,
   "elements": [
     "",
     "Physical",
@@ -341,9 +341,9 @@
       "volume": 40
     }
   ],
-  "startMapId": 7,
-  "startX": 13,
-  "startY": 7,
+  "startMapId": 1,
+  "startX": 29,
+  "startY": 32,
   "switches": [
     "",
     "dungeon entrance",
@@ -396,8 +396,8 @@
     "item shop note",
     "Inn note",
     "sir malory quest2",
-    "",
-    "",
+    "Quest Board",
+    "Join the guild",
     "",
     "",
     "",
@@ -639,7 +639,7 @@
     "",
     ""
   ],
-  "versionId": 38810222,
+  "versionId": 94713121,
   "victoryMe": {
     "name": "",
     "pan": 0,

@@ -2670,7 +2670,7 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "Hello Traveler would you like to... can I help you?"
+                "Hello, can I help you?"
               ]
             },
             {
@@ -2721,7 +2721,21 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Hello \\P[1] Nice to meet you welcome to Talvare."
+                "Hello \\P[1] Nice to meet you welcome to Talvare. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "If your Helping Malory He will take good care of you. he has"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "helped this little town a lot latley. "
               ]
             },
             {

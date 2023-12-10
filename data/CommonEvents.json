@@ -2571,11 +2571,23 @@
         "indent": 0,
         "parameters": [
           0,
-          0,
+          2,
           0,
           0,
           1,
           false
+        ]
+      },
+      {
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "Positive_Jingle_DRY_06",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
         ]
       },
       {

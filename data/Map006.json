@@ -2367,7 +2367,54 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Hello \\P[1] Nice to meet you welcome to Talvare."
+                "Hello \\P[1] Nice to meet you welcome to Talvare. Here take "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "a potion as a welcome gift."
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 1,
+              "parameters": [
+                7,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 1,
+              "parameters": [
+                {
+                  "name": "Get_Item_DRY_01",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "You gained a Healing Potion!"
               ]
             },
             {

@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2098.7999999999997,
-    "scrollY": 1384.2
+    "scrollX": 2079.6,
+    "scrollY": 1389
   },
   {
     "id": 2,
@@ -55,13 +55,13 @@
     "name": "Item Shop",
     "order": 5,
     "parentId": 1,
-    "scrollX": 2162.6666666666665,
-    "scrollY": 1230.6666666666667,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
     "id": 7,
-    "expanded": false,
+    "expanded": true,
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
