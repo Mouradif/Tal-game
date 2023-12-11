@@ -3593,7 +3593,7 @@
     },
     {
       "id": 3,
-      "name": "blue slime",
+      "name": "king slime",
       "note": "<Enemy:4><Respawns><SpawnRegion:11><OnDeath:23>",
       "pages": [
         {

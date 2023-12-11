@@ -3773,7 +3773,7 @@
     },
     {
       "id": 6,
-      "name": "blue slime",
+      "name": "green slime",
       "note": "<Enemy:2><Respawns><SpawnRegion:11><OnDeath:23>",
       "pages": [
         {
@@ -3833,7 +3833,7 @@
     },
     {
       "id": 7,
-      "name": "blue slime",
+      "name": "fire slime",
       "note": "<Enemy:3><Respawns><SpawnRegion:11><OnDeath:23>",
       "pages": [
         {

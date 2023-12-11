@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1826.1818181818182,
-    "scrollY": 1342.909090909091
+    "scrollX": 1210.8,
+    "scrollY": 1384.2
   },
   {
     "id": 2,
@@ -221,7 +221,7 @@
   },
   {
     "id": 23,
-    "expanded": true,
+    "expanded": false,
     "name": "Wilderness Adventure",
     "order": 32,
     "parentId": 38,
@@ -385,8 +385,8 @@
     "name": "Training Grounds",
     "order": 25,
     "parentId": 38,
-    "scrollX": 819,
-    "scrollY": 546.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -414,8 +414,8 @@
     "name": "Local Forest",
     "order": 30,
     "parentId": 38,
-    "scrollX": 1551.2727272727273,
-    "scrollY": 1011.2727272727274
+    "scrollX": 1551.6,
+    "scrollY": 1011
   },
   {
     "id": 43,
@@ -513,8 +513,8 @@
     "name": "Local forest combat map",
     "order": 31,
     "parentId": 42,
-    "scrollX": 1245.8181818181818,
-    "scrollY": 736.3636363636364,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   }
 ]

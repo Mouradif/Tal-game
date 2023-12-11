@@ -184,7 +184,7 @@
     "occasion": 0,
     "price": 100,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -217,7 +217,7 @@
     "occasion": 0,
     "price": 250,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -250,7 +250,7 @@
     "occasion": 0,
     "price": 550,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -283,7 +283,7 @@
     "occasion": 0,
     "price": 300,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -397,7 +397,7 @@
     "occasion": 0,
     "price": 200,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -436,7 +436,7 @@
     "occasion": 0,
     "price": 80,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -475,7 +475,7 @@
     "occasion": 0,
     "price": 450,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -514,7 +514,7 @@
     "occasion": 0,
     "price": 1200,
     "repeats": 1,
-    "scope": 7,
+    "scope": 11,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0

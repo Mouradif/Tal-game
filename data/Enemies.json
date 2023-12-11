@@ -296,7 +296,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:slimevariants_3>\n<TacticsCharacterIndex:3>",
     "params": [
       200,
-      300,
+      200,
       30,
       30,
       20,
@@ -441,7 +441,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:cultists_masks_3>\n<TacticsCharacterIndex:3>",
     "params": [
       200,
-      300,
+      100,
       20,
       25,
       30,
@@ -655,7 +655,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:2>",
     "params": [
       300,
-      100,
+      75,
       25,
       25,
       10,
@@ -717,7 +717,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:bandits_3>\n<TacticsCharacterIndex:6>",
     "params": [
       300,
-      200,
+      150,
       30,
       30,
       20,
@@ -1131,7 +1131,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:!$bigskullB_3>\n<TacticsCharacterIndex:3>",
     "params": [
       150,
-      100,
+      200,
       20,
       25,
       25,
@@ -1469,7 +1469,7 @@
     "note": "<cgmzdroptable:newbie drops>\n<TacticsCharacter:ratmen_characters_3x_shadow>\n<TacticsCharacterIndex:3>",
     "params": [
       100,
-      300,
+      150,
       20,
       15,
       25,

@@ -71,5 +71,28 @@
     "nickname": "",
     "note": "",
     "profile": ""
+  },
+  {
+    "id": 4,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 14,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "blue_slime_pixel",
+    "traits": [],
+    "initialLevel": 3,
+    "maxLevel": 99,
+    "name": "Slurm",
+    "nickname": "",
+    "note": "<base:skin5_BS>",
+    "profile": "Just your average slime adventurer.\nNothing strange here. "
   }
 ]
