@@ -4855,6 +4855,25 @@
               ]
             },
             {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "Tal_Quests",
+                "startQuest",
+                "Start a Quest",
+                {
+                  "hash": "052d19b78115bd43e833dd650f948de64128c84246583da754c43f8d475e463f"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Quest Hash = 052d19b78115bd43e833dd650f948de64128c84246583d…"
+              ]
+            },
+            {
               "code": 0,
               "indent": 1,
               "parameters": []
@@ -5090,8 +5109,23 @@
               "parameters": []
             },
             {
-              "code": 201,
+              "code": 235,
               "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                12,
+                "window._offChain"
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 1,
               "parameters": [
                 0,
                 8,
@@ -5102,11 +5136,59 @@
               ]
             },
             {
-              "code": 235,
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 411,
               "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 357,
+              "indent": 1,
               "parameters": [
-                1
+                "Tal_Quests",
+                "goToRoom",
+                "Go to Room",
+                {
+                  "roomId": "1",
+                  "x": "13",
+                  "y": "18"
+                }
               ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Room ID = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "X = 13"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Y = 18"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 222,

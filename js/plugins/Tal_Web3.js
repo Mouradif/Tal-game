@@ -102,12 +102,6 @@
   const $pluginName = 'Tal_Web3';
   const $plugin = $plugins.find(p => p.name === $pluginName);
 
-  const initSystem = Game_System.prototype.initialize;
-  Game_System.prototype.initialize = function() {
-    initSystem.call(this);
-    this._offChain = false;
-  }
-
   const MessageDoesContinue = Window_Message.prototype.doesContinue;
   Window_Message.prototype.doesContinue = function () {
     return window._TalTransactionPending || MessageDoesContinue.call(this);

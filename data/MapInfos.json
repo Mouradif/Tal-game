@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2098,
-    "scrollY": 1144
+    "scrollX": 1826.1818181818182,
+    "scrollY": 1342.909090909091
   },
   {
     "id": 2,
@@ -410,12 +410,12 @@
   },
   {
     "id": 42,
-    "expanded": false,
+    "expanded": true,
     "name": "Local Forest",
     "order": 30,
     "parentId": 38,
-    "scrollX": 2098.7999999999997,
-    "scrollY": 804.5999999999999
+    "scrollX": 1551.2727272727273,
+    "scrollY": 1011.2727272727274
   },
   {
     "id": 43,
@@ -513,8 +513,8 @@
     "name": "Local forest combat map",
     "order": 31,
     "parentId": 42,
-    "scrollX": 673.1999999999999,
-    "scrollY": 553.8,
+    "scrollX": 1245.8181818181818,
+    "scrollY": 736.3636363636364,
     "quick": false
   }
 ]

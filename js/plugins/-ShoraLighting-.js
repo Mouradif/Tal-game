@@ -930,10 +930,10 @@ LightingShaderGenerator.generateSampleSrc = function(maxTextures)
 
     _.scanNoteTags = function(lines) {
 
-        this.lightingState = !$gameLighting._disabled,
-          this.lightingAmbient = $gameLighting.ambient;
+        this.lightingState = !$gameLighting._disabled;
+        this.lightingAmbient = $gameLighting.ambient;
 
-        for (command of lines) {
+        for (let command of lines) {
             command = command.match(Shora.REGEX.COMMAND);
             if (!command) continue;
             switch (command[1].toLowerCase()) {
@@ -941,7 +941,7 @@ LightingShaderGenerator.generateSampleSrc = function(maxTextures)
                     this.lightingState = command[2] === 'on';
                     break;
                 case 'ambient':
-                    this.lightingAmbient = command[2].toHexValue();;
+                    this.lightingAmbient = command[2].toHexValue();
                     break;
             }
         }

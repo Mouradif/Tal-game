@@ -1,15 +1,15 @@
 //=============================================================================
-// ShatteredRealms_CameraMovement
-// ShatteredRealms_CameraMovement.js
+// Tal_CameraMovement
+// Tal_CameraMovement.js
 //=============================================================================
 
 
 //=============================================================================
 /*:
 * @target MZ
-* @plugindesc [RPG Maker MZ] [ShatteredRealms_CameraMovement]
-* @author ShatteredRealms
-* @url https://shatteredrealms.io
+* @plugindesc [RPG Maker MZ] [Tal_CameraMovement]
+* @author Tal
+* @url https://tal.gg
 *
 * @help
 * ============================================================================
@@ -63,7 +63,7 @@
 */
 
 (function() {
-  const pluginName = 'ShatteredRealms_CameraMovement';
+  const pluginName = 'Tal_CameraMovement';
 
   const GameMapInitialize = Game_Map.prototype.initialize;
 

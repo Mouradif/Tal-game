@@ -20,8 +20,9 @@
   const ExecuteAutosave = Scene_Base.prototype.executeAutosave;
   Scene_Base.prototype.executeAutosave = function() {
     if (
-      $gameSystem._offChain ||
-      ($dataMap && $dataMap.note && $dataMap.note.contains('nosave')) ||
+      window._offChain ||
+      (!$dataMap || !$dataMap.note) ||
+      ($dataMap.note.contains('nosave')) ||
       $gamePlayer._shouldPreventAutosave
     ) {
       return;
@@ -56,7 +57,6 @@
     const json = await StorageManager.objectToJson(data);
     return await PluginManager.callCommand(this, 'Tal_API', 'saveGame', { json });
   }
-
 
   DataManager.loadGame = async function() {
     const content = await StorageManager.loadObject();

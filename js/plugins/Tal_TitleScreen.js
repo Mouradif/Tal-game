@@ -39,7 +39,7 @@
   };
 
   Scene_Title.prototype.playOffchain = async function() {
-    $gameSystem._offChain = true;
+    window._offChain = true;
     SceneManager._scene.commandNewGame();
   };
 

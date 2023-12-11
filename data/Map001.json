@@ -27772,7 +27772,81 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Well \\P[1] lets get you familure whith the town and what's "
+                "Well certainly then!\\|"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "But first\\., may I ask what your name is?"
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "this.create_key_window({"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "  variable: 58,"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "  placeholder: 'Sam',"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "  max_characters: 12,"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "  opacity: 127"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "})"
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "$gameActors.actor(2).setName($gameVariables.value(58))"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Well \\P[1] lets get you familiar whith the town and what's "
               ]
             },
             {
@@ -27811,7 +27885,7 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "the night before my deparcher. It washed away the bridge "
+                "the night before my departure. It washed away the bridge "
               ]
             },
             {
