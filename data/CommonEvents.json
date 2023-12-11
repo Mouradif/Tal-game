@@ -1329,7 +1329,7 @@
         "indent": 2,
         "parameters": [
           0,
-          15,
+          14,
           13,
           3,
           0,
@@ -2915,7 +2915,7 @@
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "--- forest paths---",
     "switchId": 1,
     "trigger": 0
   },
@@ -2923,12 +2923,384 @@
     "id": 36,
     "list": [
       {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          1,
+          1,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "The Forest Is alive and closed the path behind you!"
+        ]
+      },
+      {
+        "code": 115,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 205,
+        "indent": 1,
+        "parameters": [
+          -1,
+          {
+            "repeat": false,
+            "skippable": true,
+            "wait": true,
+            "list": [
+              {
+                "code": 12
+              },
+              {
+                "code": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": 505,
+        "indent": 1,
+        "parameters": [
+          {
+            "code": 12
+          }
+        ]
+      },
+      {
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "name": "footsteps-stones",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          4,
+          4,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          5,
+          5,
+          1
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          1,
+          7
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          24,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          26,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          27,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          32,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          30,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          29,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          7,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          36,
+          13,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "North Door",
     "switchId": 1,
     "trigger": 0
   },
@@ -2936,12 +3308,384 @@
     "id": 37,
     "list": [
       {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          1,
+          1,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "The Forest Is alive and closed the path behind you!"
+        ]
+      },
+      {
+        "code": 115,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 205,
+        "indent": 1,
+        "parameters": [
+          -1,
+          {
+            "repeat": false,
+            "skippable": true,
+            "wait": true,
+            "list": [
+              {
+                "code": 12
+              },
+              {
+                "code": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": 505,
+        "indent": 1,
+        "parameters": [
+          {
+            "code": 12
+          }
+        ]
+      },
+      {
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "name": "footsteps-stones",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          4,
+          4,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          5,
+          5,
+          1
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          1,
+          7
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          25,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          26,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          27,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          33,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          31,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          29,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          7,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          37,
+          1,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "East Door",
     "switchId": 1,
     "trigger": 0
   },
@@ -2949,12 +3693,384 @@
     "id": 38,
     "list": [
       {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          1,
+          1,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "The Forest Is alive and closed the path behind you!"
+        ]
+      },
+      {
+        "code": 115,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 205,
+        "indent": 1,
+        "parameters": [
+          -1,
+          {
+            "repeat": false,
+            "skippable": true,
+            "wait": true,
+            "list": [
+              {
+                "code": 12
+              },
+              {
+                "code": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": 505,
+        "indent": 1,
+        "parameters": [
+          {
+            "code": 12
+          }
+        ]
+      },
+      {
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "name": "footsteps-stones",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          4,
+          4,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          1,
+          7
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          24,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          26,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          25,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          32,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          31,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          28,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          7,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          34,
+          13,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "South Door",
     "switchId": 1,
     "trigger": 0
   },
@@ -2962,12 +4078,384 @@
     "id": 39,
     "list": [
       {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          1,
+          1,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "The Forest Is alive and closed the path behind you!"
+        ]
+      },
+      {
+        "code": 115,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 205,
+        "indent": 1,
+        "parameters": [
+          -1,
+          {
+            "list": [
+              {
+                "code": 12
+              },
+              {
+                "code": 0
+              }
+            ],
+            "repeat": false,
+            "skippable": true,
+            "wait": true
+          }
+        ]
+      },
+      {
+        "code": 505,
+        "indent": 1,
+        "parameters": [
+          {
+            "code": 12
+          }
+        ]
+      },
+      {
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "name": "footsteps-stones",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          3,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          4,
+          4,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          5,
+          5,
+          1
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          1,
+          7
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          24,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          25,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          27,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          33,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          30,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          28,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          1,
+          0,
+          7,
+          0
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 2,
+        "parameters": [
+          0,
+          35,
+          25,
+          9,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "West Door",
     "switchId": 1,
     "trigger": 0
   },
@@ -2975,12 +4463,68 @@
     "id": 40,
     "list": [
       {
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          0,
+          23,
+          13,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          4,
+          4,
+          1
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          5,
+          5,
+          1
+        ]
+      },
+      {
+        "code": 123,
+        "indent": 0,
+        "parameters": [
+          "A",
+          1
+        ]
+      },
+      {
         "code": 0,
         "indent": 0,
         "parameters": []
       }
     ],
-    "name": "",
+    "name": "Defeat Dungeon",
     "switchId": 1,
     "trigger": 0
   }

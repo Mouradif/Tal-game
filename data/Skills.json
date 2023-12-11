@@ -173,9 +173,9 @@
     "id": 6,
     "animationId": 2,
     "damage": {
-      "critical": false,
-      "elementId": -1,
-      "formula": "m.atk * 4 - m.def * 2",
+      "critical": true,
+      "elementId": 1,
+      "formula": "20 + a.mat * 2 - b.mdf * 2",
       "type": 1,
       "variance": 20
     },
@@ -192,7 +192,7 @@
     "iconIndex": 157,
     "message1": "%1 casts %2!",
     "message2": "",
-    "mpCost": 20,
+    "mpCost": 10,
     "name": "Magic Bolt",
     "note": "<Range:5>",
     "occasion": 1,

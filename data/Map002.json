@@ -1862,7 +1862,7 @@
     {
       "id": 1,
       "name": "blue slime",
-      "note": "<Enemy:1><SpawnRegion:11>",
+      "note": "<Enemy:1><Respawns><SpawnRegion:11><OnDeath:100>",
       "pages": [
         {
           "conditions": {
@@ -1883,27 +1883,12 @@
           "directionFix": false,
           "image": {
             "tileId": 0,
-            "characterName": "slimevariants_3",
+            "characterName": "",
             "direction": 2,
             "pattern": 0,
             "characterIndex": 1
           },
           "list": [
-            {
-              "code": 301,
-              "indent": 0,
-              "parameters": [
-                0,
-                1,
-                false,
-                false
-              ]
-            },
-            {
-              "code": 214,
-              "indent": 0,
-              "parameters": []
-            },
             {
               "code": 0,
               "indent": 0,
@@ -1923,13 +1908,22 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 1,
-          "priorityType": 1,
+          "moveType": 0,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
           "trigger": 1,
-          "walkAnime": true
-        },
+          "walkAnime": false
+        }
+      ],
+      "x": 1,
+      "y": 1
+    },
+    {
+      "id": 2,
+      "name": "green slime",
+      "note": "<Enemy:2><Respawns><SpawnRegion:11><OnDeath:100>",
+      "pages": [
         {
           "conditions": {
             "actorId": 1,
@@ -1948,11 +1942,11 @@
           },
           "directionFix": false,
           "image": {
-            "characterIndex": 0,
+            "tileId": 0,
             "characterName": "",
             "direction": 2,
             "pattern": 0,
-            "tileId": 0
+            "characterIndex": 0
           },
           "list": [
             {
@@ -1979,82 +1973,7 @@
           "stepAnime": false,
           "through": false,
           "trigger": 0,
-          "walkAnime": true
-        }
-      ],
-      "x": 1,
-      "y": 1
-    },
-    {
-      "id": 2,
-      "name": "green slime",
-      "note": "<Enemy:2><SpawnRegion:11>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": {
-            "tileId": 0,
-            "characterName": "slimevariants_3",
-            "direction": 2,
-            "pattern": 0,
-            "characterIndex": 0
-          },
-          "list": [
-            {
-              "code": 301,
-              "indent": 0,
-              "parameters": [
-                0,
-                3,
-                false,
-                false
-              ]
-            },
-            {
-              "code": 214,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false,
-            "wait": false
-          },
-          "moveSpeed": 3,
-          "moveType": 1,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 2,
-          "walkAnime": true
+          "walkAnime": false
         }
       ],
       "x": 1,
@@ -2063,7 +1982,7 @@
     {
       "id": 3,
       "name": "fire slime",
-      "note": "<Enemy:3><SpawnRegion:11>",
+      "note": "<Enemy:3><Respawns><SpawnRegion:11><OnDeath:100>",
       "pages": [
         {
           "conditions": {
@@ -2084,27 +2003,12 @@
           "directionFix": false,
           "image": {
             "tileId": 0,
-            "characterName": "slimevariants_3",
+            "characterName": "",
             "direction": 2,
             "pattern": 0,
             "characterIndex": 2
           },
           "list": [
-            {
-              "code": 301,
-              "indent": 0,
-              "parameters": [
-                0,
-                2,
-                false,
-                false
-              ]
-            },
-            {
-              "code": 214,
-              "indent": 0,
-              "parameters": []
-            },
             {
               "code": 0,
               "indent": 0,
@@ -2124,12 +2028,12 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 1,
-          "priorityType": 1,
+          "moveType": 0,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
           "trigger": 0,
-          "walkAnime": true
+          "walkAnime": false
         }
       ],
       "x": 1,
@@ -2138,7 +2042,7 @@
     {
       "id": 4,
       "name": "king slime Boss",
-      "note": "<Enemy:4><SpawnRegion:11>",
+      "note": "<Enemy:4><Respawns><SpawnRegion:11><OnDeath:100>",
       "pages": [
         {
           "conditions": {
@@ -2159,27 +2063,12 @@
           "directionFix": false,
           "image": {
             "tileId": 0,
-            "characterName": "!$slime_king_single_3x",
+            "characterName": "",
             "direction": 2,
             "pattern": 0,
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 301,
-              "indent": 0,
-              "parameters": [
-                0,
-                4,
-                false,
-                false
-              ]
-            },
-            {
-              "code": 214,
-              "indent": 0,
-              "parameters": []
-            },
             {
               "code": 0,
               "indent": 0,
@@ -2200,11 +2089,11 @@
           },
           "moveSpeed": 3,
           "moveType": 1,
-          "priorityType": 1,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
           "trigger": 0,
-          "walkAnime": true
+          "walkAnime": false
         }
       ],
       "x": 1,

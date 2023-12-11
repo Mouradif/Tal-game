@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 2089.2,
-    "scrollY": 1696.1999999999998
+    "scrollX": 2098,
+    "scrollY": 1144
   },
   {
     "id": 2,
@@ -61,12 +61,12 @@
   },
   {
     "id": 7,
-    "expanded": false,
+    "expanded": true,
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 544.5,
     "quick": false
   },
   {
@@ -221,12 +221,12 @@
   },
   {
     "id": 23,
-    "expanded": false,
+    "expanded": true,
     "name": "Wilderness Adventure",
     "order": 32,
     "parentId": 38,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 816,
+    "scrollY": 624,
     "quick": false
   },
   {
@@ -375,8 +375,8 @@
     "name": "Wildernes Start",
     "order": 22,
     "parentId": 1,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 461.5,
     "quick": false
   },
   {
@@ -385,8 +385,8 @@
     "name": "Training Grounds",
     "order": 25,
     "parentId": 38,
-    "scrollX": 1390.2857142857142,
-    "scrollY": 777.4285714285713,
+    "scrollX": 819,
+    "scrollY": 546.5,
     "quick": false
   },
   {
@@ -423,8 +423,8 @@
     "name": "test dungeon",
     "order": 50,
     "parentId": 2,
-    "scrollX": 497,
-    "scrollY": 453.5,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
@@ -433,8 +433,8 @@
     "name": "Character Creation",
     "order": 51,
     "parentId": 0,
-    "scrollX": 497,
-    "scrollY": 453.5,
+    "scrollX": 1769.4545454545455,
+    "scrollY": 1006.909090909091,
     "quick": false
   },
   {

@@ -3526,7 +3526,7 @@
     },
     {
       "id": 2,
-      "name": "Player",
+      "name": "Player1",
       "note": "<Party:1><Respawns>",
       "pages": [
         {
@@ -3634,7 +3634,7 @@
           },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 0,
+          "priorityType": 1,
           "stepAnime": false,
           "through": false,
           "trigger": 1,
@@ -3649,7 +3649,7 @@
     null,
     {
       "id": 7,
-      "name": "Player",
+      "name": "Player2",
       "note": "<Party:2><Respawns>",
       "pages": [
         {
