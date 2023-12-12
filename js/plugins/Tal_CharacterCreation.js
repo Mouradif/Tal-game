@@ -86,25 +86,11 @@
   const $pluginParams = deepParseJSON($plugin.parameters);
 
   const updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
-
   Game_Interpreter.prototype.updateWaitMode = function() {
     if (this._waitMode === 'customChoice') {
       return true;
-      try {
-        if (SceneManager._scene.constructor.name !== 'Scene_Map') throw new Error('Scene');
-        const windowLayer = SceneManager._scene.children.find(c => c.constructor.name === 'WindowLayer');
-        if (!windowLayer) throw new Error('WindowLayer');
-        const characterCreationWindow = windowLayer.children.find(w => w.constructor.name === 'Window_CharacterFeatureSelect');
-        if (!characterCreationWindow) throw new Error('Window_CharacterFeatureSelect');
-        return characterCreationWindow.active;
-      } catch (e) {
-        console.log(e);
-        this._waitMode = '';
-        return false;
-      }
-    } else {
-      return updateWaitMode.call(this);
     }
+    return updateWaitMode.call(this);
   }
 
   function Window_CharacterFeatureSelect() {

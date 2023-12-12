@@ -16,35 +16,26 @@
 *
 * ============================================================================
 *
-* @param charactersAddress
-* @text Characters Contract Address
-* @desc The address where the ERC-721 Smart Contract is deployed to (0x...)
-* @type string
-*
 * @param charactersAbi
 * @text Characters ABI
 * @desc ABI of the ERC-721 characters contract address
 * @type multiline_string
 *
-* @param currencyAddress
-* @text Currency Contract Address
-* @desc The address where your ERC-20 Smart Contract is deployed to (0x...)
+* @param subnetAddress
+* @text Subnet Address
 * @type string
 *
-* @param currencyAbi
-* @text Currency ABI
-* @desc ABI of your ERC-20 Token address
-* @type multiline_string
-*
-* @param itemsAddress
-* @text Items Contract Address
-* @desc The address where your ERC-1155 Smart Contract is deployed to (0x...)
+* @param ethAddress
+* @text Eth Address
 * @type string
 *
-* @param itemsAbi
-* @text Jobs ABI
-* @desc The ABI of your ERC-1155 jobs contract
-* @type multiline_string
+* @param polAddress
+* @text Polygon Address
+* @type string
+*
+* @param avAddress
+* @text Avalanche Address
+* @type string
 *
 * @param ethStatusVariable
 * @text Ethereum Status Variable ID
@@ -60,6 +51,10 @@
 * @text Chain ID (in hex)
 * @desc ID of the chain that needs to be switched to
 * @type string
+*
+* @param chainData
+* @text Chain Data
+* @type multiline_string
 *
 * @command mint
 * @text Mint
@@ -96,11 +91,77 @@
 * @command login
 * @text Login
 * @desc Login with Metamask
+*
+* @command switchChain
+* @text Switch Chain
+*
+* @arg chainName
+* @text Chain Name
+* @type combo
+* @option Tal
+* @option Ethereum
+* @option Avalanche
+* @option Polygon
 **/
 
 (function() {
   const $pluginName = 'Tal_Web3';
   const $plugin = $plugins.find(p => p.name === $pluginName);
+  const $apiPlugin = $plugins.find(p => p.name === 'Tal_API');
+  if (!$apiPlugin) {
+    throw new Error('Tal_Web3 requires Tal_API');
+  }
+
+  const avalancheChainId = '0xa869';
+  const polygonChainId = '0x13881';
+  const ethereumChainId = '0xaa36a7';
+
+  const polygonConfig = {
+    chainId: polygonChainId,
+    chainName: 'Polygon Mumbai',
+    rpcUrls: ['https://polygon-mumbai-bor.publicnode.com'],
+    nativeCurrency: {
+      name: 'MATIC',
+      symbol: 'MATIC',
+      decimals: 18,
+      blockExplorerUrls: [
+        'https://mumbai.polygonscan.com'
+      ]
+    },
+  }
+
+  const avalancheConfig = {
+    chainId: avalancheChainId,
+    chainName: 'Avalanche Fuji',
+    rpcUrls: ['https://api.avax-test.network/ext/bc/C/rpc'],
+    nativeCurrency: {
+      name: 'AVAX',
+      symbol: 'AVAX',
+      decimals: 18,
+      blockExplorerUrls: [
+        'https://testnet.snowtrace.io'
+      ]
+    },
+  }
+
+  const chains = {
+    Ethereum: {
+      chainId: ethereumChainId,
+      config: null
+    },
+    Avalanche: {
+      chainId: avalancheChainId,
+      config: avalancheConfig
+    },
+    Polygon: {
+      chainId: polygonChainId,
+      config: polygonConfig
+    },
+    Tal: {
+      chainId: '0x54616c',
+      config: null
+    }
+  };
 
   const MessageDoesContinue = Window_Message.prototype.doesContinue;
   Window_Message.prototype.doesContinue = function () {
@@ -148,45 +209,58 @@
         }],
       }).then(console.log).catch((e) => window.ethereum.request({
         method: 'wallet_addEthereumChain',
-        params: [{
-          chainId: $plugin.parameters.chainId,
-          chainName: 'Tal Subnet',
-          rpcUrls: ['https://rpc.tal.gg'],
-          nativeCurrency: {
-            name: 'G',
-            symbol: ' G',
-            decimals: 18
-          },
-        }]
+        params: [JSON.parse($plugin.parameters.chainData)]
       }))
     ).then(() => window._TalAddress).catch((e) => {
       $gameVariables.setValue($plugin.parameters.ethStatusVariable, 500);
     });
   }
 
-  PluginManager.registerCommand($pluginName, "mint", async (args) => {
-    $gameVariables.setValue($plugin.parameters.ethStatusVariable, -1);
+  PluginManager.registerCommand($pluginName, "mint", async function(args) {
+    $gameMessage.add('Minting...');
+    this.setWaitMode('customChoice');
     try {
-      window._TalTransactionPending = true;
-      $gameMessage.add('Minting...');
-      while ($gameMessage.isBusy()) {
-        await new Promise(r => setTimeout(r, 50));
-        Input.virtualClick('ok');
-      }
-      await ethereumLogin()
       const provider = new ethers.providers.Web3Provider(window.ethereum);
-      const wallet = provider.getSigner();
-      const abi = JSON.parse($plugin.parameters.jobsAbi);
-      const contract = new ethers.Contract($plugin.parameters.jobsAddress, abi, wallet);
-      const tx = await contract.mint(window._TalAddress, args.tokenId, 1, {
-        value: 0 // w.utils.toWei(args.price)
+      const signer = await provider.getSigner();
+      const { result } = await window.ethereum.send('eth_chainId', []);
+      const characters = new ethers.Contract($plugin.parameters.subnetAddress, $plugin.parameters.charactersAbi, signer);
+      const { to, tokenId, signature } = await fetch($apiPlugin.parameters.apiAddress + '/mint', {
+        method: 'POST',
+        headers: {
+          'x-nonce': localStorage.getItem('nonce'),
+          'x-signature': localStorage.getItem('signature'),
+          'content-type': 'application/json'
+        },
+        body: JSON.stringify({
+          parts: $gamePlayer._parts,
+          name: $gameActors.actor(2).name(),
+          chainId: result
+        })
+      }).then(r => r.json());
+      const tx = await characters.mint(to, tokenId, signature, {
+        gasLimit: 100_000
       });
-      $gameVariables.setValue($plugin.parameters.ethStatusVariable, 200);
-      window._TalTransactionPending = false;
+      if (result.toLowerCase() === '0x54616c') {
+        await fetch($apiPlugin.parameters.apiAddress + '/mint/post', {
+          method: 'POST',
+          headers: {
+            'x-nonce': localStorage.getItem('nonce'),
+            'x-signature': localStorage.getItem('signature'),
+            'content-type': 'application/json'
+          },
+          body: JSON.stringify({
+            hash: tx.hash
+          })
+        });
+      }
+      console.log(tx.hash);
+      const receipt = await tx.wait();
+      console.log(receipt.events);
     } catch (e) {
-      window._TalTransactionPending = false;
-      $gameVariables.setValue($plugin.parameters.ethStatusVariable, 500);
+      console.log(e);
     }
+    this.setWaitMode('');
+    $gameMessage.add('Done');
   });
 
   PluginManager.registerCommand($pluginName, "balanceOf", async (args) => {
@@ -231,5 +305,20 @@
       $gameVariables.setValue($plugin.parameters.ethStatusVariable, 500);
       window._TalTransactionPending = false;
     }
-  })
+  });
+
+
+  PluginManager.registerCommand($pluginName, "switchChain", async function({ chainName }) {
+    this.setWaitMode('customChoice');
+    await window.ethereum.request({
+      method: "wallet_switchEthereumChain",
+      params: [{
+        chainId: chains[chainName].chainId
+      }],
+    }).catch(() => window.ethereum.request({
+      method: 'wallet_addEthereumChain',
+      params: [chains[chainName].config]
+    }));
+    this.setWaitMode('');
+  });
 })();

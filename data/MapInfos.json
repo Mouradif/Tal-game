@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1210.8,
-    "scrollY": 1384.2
+    "scrollX": 1263.2727272727273,
+    "scrollY": 1384.3636363636365
   },
   {
     "id": 2,
@@ -433,8 +433,8 @@
     "name": "Character Creation",
     "order": 51,
     "parentId": 0,
-    "scrollX": 1769.4545454545455,
-    "scrollY": 1006.909090909091,
+    "scrollX": 1507.6363636363637,
+    "scrollY": 900,
     "quick": false
   },
   {

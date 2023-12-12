@@ -343,7 +343,7 @@
   ],
   "startMapId": 44,
   "startX": 8,
-  "startY": 5,
+  "startY": 6,
   "switches": [
     "",
     "dungeon entrance",
@@ -639,7 +639,7 @@
     "",
     ""
   ],
-  "versionId": 32121579,
+  "versionId": 11435880,
   "victoryMe": {
     "name": "",
     "pan": 0,
