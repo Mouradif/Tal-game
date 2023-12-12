@@ -218,7 +218,9 @@ function reassembleEvents(events) {
     }
     let offset = 0;
     for (const monster of room.Monsters) {
-      const enemyId = $dataEnemies.filter(Boolean).find(e => e.name === monster.name).id;
+      const enemy = $dataEnemies.filter(Boolean).find(e => e.name.toLowerCase() === monster.name.toLowerCase());
+      if (!enemy) continue;
+      const enemyId = enemy.id;
       const enemyEvent = newEvent(monster.name, `<Enemy:${enemyId}><SpawnRegion:11>`, 20 - offset, 20);
       toAdd.push(enemyEvent);
       offset++;
