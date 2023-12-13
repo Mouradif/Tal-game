@@ -3531,7 +3531,7 @@
                 ],
                 1,
                 0,
-                2,
+                1,
                 0
               ]
             },
@@ -5292,7 +5292,7 @@
                 2,
                 0,
                 4,
-                0
+                1
               ]
             },
             {
@@ -5407,7 +5407,7 @@
               "code": 321,
               "indent": 7,
               "parameters": [
-                3,
+                2,
                 5,
                 true
               ]
@@ -5902,6 +5902,120 @@
               ]
             },
             {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "As an Apprentice mage I can teach you a couple new spells"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "if you are intrested?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Yes",
+                  "No"
+                ],
+                1,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Yes"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"16\\\",\\\"price\\\":\\\"2000\\\"}\",\"{\\\"skill\\\":\\\"17\\\",\\\"price\\\":\\\"2000\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"16\\\",\\\"price\\\":\\\"2000\\\"}\",\"{\\\"s…"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Come back when you are ready to increace you "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "magical knowledge."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
               "code": 0,
               "indent": 0,
               "parameters": []
@@ -6040,7 +6154,7 @@
                 2,
                 0,
                 4,
-                0
+                1
               ]
             },
             {
@@ -6155,7 +6269,7 @@
               "code": 321,
               "indent": 7,
               "parameters": [
-                3,
+                2,
                 3,
                 true
               ]
@@ -6650,6 +6764,113 @@
               ]
             },
             {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Now that you have chosen the Fighters path I can teach you "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "a couple new skills if you are ready?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Yes",
+                  "No"
+                ],
+                1,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Yes"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"30\\\",\\\"price\\\":\\\"2000\\\"}\",\"{\\\"skill\\\":\\\"12\\\",\\\"price\\\":\\\"2000\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"30\\\",\\\"price\\\":\\\"2000\\\"}\",\"{\\\"s…"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Come back when you are ready to train."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
               "code": 0,
               "indent": 0,
               "parameters": []
@@ -6788,7 +7009,7 @@
                 2,
                 0,
                 4,
-                0
+                1
               ]
             },
             {
@@ -6903,7 +7124,7 @@
               "code": 321,
               "indent": 7,
               "parameters": [
-                3,
+                2,
                 4,
                 true
               ]
@@ -7396,6 +7617,113 @@
               "parameters": [
                 "... (more soon)"
               ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Now that you have chosen the way of the Hunter. "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "I can teach you a couple new skills if you are ready?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Yes",
+                  "No"
+                ],
+                1,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Yes"
+              ]
+            },
+            {
+              "code": 357,
+              "indent": 1,
+              "parameters": [
+                "CGMZ_SkillShop",
+                "Call Scene",
+                "Call Scene",
+                {
+                  "goods": "[\"{\\\"skill\\\":\\\"9\\\",\\\"price\\\":\\\"2000\\\"}\",\"{\\\"skill\\\":\\\"20\\\",\\\"price\\\":\\\"2000\\\"}\"]"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 1,
+              "parameters": [
+                "Shop Goods = [\"{\\\"skill\\\":\\\"9\\\",\\\"price\\\":\\\"2000\\\"}\",\"{\\\"sk…"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "No"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                1,
+                1,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Come back when you are ready to train."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 0,

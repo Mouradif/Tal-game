@@ -27242,7 +27242,7 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 3,
+          "moveType": 1,
           "priorityType": 1,
           "stepAnime": false,
           "through": false,
@@ -27302,7 +27302,7 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 3,
+          "moveType": 1,
           "priorityType": 1,
           "stepAnime": false,
           "through": false,
@@ -27906,7 +27906,7 @@
                 4,
                 0,
                 1,
-                1
+                0
               ]
             },
             {
@@ -28457,28 +28457,7 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Let's see how its going. you habe been to "
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                ""
+                "Let's see how its going. you have been to "
               ]
             },
             {
@@ -29263,7 +29242,7 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 3,
+          "moveType": 1,
           "priorityType": 1,
           "stepAnime": false,
           "through": false,

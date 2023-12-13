@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1263.2727272727273,
-    "scrollY": 1384.3636363636365
+    "scrollX": 973.1999999999999,
+    "scrollY": 2358.6
   },
   {
     "id": 2,
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "expanded": true,
+    "expanded": false,
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
@@ -433,8 +433,8 @@
     "name": "Character Creation",
     "order": 51,
     "parentId": 0,
-    "scrollX": 1507.6363636363637,
-    "scrollY": 900,
+    "scrollX": 973.1999999999999,
+    "scrollY": 544.1999999999999,
     "quick": false
   },
   {
