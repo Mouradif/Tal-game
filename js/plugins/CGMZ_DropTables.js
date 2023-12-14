@@ -357,6 +357,7 @@ CGMZ_Temp.prototype.registerPluginCommands = function() {
 CGMZ_Temp.prototype.pluginCommandDropTableGenerateDrop = function(args) {
 	const drop = $cgmzTemp.getDropTableDrop(args.id);
 	if(drop.amount > 0) {
+		$gameMessage.setPositionType(1);
 		$gameMessage.add($cgmzTemp.makeDropTableItemText(drop.dropItem, drop.amount));
 		switch(drop.dropItem.type) {
 			case "item":
@@ -375,6 +376,7 @@ CGMZ_Temp.prototype.pluginCommandDropTableGenerateDrop = function(args) {
 				}
 		}
 	} else {
+		$gameMessage.setPositionType(1);
 		$gameMessage.add(CGMZ.DropTables.NothingMsg);
 	}
 };

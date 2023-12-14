@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 973.1999999999999,
-    "scrollY": 2358.6
+    "scrollX": 2098.7999999999997,
+    "scrollY": 2527.7999999999997
   },
   {
     "id": 2,
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "expanded": false,
+    "expanded": true,
     "name": "Crypt",
     "order": 6,
     "parentId": 1,

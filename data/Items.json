@@ -717,12 +717,12 @@
       {
         "code": 42,
         "dataId": 0,
-        "value1": 50,
+        "value1": 20,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -756,12 +756,12 @@
       {
         "code": 42,
         "dataId": 1,
-        "value1": 50,
+        "value1": 20,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -795,12 +795,12 @@
       {
         "code": 42,
         "dataId": 2,
-        "value1": 3,
+        "value1": 1,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -834,12 +834,12 @@
       {
         "code": 42,
         "dataId": 3,
-        "value1": 3,
+        "value1": 1,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -873,12 +873,12 @@
       {
         "code": 42,
         "dataId": 4,
-        "value1": 3,
+        "value1": 1,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -912,12 +912,12 @@
       {
         "code": 42,
         "dataId": 5,
-        "value1": 3,
+        "value1": 1,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -951,12 +951,12 @@
       {
         "code": 42,
         "dataId": 6,
-        "value1": 3,
+        "value1": 1,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }
@@ -990,12 +990,12 @@
       {
         "code": 42,
         "dataId": 7,
-        "value1": 3,
+        "value1": 1,
         "value2": 0
       },
       {
         "code": 44,
-        "dataId": 20,
+        "dataId": 19,
         "value1": 1,
         "value2": 0
       }

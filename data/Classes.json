@@ -50,7 +50,58 @@
         "value": 0
       }
     ],
-    "learnings": [],
+    "learnings": [
+      {
+        "level": 1,
+        "skillId": 4,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 5,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 6,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 10,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 11,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 12,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 16,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 17,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 21,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 20,
+        "note": ""
+      }
+    ],
     "name": "Adventurer",
     "note": "<Move:4>\n",
     "params": [
@@ -5347,53 +5398,7 @@
         "value": 1
       }
     ],
-    "learnings": [
-      {
-        "level": 1,
-        "skillId": 4,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 5,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 6,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 14,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 15,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 16,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 17,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 20,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 21,
-        "note": ""
-      }
-    ],
+    "learnings": [],
     "name": "Knight",
     "note": "<Move:5>",
     "params": [
@@ -10718,7 +10723,7 @@
       {
         "code": 22,
         "dataId": 0,
-        "value": 0.95
+        "value": 1
       },
       {
         "code": 22,
@@ -10728,26 +10733,147 @@
       {
         "code": 22,
         "dataId": 2,
-        "value": 0.04
+        "value": 0.1
+      },
+      {
+        "code": 41,
+        "dataId": 2,
+        "value": 1
       },
       {
         "code": 41,
         "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 51,
-        "dataId": 1,
-        "value": 0
+        "value": 1
       },
       {
         "code": 52,
         "dataId": 1,
         "value": 0
+      },
+      {
+        "code": 52,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 52,
+        "dataId": 4,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 1,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 4,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 5,
+        "value": 1
       }
     ],
-    "learnings": [],
-    "name": "",
+    "learnings": [
+      {
+        "level": 1,
+        "skillId": 4,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 5,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 6,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 14,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 15,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 16,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 17,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 20,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 21,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 9,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 18,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 35,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 12,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 10,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 11,
+        "note": ""
+      },
+      {
+        "level": 1,
+        "skillId": 30,
+        "note": ""
+      }
+    ],
+    "name": "TESTER",
     "note": "",
     "params": [
       [
