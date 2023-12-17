@@ -9,7 +9,7 @@ async function main() {
   for (const json of jsons) {
     const content = await fs.readFile(json, 'utf-8').catch(() => null);
     if (content === null) continue;
-    const parsed = JSON.stringify(JSON.parse(content), null, 2);
+    const parsed = JSON.stringify(JSON.parse(content), null, 2).trim();
     if (content !== parsed) {
       errors.push(`File ${json} is not formatted`);
     }

@@ -175,7 +175,8 @@
   "optSlipDeath": false,
   "optTransparent": false,
   "partyMembers": [
-    2
+    2,
+    4
   ],
   "ship": {
     "bgm": {

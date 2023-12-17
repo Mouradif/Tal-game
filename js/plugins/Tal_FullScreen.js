@@ -1,4 +1,9 @@
 (function() {
+
+  Graphics._defaultStretchMode = function() {
+    return true;
+  };
+
   const style = document.createElement('style');
   style.innerHTML = `
   

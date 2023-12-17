@@ -29754,22 +29754,6 @@
               "parameters": []
             },
             {
-              "code": 231,
-              "indent": 0,
-              "parameters": [
-                1,
-                "combat_hud",
-                0,
-                0,
-                0,
-                0,
-                100,
-                100,
-                255,
-                0
-              ]
-            },
-            {
               "code": 214,
               "indent": 0,
               "parameters": []

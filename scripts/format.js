@@ -7,7 +7,7 @@ async function main() {
   const jsons = files.filter(f => f.endsWith('.json'));
   for (const json of jsons) {
     const content = fs.readFileSync(path.join(dataDir, json), 'utf-8');
-    const parsed = JSON.stringify(JSON.parse(content), null, 2);
+    const parsed = JSON.stringify(JSON.parse(content), null, 2).trim();
     fs.writeFileSync(path.join(dataDir, json), parsed);
     console.log(json, 'Written');
   }
