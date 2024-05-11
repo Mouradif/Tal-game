@@ -32,5 +32,5 @@ var $plugins =
 {"name":"Tal_RegionPassability","status":true,"description":"","parameters":{}},
 {"name":"NE_KeyboardWindow","status":true,"description":"v1.1.0 This allows to create a keyboard compatible window;","parameters":{"Allowed charset":"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "}},
 {"name":"ShatteredRealms_OnlineSavefiles","status":true,"description":"[RPG Maker MZ] [ShatteredRealms_OnlineSavefiles] [up]","parameters":{}},
-{"name":"Tal_HUD","status":true,"description":"","parameters":{}}
+{"name":"Tal_HUD","status":false,"description":"","parameters":{}}
 ];

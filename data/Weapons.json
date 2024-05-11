@@ -1274,7 +1274,7 @@
     ],
     "iconIndex": 516,
     "name": "Worn Staff",
-    "note": "<weapon:staff>\n<Range:0 1 rectangle>",
+    "note": "<weapon:wizard_staff>\n<Range:0 1 rectangle>",
     "params": [
       0,
       50,
@@ -1317,7 +1317,7 @@
     ],
     "iconIndex": 517,
     "name": "Staff",
-    "note": "<weapon:staff_c1>\n<Range:0 1 rectangle>",
+    "note": "<weapon:wizard_staff_c1>\n<Range:0 1 rectangle>",
     "params": [
       0,
       100,
@@ -1360,7 +1360,7 @@
     ],
     "iconIndex": 518,
     "name": "Fine Staff",
-    "note": "<weapon:staff_c2>\n<Range:0 1 rectangle>",
+    "note": "<weapon:wizard_staff_c2>\n<Range:0 1 rectangle>",
     "params": [
       0,
       200,
@@ -1403,7 +1403,7 @@
     ],
     "iconIndex": 519,
     "name": "Mastercraft Staff",
-    "note": "<weapon:staff_c3>\n<Range:0 1 rectangle>",
+    "note": "<weapon:wizard_staff_c3>\n<Range:0 1 rectangle>",
     "params": [
       0,
       300,

@@ -50,58 +50,7 @@
         "value": 0
       }
     ],
-    "learnings": [
-      {
-        "level": 1,
-        "skillId": 4,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 5,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 6,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 10,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 11,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 12,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 16,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 17,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 21,
-        "note": ""
-      },
-      {
-        "level": 1,
-        "skillId": 20,
-        "note": ""
-      }
-    ],
+    "learnings": [],
     "name": "Adventurer",
     "note": "<Move:4>\n",
     "params": [

@@ -29,7 +29,7 @@
     "battlerName": "",
     "characterIndex": 0,
     "characterName": "",
-    "classId": 13,
+    "classId": 1,
     "equips": [
       0,
       0,
@@ -43,7 +43,7 @@
     "traits": [],
     "initialLevel": 1,
     "maxLevel": 99,
-    "name": "Sam",
+    "name": "Player",
     "nickname": "",
     "note": "<base:skin0>",
     "profile": ""
