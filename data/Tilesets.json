@@ -32836,9 +32836,9 @@
       "tileA1_caves",
       "tileA2_caves",
       "tileA3",
-      "tileA4",
+      "tileA4_3",
       "tileA5_cave3",
-      "tileB_cave1",
+      "tileB_cave1_3",
       "tileB_cave2",
       "tileB_inside",
       "newtrees"
@@ -41047,9 +41047,9 @@
       "tileA1_caves",
       "tileA2_caves",
       "tileA3",
-      "tileA4",
+      "tileA4_2",
       "tileA5_cave2",
-      "tileB_cave1",
+      "tileB_cave1_2",
       "tileB_cave2",
       "tileB_inside",
       "newtrees"
