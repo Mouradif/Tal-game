@@ -6,8 +6,8 @@
     "name": "Town of Talvera",
     "order": 1,
     "parentId": 0,
-    "scrollX": 1770,
-    "scrollY": 1007.4
+    "scrollX": 2155,
+    "scrollY": 449.5
   },
   {
     "id": 2,
@@ -25,8 +25,8 @@
     "name": "Armor shop",
     "order": 2,
     "parentId": 1,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 449.5,
     "quick": false
   },
   {
@@ -61,12 +61,12 @@
   },
   {
     "id": 7,
-    "expanded": true,
+    "expanded": false,
     "name": "Crypt",
     "order": 6,
     "parentId": 1,
-    "scrollX": 973.1999999999999,
-    "scrollY": 544.1999999999999,
+    "scrollX": 811,
+    "scrollY": 550.5,
     "quick": false
   },
   {
@@ -76,7 +76,7 @@
     "order": 7,
     "parentId": 7,
     "scrollX": 811,
-    "scrollY": 546.5,
+    "scrollY": 504.5,
     "quick": false
   },
   {
@@ -126,7 +126,7 @@
     "order": 11,
     "parentId": 7,
     "scrollX": 811,
-    "scrollY": 461.5,
+    "scrollY": 503.5,
     "quick": false
   },
   {
@@ -371,7 +371,7 @@
   },
   {
     "id": 38,
-    "expanded": false,
+    "expanded": true,
     "name": "Wildernes Start",
     "order": 55,
     "parentId": 1,
@@ -414,8 +414,8 @@
     "name": "Local Forest",
     "order": 63,
     "parentId": 38,
-    "scrollX": 1786.909090909091,
-    "scrollY": 2047.6363636363637
+    "scrollX": 982.8,
+    "scrollY": 2412.6
   },
   {
     "id": 43,
@@ -513,8 +513,8 @@
     "name": "Local forest combat map",
     "order": 64,
     "parentId": 42,
-    "scrollX": 1769.4545454545455,
-    "scrollY": 1006.909090909091,
+    "scrollX": 816,
+    "scrollY": 624,
     "quick": false
   },
   {

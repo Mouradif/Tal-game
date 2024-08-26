@@ -17,7 +17,48 @@
   },
   "disableDashing": false,
   "displayName": "",
-  "encounterList": [],
+  "encounterList": [
+    {
+      "troopId": 1,
+      "weight": 5,
+      "regionSet": []
+    },
+    {
+      "troopId": 3,
+      "weight": 5,
+      "regionSet": []
+    },
+    {
+      "troopId": 2,
+      "weight": 4,
+      "regionSet": []
+    },
+    {
+      "troopId": 4,
+      "weight": 2,
+      "regionSet": []
+    },
+    {
+      "troopId": 5,
+      "weight": 3,
+      "regionSet": []
+    },
+    {
+      "troopId": 6,
+      "weight": 2,
+      "regionSet": []
+    },
+    {
+      "troopId": 8,
+      "weight": 3,
+      "regionSet": []
+    },
+    {
+      "troopId": 9,
+      "weight": 5,
+      "regionSet": []
+    }
+  ],
   "encounterStep": 30,
   "height": 64,
   "note": "",
@@ -24857,7 +24898,78 @@
       "x": 62,
       "y": 11
     },
-    null,
+    {
+      "id": 4,
+      "name": "combat ",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "slimevariants_3",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 1
+          },
+          "list": [
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                52,
+                13,
+                11,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 1,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 2,
+          "walkAnime": true
+        }
+      ],
+      "x": 10,
+      "y": 51
+    },
     null,
     {
       "id": 6,
